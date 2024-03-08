@@ -1,0 +1,69 @@
+---
+
+---
+<!-- Slider main container -->
+
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">  
+	  <!-- Slides -->	  
+	  <div class="swiper-slide">
+		<img src="img/sld1.jpg" alt="" class="w-full rounded-lg" />
+		<!-- <div class="absolute bottom-0 bg-azul-humboldt w-full px-5 py-2">
+			<p class="text-base text-white">
+				<b>Noticias</b>
+			</p>
+			<p class="text-base text-white">
+				La intranet del Instituto se renueva y pasa a ser Ecosistema Humboldt
+			</p>
+			<a href="#" class="text-sm text-white underline decoration-solid">Ver Más</a>
+		</div> -->
+	  </div>
+	  <div class="swiper-slide">
+		<img src="img/sld2.jpg" alt="" class="w-full rounded-lg"  />
+		<!-- <div class="absolute bottom-0 bg-azul-humboldt w-full px-5 py-2">
+			<p class="text-base text-white">
+				<b>Noticias</b>
+			</p>
+			<p class="text-base text-white">
+				La intranet del Instituto se renueva y pasa a ser Ecosistema Humboldt
+			</p>
+			<a href="#" class="text-sm text-white underline decoration-solid">Ver Más</a>
+		</div> -->
+	  </div>
+	  <div class="swiper-slide">
+		<img src="img/sld3.jpg" alt="" class="w-full rounded-lg" />
+		<!-- <div class="absolute bottom-0 bg-azul-humboldt w-full px-5 py-2">
+			<p class="text-base text-white">
+				<b>Noticias</b>
+			</p>
+			<p class="text-base text-white">
+				La intranet del Instituto se renueva y pasa a ser Ecosistema Humboldt
+			</p>
+			<a href="#" class="text-sm text-white underline decoration-solid">Ver Más</a>
+		</div> -->
+	  </div>
+	</div>
+	 
+
+  
+  <script>
+	import "swiper/css";
+	import Swiper from "swiper";
+	import { register } from "swiper/element/bundle";
+	register();
+	
+  
+	const swiper = new Swiper("#noticias", {		
+	  slidesPerView: 1,	
+	  loop: true,
+	  pagination: {
+        el: ".swiper-pagination",
+      },
+	  navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+		},
+	});
+  </script>
+   
+

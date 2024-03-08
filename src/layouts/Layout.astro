@@ -1,0 +1,74 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body >
+		<slot />
+	</body>
+</html>
+<style is:global>
+	@font-face {
+		font-family: 'Manrope';
+		src: url(font/Manrope-Light.ttf);
+		font-weight: 300;
+	}
+	@font-face {
+		font-family: 'Manrope';
+		src: url(font/Manrope-Regular.ttf);
+		font-weight: 500;
+	}
+	@font-face {
+		font-family: 'Manrope';
+		src: url(font/Manrope-Medium.ttf);
+		font-weight: 600;
+	}
+	@font-face {
+		font-family: 'Manrope';
+		src: url(font/Manrope-Bold.ttf);
+		font-weight: 700;
+	}
+	:root {
+		font-size: 16px;
+	}
+	html {
+		font-family: 'Manrope';
+		background-color: #F1F2EB;
+	}
+	h1,h3{
+		font-weight: 300;
+	}
+	.swiper-pagination{
+		height: 30px;
+		position: relative;
+		display: flex;
+		text-align: center;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.swiper-pagination .swiper-pagination-bullet {
+		height: 10px ;		
+		background: #DCE0CD ;
+		width: 10px ;		
+		border-radius: 50%;
+		z-index: 20;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+		background: #375977 ;
+	}
+</style>
