@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Noticias from "../components/Noticias.astro";
-import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Convivencia | Ecosistema Humboldt">
   <main>
     <div class="max-w-[90%] mx-auto">
+      <span onclick="history.back()" class="text-azul-humboldt text-base mt-10 mb-3 block cursor-pointer">
+        <img src="img/volver.svg" alt="volver" width="20" class="inline mr-3">
+        Volver
+      </span> 
       <h1 class="text-azul-humboldt text-5xl mt-10 mb-3">
         Comité de convivencia
       </h1>
@@ -24,7 +26,7 @@ import Menu from "../components/Menu.astro";
               aria-controls="accordion-collapse-body-1"
             >
               <span class="text-base text-azul-light font-bold">
-                LEY 1010 DE 2006
+                ¿Qué es el Comité de Convivencia Laboral?
               </span>
               <svg
                 data-accordion-icon
@@ -50,9 +52,7 @@ import Menu from "../components/Menu.astro";
           >
             <div class="p-5">
               <p class="mb-2 text-base">
-                “Por medio de la cual se adoptan medidas para prevenir, corregir
-                y sancionar el acoso laboral y otros hostigamientos en el marco
-                de las relaciones de trabajo”
+                Conjunto de personas que se encargan de recibir y dar trámite a las quejas en las que se describan situaciones que puedan constituir acoso laboral de acuerdo con lo definido en la Ley 1010 de 2006.
               </p>
             </div>
           </div>
@@ -91,13 +91,144 @@ import Menu from "../components/Menu.astro";
           >
             <div class="p-5">
               <p class="mb-2 text-base">
-                Facilitar información a todos los trabajadores del Instituto
-                sobre la forma correcta de presentar una queja ante un supuesto
-                caso de acoso laboral y otros hostigamientos, de forma que se
-                pueda intervenir desde promoción y prevención estas situaciones.
+                Facilitar información a todos los trabajadores del Instituto sobre la forma correcta de presentar una queja ante un supuesto caso de acoso laboral y otros hostigamientos, de forma que se pueda intervenir desde promoción y prevención estas situaciones.
               </p>
             </div>
           </div>
+          
+          
+
+          
+
+
+          <h2 id="accordion-collapse-heading-8">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+              data-accordion-target="#accordion-collapse-body-8"
+              aria-expanded="false"
+              aria-controls="accordion-collapse-body-8"
+            >
+              <span class="text-base text-azul-light font-bold">
+                Integrantes
+              </span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"></path>
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-collapse-body-8"
+            class="hidden"
+            aria-labelledby="accordion-collapse-heading-8"
+          >
+            <div class="p-5">
+              <p class="my-5 text-center font-bold">
+                Representantes del empleador
+              </p>
+              <div class="grid grid-cols-2  lg:grid-cols-4 gap-10">
+                <div>
+                  
+                  <img src="img/fotos/Diana-marcela-gonzalez.png" alt="diana" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  
+                  <p class="text-center">Diana Marcela González Niño
+                  </p>
+                  <p class="text-center text-sm">
+                    Principal-Presidente CCL
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/Isabel-Garcia.png" alt="Isabel" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    Isabel Garcia Gonzalez
+                  </p>
+                  <p class="text-center text-sm">
+                    Principal
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/erika-adelaida.png" alt="Erika" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    Erika Adelaida Peñuela Vega
+                  </p>
+                  <p class="text-center text-sm">
+                    Suplente
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/Angela-gabriela.png" alt="Angela" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    Angela Gabriela Guerrero Terán
+                  </p>
+                  <p class="text-center text-sm">Suplente</p>
+                </div>
+                                                                
+              </div>
+
+
+              <p class="my-5 text-center font-bold">
+                Representantes del trabajador
+              </p>
+
+              <div class="grid grid-cols-2  lg:grid-cols-4 gap-10">
+                <div>
+                  
+                  <img src="img/fotos/carolina-angulo.jpg" alt="carolina angulo" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  
+                  <p class="text-center">
+                    Carolina Angulo Ospina
+                  </p>
+                  <p class="text-center text-sm">
+                    Principal-Secretaria CCL
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/maria-camila-gongora.png" alt="Maria G" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    María Kamila Góngora
+                  </p>
+                  <p class="text-center text-sm">
+                    Principal
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/nohora-patricia.png" alt="Nohora" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    Nohora Patricia Quintero Cáceres
+                  </p>
+                  <p class="text-center text-sm">
+                    Suplente
+                  </p>
+                </div>
+                <div>
+                  <img src="img/fotos/Paula-Andrea.png" alt="Paula" width="100" height="100" class="block rounded-[50%] mx-auto w-[150px] h-[150px] object-cover ">
+                  <p class="text-center">
+                    Paula Andrea León Peraza
+                  </p>
+                  <p class="text-center text-sm">Suplente</p>
+                </div>
+                
+                
+                                
+              </div>
+
+
+
+            </div>
+          </div>
+
           <h2 id="accordion-collapse-heading-3">
             <button
               type="button"
@@ -106,7 +237,7 @@ import Menu from "../components/Menu.astro";
               aria-expanded="false"
               aria-controls="accordion-collapse-body-3"
             >
-              <span class="text-base text-azul-light font-bold"> Alcance</span>
+              <span class="text-base text-azul-light font-bold"> Documentos</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -131,271 +262,161 @@ import Menu from "../components/Menu.astro";
           >
             <div class="p-5">
               <p class="mb-2 text-base">
-                Aplica para todos los colaboradores que desean presentar una
-                queja por un posible acoso laboral u otros hostigamientos para
-                llegar a unos acuerdos finales entre las dos partes que permita
-                una sana convivencia laboral.
+                <a href="docs/AGR-GH-R-01Reglamento-interno-de-trabajo.pdf" target="_blank" rel="noopener noreferrer">Reglamento interno de trabajo</a>
+              </p>
+              <p class="mb-2 text-base">
+                <a href="docs/AGH-PL-02Politica-Para-la-prevencion-y-atencion-del-acoso-laboral-el-abuso-de-poder-con-fines-sexuales-y-la-discriminacion.pdf" target="_blank" rel="noopener noreferrer">Politica para la prevención y atencion del acoso laboral, el abuso de poder con fines sexuales y la discriminación</a>
               </p>
             </div>
           </div>
-          <h2 id="accordion-collapse-heading-4">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
-              data-accordion-target="#accordion-collapse-body-4"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-4"
-            >
-              <span class="text-base text-azul-light font-bold">
-                ¿Qué es acoso?
-              </span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"></path>
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-4"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-4"
-          >
-            <div class="p-5">
-              <p class="mb-2 text-base">
-                Según la ley 1010 de 2006, "...es toda conducta persistente y
-                demostrable ejercida sobre un empleado, trabajador por parte de
-                un empleador, un jefe o superior jerárquico inmediato o mediato,
-                un compañero de trabajo o un subalterno, encaminada a infundir
-                miedo, intimidación, terror y angustia, a causar perjuicio
-                laboral, generar desmotivación en el trabajo, o inducir a la
-                renuncia del mismo."
-              </p>
-              <p class="mb-2 text-base">
-                Puede presentarse , entre otras, bajo las siguientes modalidades
-                generales:
-              </p>
-              <ul class="mb-2 list-disc">
-                <li class="text-base">Maltrato laboral.</li>
-                <li class="text-base">Persecución laboral.</li>
-                <li class="text-base">Discriminación laboral.</li>
-                <li class="text-base">Entorpecimiento laboral.</li>
-                <li class="text-base">Inequidad laboral.</li>
-                <li class="text-base">Desprotección laboral.</li>
-              </ul>
-              <p class="text-base">
-                Estos elementos son los que según la ley, configuran el acoso,
-                no obstante, resulta útil también, tener claros los que la ley
-                expresamente manifiesta que no lo son, a saber:
-              </p>
-              <ol class="mb-2 list-decimal">
-                <li class="text-base">
-                  Las exigencias y órdenes, necesarias para mantener la
-                  disciplina en los cuerpos que componen las Fuerzas Pública
-                  conforme al principio constitucional de obediencia debida
-                </li>
-                <li class="text-base">
-                  Los actos destinados a ejercer la potestad disciplinaria que
-                  legalmente corresponde a los superiores jerárquico; sobre sus
-                  subalternos.
-                </li>
-                <li class="text-base">
-                  La formulación de exigencias razonables de fidelidad laboral o
-                  lealtad empresarial e institucional.
-                </li>
-                <li class="text-base">
-                  La formulación de circulares o memorandos de servicio
-                  encaminados a solicitar exigencias técnicas o mejorar la
-                  eficiencia laboral y la evaluación laboral de subalternos
-                  conforme a indicadores objetivos y generales de rendimiento.
-                </li>
-                <li class="text-base">
-                  La solicitud de cumplir deberes extras de colaboración con la
-                  empresa o la institución, cuando sean necesarios para la
-                  continuidad del servicio o para solucionar situaciones
-                  difíciles en la operación de la empresa o la institución.
-                </li>
-                <li class="text-base">
-                  Las actuaciones administrativas o gestiones encaminadas a dar
-                  por terminado el contrato de trabajo, con base en una causa
-                  legal o una justa causa, prevista en el Código Sustantivo del
-                  Trabajo o en la legislación sobre la función pública.
-                </li>
-                <li class="text-base">
-                  La solicitud de cumplir los deberes de la persona y el
-                  ciudadano, de que trata el artículo 95 de la Constitución.
-                </li>
-                <li class="text-base">
-                  La exigencia de cumplir las obligaciones o deberes de que
-                  tratan los artículos 55 a 57 del C.S.T, así como de no
-                  incurrir en las prohibiciones de que tratan los artículos 59 y
-                  60 del mismo Código
-                </li>
-                <li class="text-base">
-                  Las exigencias de cumplir con las estipulaciones contenidas en
-                  los reglamentos y cláusulas de los contratos de trabajo.
-                </li>
-                <li class="text-base">
-                  La exigencia de cumplir con las obligaciones, deberes y
-                  prohibiciones de que trata la legislación disciplinaria
-                  aplicable a los servidores públicos.
-                </li>
-              </ol>
-            </div>
-          </div>
+
+
+
+
         </div>
       </div>
     </section>
   </main>
   <footer
-    class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full"
-  >
-    <div class="max-w-[90%] mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
-        <div>
-          <div
-            class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
-          >
-            <div class="max-w-[80px]">
-              <img
-                src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
-                alt=""
-                width="69"
-              />
-            </div>
-            <div class="max-w-[300px] text-white">
-              Instituto de Investigación de Recursos Biológicos Alexander von
-              Humboldt
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-            <li class="px-2">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
-                  alt=""
-                  width="32"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <hr class="mt-10 mb-5" />
-
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 justify-center"
-      >
-        <div>
-          <div class="text-[12px] font-bold text-white mb-2">
-            INFORMACIÓN DE CONTACTO
-          </div>
-          <p class="text-white mb-2">
-            Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia
-          </p>
-          <p class="text-white mb-2">PBX: (+57) 601 320 2767</p>
-        </div>
-        <div>
-          <div class="text-[12px] font-bold text-white mb-2">
-            HORARIO DE ATENCIÓN
-          </div>
-          <p class="text-white mb-2">Lunes a viernes 8:00 a.m. - 5:00 p.m.</p>
-        </div>
-        <div>
-          <div class="text-[12px] font-bold text-white mb-2">
-            LÍNEAS ESPECIALES
-          </div>
-          <p class="text-white mb-4">
-            Notificaciones Judiciales: <br />
-            <a
-              href="mailto:notificacionesjudiciales@humboldt.org.co"
-              class="underline">notificacionesjudiciales@humboldt.org.co</a
+      class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full"
+    >
+      <div class="max-w-[90%] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
+          <div>
+            <div
+              class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
             >
-          </p>
-          <p class="text-white mb-4">
-            Línea anticorrupción: <span class="underline">01 800 518 9191</span>
-          </p>
-        </div>
-        <div>
-          <div class="text-[12px] font-bold text-white mb-2">
-            ATENCIÓN AL CIUDADANO
+              <div class="max-w-[80px]">
+                <a href="https://www.humboldt.org.co/" target="_blank" rel="noopener noreferrer">
+                  <img
+                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
+                  alt=""
+                  width="69"
+                />
+                </a>
+                
+              </div>
+              <div class="w-full max-w-[300px] text-white pr-3">
+                Instituto de Investigación de Recursos Biológicos Alexander von
+                Humboldt
+              </div>
+            </div>
           </div>
-          <p class="text-white">
-            Correo PQRSF: <br />
-            <a
-              href="mailto:atencionalciudadano@humboldt.org.co"
-              class="underline">atencionalciudadano@humboldt.org.co</a
-            >
-          </p>
+
+          <div>
+            <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
+              <li class="px-2">
+                <a href="https://www.instagram.com/instituto_humboldt/?hl=en" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li class="px-2">
+                <a href="https://twitter.com/inst_humboldt?lang=en" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li class="px-2">
+                <a href="https://www.facebook.com/instituto.humboldt/" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              
+              
+              <li class="px-2">
+                <a href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li class="px-2">
+                <a href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li class="px-2">
+                <a href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <hr class="mt-10 mb-5" />
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 justify-center"
+        >
+          <div>
+            <div class="text-[12px] font-bold text-white mb-2">
+              INFORMACIÓN DE CONTACTO
+            </div>
+            <p class="text-white mb-2">
+              Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia
+            </p>
+            <p class="text-white mb-2">PBX: (+57) 601 320 2767</p>
+          </div>
+          <div>
+            <div class="text-[12px] font-bold text-white mb-2">
+              HORARIO DE ATENCIÓN
+            </div>
+            <p class="text-white mb-2">Lunes a viernes 8:00 a.m. - 5:00 p.m.</p>
+          </div>
+          <div>
+            <div class="text-[12px] font-bold text-white mb-2">
+              LÍNEAS ESPECIALES
+            </div>
+            
+            <p class="text-white mb-4">
+              Línea anticorrupción: <span class="underline"
+                >01 800 518 9191</span
+              >
+            </p>
+          </div>
+          <div>
+            <div class="text-[12px] font-bold text-white mb-2">
+              ATENCIÓN AL CIUDADANO
+            </div>
+            <p class="text-white">
+              Correo PQRSF: <br />
+              <a
+                href="mailto:atencionalciudadano@humboldt.org.co"
+                class="underline">atencionalciudadano@humboldt.org.co</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-5" />
+
+        <p class="text-center text-[12px] text-white">
+          © 2024 INSTITUTO DE INVESTIGACIÓN DE RECURSOS BIOLÓGICOS ALEXANDER
+          VON HUMBOLDT
+        </p>
       </div>
-
-      <hr class="my-5" />
-
-      <p class="text-center text-[12px] text-white">
-        © 2024 INSTITUTO DE INVESTIGACIÓN DE RECURSOS BIOLÓGICOS ALEXANDER VON
-        HUMBOLDT
-      </p>
-    </div>
-  </footer>
+    </footer>
   <script src="flowbite/dist/flowbite.min.js"></script>
 </Layout>

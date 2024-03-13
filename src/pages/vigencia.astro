@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Noticias from "../components/Noticias.astro";
-import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Vigencia | Ecosistema Humboldt">
   <main>
     <div class="max-w-[90%] mx-auto">
+      <span onclick="history.back()" class="text-azul-humboldt text-base mt-10 mb-3 block cursor-pointer">
+        <img src="img/volver.svg" alt="volver" width="20" class="inline mr-3">
+        Volver
+      </span> 
       <h1 class="text-azul-humboldt text-5xl mt-10 mb-3">
         Información <br />
         institucional vigencia 2024
@@ -25,10 +27,10 @@ import Menu from "../components/Menu.astro";
               href="docs/Estructura-salarial-equivalencias-2024.xlsx"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/salarial.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -49,13 +51,13 @@ import Menu from "../components/Menu.astro";
         >
           <div>
             <a
-              href="http://intranet.humboldt.org.co/documentos/Circular%20de%20cierre%202023-10.pdf"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/cierre.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -66,7 +68,7 @@ import Menu from "../components/Menu.astro";
             <p
               class="flex justify-center items-center h-full text-2xl text-center font-light hover:text-white max-w-[220px] mx-auto"
             >
-              Circular de cierre 2023
+              Proximamente - Circular de cierre 2024
             </p>
           </div>
         </div>
@@ -76,13 +78,12 @@ import Menu from "../components/Menu.astro";
         >
           <div>
             <a
-              href="tablero"
-              target="_blank"
+              href="../tablero"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/tablero.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -106,10 +107,10 @@ import Menu from "../components/Menu.astro";
               href="docs/006-PLAN-ANUAL-AUDITORIA-2024.xlsx"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/auditoria.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -125,32 +126,7 @@ import Menu from "../components/Menu.astro";
           </div>
         </div>
 
-        <div
-          class="grid grid-cols-[70px_calc(100%-70px)] rounded-lg bg-[#DCE0CD] hover:bg-azul-humboldt hover:text-white p-3"
-        >
-          <div>
-            <a
-              href="docs/Catalogo-1-22-414AM.xlsx"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
-            >
-              <img
-                src="img/flecha.svg"
-                alt=""
-                width="60"
-                class="block mx-auto my-auto py-3 px-2"
-              />
-            </a>
-          </div>
-          <div class="items-center">
-            <p
-              class="flex justify-center items-center h-full text-2xl text-center font-light hover:text-white max-w-[220px] mx-auto"
-            >
-              Catálogo de elementos tecnológicos
-            </p>
-          </div>
-        </div>
+        
 
         <div
           class="grid grid-cols-[70px_calc(100%-70px)] rounded-lg bg-[#DCE0CD] hover:bg-azul-humboldt hover:text-white p-3"
@@ -160,10 +136,10 @@ import Menu from "../components/Menu.astro";
               href="https://docs.google.com/spreadsheets/d/1zEczx172bvq-y8Gpj48r8octsl7L8pRw_Mh_kAKp5FU/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/portafolio.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -187,10 +163,10 @@ import Menu from "../components/Menu.astro";
               href="IMPERVINCULADO-LISTADO-UPZ-BOGOTA-TECNOLOGIAS.xlsx"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
-                src="img/flecha.svg"
+                src="img/upz.svg"
                 alt=""
                 width="60"
                 class="block mx-auto my-auto py-3 px-2"
@@ -211,10 +187,10 @@ import Menu from "../components/Menu.astro";
         >
           <div>
             <a
-              href="docs/Iniciativas-Convenios.pdf"
+              href="docs/documentos-legales-financieros.zip"
               target="_blank"
               rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
+              class="flex items-center h-full my-auto mx-auto bg-white rounded-lg"
             >
               <img
                 src="img/flecha.svg"
@@ -233,32 +209,7 @@ import Menu from "../components/Menu.astro";
           </div>
         </div>
 
-        <div
-          class="grid grid-cols-[70px_calc(100%-70px)] rounded-lg bg-[#DCE0CD] hover:bg-azul-humboldt hover:text-white p-3"
-        >
-          <div>
-            <a
-              href="docs/Iniciativas-Convenios.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block h-full my-auto mx-auto bg-white rounded-lg"
-            >
-              <img
-                src="img/flecha.svg"
-                alt=""
-                width="60"
-                class="block mx-auto my-auto py-3 px-2"
-              />
-            </a>
-          </div>
-          <div class="items-center">
-            <p
-              class="flex justify-center items-center h-full text-2xl text-center font-light hover:text-white max-w-[220px] mx-auto"
-            >
-              Cotizador de servicios DIFA
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
 
@@ -272,13 +223,16 @@ import Menu from "../components/Menu.astro";
               class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
             >
               <div class="max-w-[80px]">
-                <img
+                <a href="https://www.humboldt.org.co/" target="_blank" rel="noopener noreferrer">
+                  <img
                   src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
                   alt=""
                   width="69"
                 />
+                </a>
+                
               </div>
-              <div class="max-w-[300px] text-white">
+              <div class="w-full max-w-[300px] text-white pr-3">
                 Instituto de Investigación de Recursos Biológicos Alexander von
                 Humboldt
               </div>
@@ -288,25 +242,7 @@ import Menu from "../components/Menu.astro";
           <div>
             <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
               <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/instituto_humboldt/?hl=en" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
                     alt=""
@@ -315,7 +251,27 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/inst_humboldt?lang=en" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              <li class="px-2">
+                <a href="https://www.facebook.com/instituto.humboldt/" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
+                    alt=""
+                    width="32"
+                  />
+                </a>
+              </li>
+              
+              
+              <li class="px-2">
+                <a href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
                     alt=""
@@ -324,7 +280,7 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
                     alt=""
@@ -333,7 +289,7 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
                     alt=""
@@ -369,13 +325,7 @@ import Menu from "../components/Menu.astro";
             <div class="text-[12px] font-bold text-white mb-2">
               LÍNEAS ESPECIALES
             </div>
-            <p class="text-white mb-4">
-              Notificaciones Judiciales: <br />
-              <a
-                href="mailto:notificacionesjudiciales@humboldt.org.co"
-                class="underline">notificacionesjudiciales@humboldt.org.co</a
-              >
-            </p>
+            
             <p class="text-white mb-4">
               Línea anticorrupción: <span class="underline"
                 >01 800 518 9191</span
