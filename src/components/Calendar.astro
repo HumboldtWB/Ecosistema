@@ -5,7 +5,7 @@
 <!-- Slider main container --><!-- Additional required wrapper -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.css" integrity="sha256-jLWPhwkAHq1rpueZOKALBno3eKP3m4IMB131kGhAlRQ=" crossorigin="anonymous">
 
-<div id="calendar"></div>
+<div id="calendar" class="barra"></div>
 
 <script>
   import { Calendar } from '@fullcalendar/core';
@@ -14,7 +14,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     let calendarEl: HTMLElement = document.getElementById('calendar')!;
 
-    let calendar = new Calendar(calendarEl, {
+    let calendar = new Calendar(calendarEl, { 
       plugins: [ dayGridPlugin ],
       height: 730,
       locale: 'es',
@@ -23,6 +23,7 @@
           "center": "title",
           "end": "dayGridMonth,dayGridWeek,dayGridDay"
       },
+      
       events:[
     {
         "title": "Maria Piedad Baptiste Espinosa",
@@ -1541,7 +1542,7 @@
         "start": "2024-06-01"
     },
     {
-        "title": "Jose Arnaldo Muñoz Diaz",
+        "title": "Jose Arnaldo Muñoz Diaz", 
         "start": "2024-12-14"
     }
   ]

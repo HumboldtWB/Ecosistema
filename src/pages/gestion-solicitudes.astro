@@ -1,0 +1,142 @@
+---
+import Layout from "../layouts/Layout-blue.astro";
+import Noticias from "../components/Noticias.astro";
+import Menu from "../components/Menu.astro";
+---
+
+<Layout title="Portada | Ecosistema Humboldt">
+  <main class="relative">  
+        
+    <section class="max-w-[90%] mx-auto h-auto  bg-contain bg-center lg:bg-right-top bg-no-repeat py-16" id="solicitudes">
+      <h1 class="text-6xl md:text-7xl mt-20 text-white">
+        Gestión de solicitudes
+      </h1>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-40 min-h-[30vh] lg:max-w-[80%]  gap-y-20 gap-12">
+      <div class="relative">    
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light ">
+            Realiza solicitudes de viáticos o anticipos correspondientes a comisiones a nivel nacional e internacional para trabajadores, practicantes o contratistas.
+          </p>
+        </div>
+      
+        <a href="/admin/travels/mis-solicitudes" class="lg:mx-auto group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/viaje.svg" alt="ícono gastos de viaje" width="30" class="inline mr-2 group-hover:invert">
+          Gastos de viaje
+        </a>
+        
+      </div>
+      <div class="relative">
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
+            Solicita recursos que requieres para adquirir bienes o servicios. 
+          </p>
+        </div>
+        
+        <a href="/admin/car/mis-solicitudes" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/car.svg" alt="ícono gastos de viaje" width="30" class="inline mr-2 group-hover:invert">
+          CAR
+        </a>                      
+      </div>
+      <div class="relative">
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
+            Realiza solicitudes para cubrir los gastos de alojamiento, alimentación y transporte de personas externas al Instituto.
+          </p>
+        </div>
+        
+        <a href="/admin/guest/mis-solicitudes" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/gasto_invitados.svg" alt="ícono gastos de viaje" width="30" class="inline mr-2 group-hover:invert">
+          Gastos de invitados
+        </a>                      
+      </div>
+
+      <div class="relative">    
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light ">
+            Solicita los servicios y/o recursos necesarios para gestionar los eventos en las ciudades sedes del Instituto. 
+          </p>
+        </div>
+      
+        <a href="/admin/services/mis-solicitudes" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/logistica.svg" alt="ícono logística" width="40" class="absolute left-[25px] top-5 inline mr-2 group-hover:invert">
+          <span class=" ml-2">Logística <br> de eventos</span>
+        </a>
+        
+      </div>
+      <div class="relative">
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
+            Tramita solicitud de compra o contratación de bienes o servicios.
+          </p>
+        </div>
+        
+        <a href="" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/compras.svg" alt="ícono compras" width="30" class="absolute left-[20px] inline mr-2 group-hover:invert">
+          <span class=" ml-8">Adquisiciones de bienes y servicios</span>
+        </a>                      
+      </div>
+      <div class="relative">
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
+            Separa salas disponibles de las sedes del Instituto
+          </p>
+        </div>
+        
+        <a href="/admin/rooms/room-consultation" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/calendario.svg" alt="ícono calendario" width="30" class="inline mr-2 group-hover:invert">
+          Reserva de salas
+        </a>                      
+      </div>
+
+      <div class="relative">    
+        <div class="group">
+          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-3 border-2 rounded-full" width="30">
+          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light ">
+            Realiza solicitudes a las gerencias de experiencias, administrativa, información científica y de tecnología. 
+          </p>
+        </div>
+      
+        <a href="/admin/intranet/solicitud" class="group min-w-[150px] max-w-[340px] block text-center border-2 border-white px-5 py-3 rounded-full text-xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <img src="img/soporte.svg" alt="ícono gastos de viaje" width="30" class="inline mr-2 group-hover:invert">
+          Requerimientos y soportes
+        </a>
+        
+      </div>
+      
+     </div>
+
+     
+     
+
+    </section>
+
+    
+  </main>
+</Layout>
+
+<style>
+  #solicitudes{
+    background-image: url('img/sonidos-min.png');
+  }
+  .link-card-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 1em auto;
+    border-radius: 10em;
+  }
+  @media screen and (max-width: 767px) {
+    .link-card-grid {
+      flex-direction: column;
+      border: none;
+      margin: 0.5em auto;
+    }
+  }
+</style>

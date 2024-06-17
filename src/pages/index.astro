@@ -1,425 +1,84 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/Layout-yellow.astro";
 import Noticias from "../components/Noticias.astro";
 import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
-  <main class="relative">
-    <section class="max-w-[90%] md:max-w-[60%] mx-auto">
-      <div class="swiper relative" id="noticias">
-        <Noticias />
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+  <main class="relative">  
+    
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </section>
-
-    <section class=" max-w-[90%] md:max-w-[60%] mx-auto">
-      <ul role="list" class="link-card-grid">
-        <Menu href="copasst" title="Copasst" />
-        <Menu href="convivencia" title="Comité de convivencia" />
-        <Menu href="vigencia" title="Información institucional vigencia 2024" />
-        <Menu href="cumples" title="Cumpleaños" />
-      </ul>
-    </section>
-    <section class="max-w-[90%] mx-auto h-auto">
-      <hr class="border-gray-500" />
-      <h1 class="text-7xl my-5">Noticias</h1>
-      <h2 class="text-base">
-        Reconocemos el valor de lo que haces en el Instituto. En esta sección
-        encontrarás una selección de nuestras publicaciones más leídas. Para que
-        no te pierdas los logros de la gente Humboldt.
+    <section class="max-w-[90%] mx-auto h-auto  bg-contain bg-center lg:bg-right-top bg-no-repeat py-16" id="planta">
+      <h1 class=" text-5xl md:text-7xl mt-20">
+        Bienvenido al 
+      </h1>
+      <h2 class="text-5xl md:text-7xl lg:my-5">
+        ecosistema Humboldt
       </h2>
-    </section>
-    <section class="max-w-[90%] mx-auto h-auto">
-      <div
-        class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 h-auto lg:h-[260px]"
-      >
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65c547efa66e3df5fc51ebaa_plantas-en-vivero-Instituto-Humboldt-2-p-1080.jpg"
-              alt=""
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                ¿Cómo ayudar a la biodiversidad después de un incendio forestal?
-              </h3>
-              <p class="text-sm">
-                Los incendios forestales que vienen presentándose en diferentes
-                regiones del país...
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/como-ayudar-a-la-biodiversidad-despues-de-un-incendio-forestal"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65d8c93a26eac75606c1b0ee_tremarctos_ornatus_Instituto-Humboldt-p-1080.jpg"
-              alt=""
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                Estudio revela importantes datos sobre el proceso reproductivo
-                de las osas andinas
-              </h3>
-              <p class="text-sm">
-                Un estudio liderado por investigadores colombianos permitió
-                documentar, por primera...
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/estudio-revela-importantes-datos-sobre-el-proceso-reproductivo-de-las-osas-andinas"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65cbe1a884ad1252cabee605_vista-dosel-Instituto-Humboldt-p-1080.jpg"
-              alt=""
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                Restauración y aprovechamiento del bosque amazónico
-              </h3>
-              <p class="text-sm">
-                El resguardo indígena Yaguara II, ubicado en los Llanos del
-                Yarí.....
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/restauracion-y-aprovechamiento-del-bosque-amazonico-una-oportunidad-de-bienestar-para-yaguara-ii"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="block text-center mt-10">
-        <a
-          href="https://www.humboldt.org.co/noticia/noticias"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bg-black text-white py-3 px-14 flex max-w-fit mx-auto rounded-3xl font-light"
-        >
-          <img src="img/noticias.svg" alt="noticias" width="28" class="mr-4" />
-          Mira todas las noticias
-        </a>
-      </div>
-    </section>
-
-    <section class="max-w-[90%] mx-auto">
-      <hr class="mt-10 mb-7 border-gray-500" />
-
-      <h3 class="text-7xl">Gestión Humana</h3>
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-        <div class="bg-azul-light p-8 rounded-lg flex flex-col justify-between">
-          <a href="estructura">
-            <img src="img/estructura.png" alt="" class="block mx-auto" />
-            <h4 class="text-white text-2xl text-center mb-3">
-              Estructura Organizacional
+      <h3 class=" text-xl mt-8">
+        Conoce interactúa y conéctate con nuestra gestión interna
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 my-10">
+        <div class="relative ">
+          <img src="img/conectate.png" alt="">
+          <figcaption class="absolute bottom-0 p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[210px] ">
+            <h4 class="text-white font-bold">
+              CONÉCTATE CON EL HUMBOLDT
             </h4>
-            <p class="text-center text-white text-sm">
-              <b>Conoce aquí</b> los avances en la implementación del diseño organizacional.
+            <p class="text-white py-3">
+              Entérate de las últimas noticias del Humboldt.
             </p>
-          </a>
+            <a href="conectate" class="text-yellow-strong font-bold">
+              Ver más
+            </a>
+          </figcaption>
         </div>
-        <div class="bg-azul-light p-8 rounded-lg flex flex-col justify-between">
-          <a href="iniciativas">
-            <img src="img/iniciativas.png" alt="" class="block mx-auto" />
-            <h4 class="text-white text-2xl text-center mb-3">
-              Iniciativas Humboldt
+        <div class="relative ">
+          <img src="img/operamos.png" alt="">
+          <figcaption class="absolute bottom-0 p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[210px]">
+            <h4 class="text-white font-bold">
+              ¿CÓMO OPERAMOS?
             </h4>
-            <p class="text-center text-white text-sm">
-              <b>Haz parte</b> de los diferentes grupos liderados por tus compañeros,
-              y anímate a ser parte de ellos.
+            <p class="text-white py-3">
+              Conoce a detalle los diferentes procesos y proyectos del Instituto
             </p>
-          </a>
+            <a href="como-operamos" class="text-yellow-strong font-bold">
+              Ver más
+            </a>
+          </figcaption>
         </div>
-        <div class="bg-azul-light p-8 rounded-lg flex flex-col justify-between">
-          <a href="beneficios">
-            <img src="img/plan.png" alt="" class="block mx-auto" />
-            <h4 class="text-white text-2xl text-center -mt-10">
-              Plan de Beneficios
+        <div class="relative ">
+          <img src="img/gestion.png" alt="">
+          <figcaption class="absolute bottom-0 p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[210px]">
+            <h4 class="text-white font-bold">
+              GESTIÓN DE SOLICITUDES
             </h4>
-            <p class="text-center text-white text-sm">
-              <b>Conoce aquí</b> todos los beneficios que tiene el Instituto para
-              tí.
+            <p class="text-white py-3">
+              Realiza aquí cualquier solicitud que necesites en tu labor.
             </p>
-          </a>
+            <a href="gestion-solicitudes" class="text-yellow-strong font-bold">
+              Ver más
+            </a>
+          </figcaption>
+        </div>
+        <div class="relative ">
+          <img src="img/plataformas.png" alt="">
+          <figcaption class="absolute bottom-0 p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[210px]">
+            <h4 class="text-white font-bold">
+              PLATAFORMAS INSTITUCIONALES
+            </h4>
+            <p class="text-white py-3">
+              Enlaces directos a nuestras diferentes plataformas
+            </p>
+            <a href="plataformas-institucionales" class="text-yellow-strong font-bold">
+              Ver más
+            </a>
+          </figcaption>
         </div>
       </div>
     </section>
 
-    <section class="max-w-[90%] mx-auto">
-      <hr class="mt-20 mb-7 border-gray-500" />
-
-      <div class="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-5">
-        <div>
-          <iframe
-            style="border-radius:12px"
-            src="https://open.spotify.com/embed/show/6V7Fl5kh8svQbegbTzYFqo?utm_source=generator&theme=0"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          ></iframe>
-        </div>
-
-        <div>
-          <div class="rounded-lg bg-[#DCE0CD] p-5 mb-5">
-            <h4 class="text-azul-humboldt font-bold">Te escuchamos Humboldt</h4>
-            <p class="text-sm">
-              <a
-                href="https://teescuchamoshumboldt.ethicsglobal.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-bold text-azul-humboldt"
-              >
-                Reporta aquí
-              </a> posibles actos o conductas que violen nuestra políticia de Integridad
-              (Política de Ética y Transparencia y Código Institucional de Conducta
-              Íntegra)
-              <img
-                src="img/ethics.svg"
-                alt="ethics global"
-                width="130"
-                class="mr-0 mt-3 block ml-auto"
-              />
-            </p>
-          </div>
-
-          <h3 class="text-2xl text-azul-humboldt pl-5">
-            ¡Noticias de la biodiversidad!
-          </h3>
-
-          <div class="pl-5">
-            <!-- Begin MailChimp Signup Form -->
-            <style scoped type="text/css">
-              #mc_embed_signup form {
-                padding: 10px 0 10px 0;
-              }
-              .mc-field-group {
-                display: inline-block;
-              } /* positions input field horizontally */
-
-              #mc_embed_signup label {
-                display: block;
-                font-size: 16px;
-                padding-bottom: 10px;
-                font-weight: bold;
-              }
-              #mc_embed_signup .clear {
-                display: inline-block;
-              } /* positions button horizontally in line with input */
-              #mc_embed_signup .button {
-                font-size: 13px;
-                border: none;
-                letter-spacing: 0.03em;
-                color: #fff;
-                background-color: #aaa;
-                box-sizing: border-box;
-                height: 32px;
-                line-height: 32px;
-                padding: 0 18px;
-                display: inline-block;
-                margin: 0;
-                transition: all 0.23s ease-in-out 0s;
-              }
-              #mc_embed_signup .button:hover {
-                background-color: #777;
-                cursor: pointer;
-              }
-              #mc_embed_signup div#mce-responses {
-                float: left;
-                top: -1.4em;
-                padding: 0em 0.5em 0em 0.5em;
-                overflow: hidden;
-                width: 90%;
-                margin: 0 5%;
-                clear: both;
-              }
-              #mc_embed_signup div.response {
-                margin: 1em 0;
-                padding: 1em 0.5em 0.5em 0;
-                font-weight: bold;
-                float: left;
-                top: -1.5em;
-                z-index: 1;
-                width: 80%;
-              }
-              #mc_embed_signup #mce-error-response {
-                display: none;
-              }
-              #mc_embed_signup #mce-success-response {
-                color: #529214;
-                display: none;
-              }
-              #mc_embed_signup label.error {
-                display: block;
-                float: none;
-                width: auto;
-                margin-left: 1.05em;
-                text-align: left;
-                padding: 0.5em 0;
-              }
-              @media (max-width: 768px) {
-                #mc_embed_signup input.email {
-                  width: 100%;
-                  margin-bottom: 5px;
-                }
-                #mc_embed_signup .button {
-                  width: 100%;
-                  margin: 0;
-                }
-              }
-              ::-webkit-input-placeholder {
-                /* Chrome/Opera/Safari */
-                color: #113545;
-              }
-
-              input[type="email"] {
-                max-width: 100% !important;
-              }
-
-              #mc_embed_signup form {
-                padding: 0px auto;
-              }
-
-              #mc_embed_signup .button {
-                max-width: 100px;
-                width: 100%;
-              }
-
-              #mc_embed_signup {
-                clear: left;
-                width: 100%;
-              }
-              /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-								We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-
-            <div
-              id="jnews_module1"
-              class="newsletter"
-              style="margin-top: 15px;margin-bottom:15px"
-            >
-              <!-- Begin MailChimp Signup Form -->
-
-              <p class="text-base">
-                Suscríbete para recibir nuestras noticias:
-              </p>
-
-              <div id="mc_embed_shell">
-                <div id="mc_embed_signup">
-                  <form
-                    action="https://humboldt.us4.list-manage.com/subscribe/post?u=8b7b6e645360b5ca05e9feecf&id=89ba7c353a&f_id=001298ebf0"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    class="validate w-full"
-                    target="_self"
-                    novalidate=""
-                  >
-                    <img
-                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQiIGhlaWdodD0iNDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00Mi4zMzggMjkuNTQ5bC0uMDAxLS4wMDNjLS4wNDkgMC0uMDguMDAzLS4wOC4wMDNzLS4xNS0uNjAzLS4zMzItMS4xODdjLS4xODItLjU4My0uMzczLS45NDctLjM3My0uOTQ3bC4xMTMtLjE3NC0uMDAyLS4wMDRjLjYxNy0xLjAyLjYzMi0xLjg5Mi41MzUtMi40NDZhMy4zNjMgMy4zNjMgMCAwMC0uOTM4LTEuODQ4bC0uMDI3LS4wMjdjLS43MzQtLjcxOS0xLjc1My0xLjIyMy0zLjQwOC0xLjY4OC0uMTktLjA1My0uMzU5LS4wOTctLjUwOC0uMTM1YTE0LjQ4IDE0LjQ4IDAgMDEtLjM2LS4xMDZsLS4wMTUtLjEyOWMtLjAwNi0uNDM3LS4wMzEtMS45MTgtLjA2OS0yLjc4Mi0uMDI3LS42MjQtLjA4MS0xLjU5OC0uMzgzLTIuNTU4LS4zNi0xLjI5OS0uOTg4LTIuNDM2LTEuNzcyLTMuMTYzIDIuMTYyLTIuMjQxIDMuNTEyLTQuNzEgMy41MS02LjgyOS0uMDA3LTQuMDc0LTUuMDEtNS4zMDYtMTEuMTc2LTIuNzUzbC0uMDE5LjAwOGE5Ljg2NiA5Ljg2NiAwIDAwLTEuMjU5LjUzM2wtLjAyOC4wMTNBMTMwOC4yIDEzMDguMiAwIDAwMjMuMzQ5Ljk4Yy03LjAzLTYuMTMxLTI5LjAwOCAxOC4yOTgtMjEuOTggMjQuMjMybDEuNTM1IDEuM2MtLjM5OCAxLjAzMi0uNTU1IDIuMjE1LS40MjcgMy40ODYuMTY0IDEuNjMzIDEuMDA2IDMuMTk4IDIuMzcxIDQuNDA4IDEuMjk2IDEuMTQ4IDIuOTMgMS44MyA0LjQ5IDEuODcybC4xMzcuMDAySDkuNTAyYzIuNzM0IDYuMyA4LjgwOCAxMC4wMTcgMTYuMDE2IDEwLjM3MmwuMjg1LjAxMnYuMDAyaC4wMDd2LS4wMDJjNy43MTQuMjczIDE0LjQ1NC0zLjQ1NCAxNy4yMTktMTAuMDc4LjM0OC0uODk2IDIuMjktNi4yNzUtLjY5MS03LjAzNnptLTMyLjIzMiA0Ljk2Yy0uMjM5LjA0LS40ODIuMDU2LS43MjguMDUtMi4zNzMtLjA2My00LjkzNy0yLjItNS4xOTItNC43MzQtLjI4MS0yLjggMS4xNS00Ljk1NiAzLjY4NC01LjQ2N2E0LjMxMyA0LjMxMyAwIDAxMS4wNjQtLjA3NmMxLjQyLjA3OCAzLjUxMSAxLjE2OCAzLjk5IDQuMjYuNDIzIDIuNzQtLjI1IDUuNTI4LTIuODE4IDUuOTY2em0tMi42Ni0xMS44MjVsLjAxLS4wMDJjMS45NTMtNS4zNDcgNS4zNi0xMC4zNTYgOS43OTgtMTMuNzczLjA4NC0uMDcuMTctLjE0LjI2LS4yMSAyLjE4Ny0xLjc4NSA0LjQyOC0zLjMwNSA2LjU4NS00LjUwOCAwIDAtMS45MTMtMi4yMTgtMi40OS0yLjM4MUMxOC4wNTYuODUgMTAuMzggNi4xNDMgNS40NzkgMTMuMTM2Yy0xLjk4MiAyLjgzLTQuODIgNy44NC0zLjQ2MyAxMC40MTguMTY3LjMyIDEuMTE0IDEuMTQgMS42MjIgMS41NjQuODUtMS4yMzUgMi4xNS0yLjEgMy44MDgtMi40MzR6bTkuMDQtOS41NTNjMS43NDYtMi4wMjMgMy45LTMuNzgzIDUuODI5LTQuNzcuMDY2LS4wMzQuMTM3LjAzOC4xLjEwMy0uMTUzLjI4LS40NS44NzgtLjU0MSAxLjMyOC0uMDEzLjA2Ni4wNi4xMTQuMTE2LjA3NiAxLjE5OC0uODE4IDMuMzY0LTEuNTQ4IDUuMTk1LTEuNjU2LjA3OC0uMDA1LjExMS4wOTguMDQ1LjE0LS4yODUuMTc3LS43MjkuNDgyLS45MzIuNzc4YS4wNzYuMDc2IDAgMDAuMDU1LjExOWMxLjI2OC4xMTcgMy4wNjcuNDUgNC4zMjUgMS4wNDYuMDgyLjAzOS4wMzguMTYyLS4wNS4xNDItMS43NzctLjQxLTQuNzA1LS43MjctNy43NDYuMDE1LTIuNzE3LjY2My00Ljc4OCAxLjY4OS02LjI5NSAyLjc5LS4wNzIuMDUzLS4xNi0uMDQzLS4xMDEtLjExek0zOS42NCAzOC4wOTJjMS40NzctMS41NDMgMi4zNTYtMy4yMjEgMi42OTctNS4yODkuMTY4LTEuMTA2LS4wNzgtMS41MzQtLjQxMi0xLjc0LS4zNTQtLjIxOC0uNzc4LS4xNDItLjc3OC0uMTQycy0uMTkzLTEuMzI0LS43NC0yLjUyNmMtMS42MjMgMS4yOC0zLjcxMiAyLjE4LTUuMzAzIDIuNjM3LTEuODM2LjUyNy00LjMyLjkzMi03LjA5MS43NjctLjMwMi0uMDI0LS41ODQtLjA2MS0uODQ1LS4wOTUtMS4wNjgtLjE0LTEuNzg1LS4yMzQtMi4wOTMuNzY1YTUuMTM3IDUuMTM3IDAgMDAuMjkyLjExYy4xNDMuMDQ4LjI5LjA5My40MzguMTM1YTE1LjAzMSAxNS4wMzEgMCAwMDEuODIuNDAxYy4zMDguMDQ5LjYxNy4wOTMuOTI4LjEyNWExNC41MDMgMTQuNTAzIDAgMDAxLjQwMi4wOCAxMy4wOTIgMTMuMDkyIDAgMDAxLjExNS0uMDJjLjA5OC0uMDA0LjE5Ni0uMDA4LjI5NC0uMDE0LjMxMy0uMDIyLjYyNi0uMDUuOTQyLS4wODFhLjEzMS4xMzEgMCAwMS4wNjQuMjVsLS4wMDkuMDA0Yy0uMzAyLjEyOC0uNjE1LjIzLS45MzMuMzFhOC4zODQgOC4zODQgMCAwMS0xLjQ1Ny4yMjYgMTQuNDEgMTQuNDEgMCAwMS0xLjQ3Ny4wMTkgMTMuODIyIDEzLjgyMiAwIDAxLS45ODMtLjA3NiAxNS43NDUgMTUuNzQ1IDAgMDEtMS40Ni0uMjQ3IDEwLjA3NiAxMC4wNzYgMCAwMS0xLjA3NC0uMzA3Yy4xMjUgMS4wNjQgMS4xNjIgMS41NDEgMS42NTggMS43MzRhNy40NzggNy40NzggMCAwMDEuMzA2LjM1NGM1LjYyLjk2NyAxMC44NzUtMi4yNDYgMTIuMDU4LTMuMDU2LjA4OC0uMDYuMTQ3LS4wMDEuMDc2LjEwNmExLjk2IDEuOTYgMCAwMS0uMTE2LjE2NWMtMS40NDggMS44NjgtNS4zNCA0LjAzLTEwLjQwNCA0LjAzLTIuMjEgMC00LjQxNy0uNzc5LTUuMjI3LTEuOTc0LTEuMjU4LTEuODU1LS4wNjItNC41NjMgMi4wMzMtNC4yODEuMDAyIDAgLjcxNy4wOC45MTguMTA0IDQuNDA4LjQ5MyA5LjczLS45NTkgMTIuMDk0LTMuMTQybC4xMTYtLjA4M2MuODE5LS43NzIgMS4yMzYtMS41NyAxLjEwMi0yLjI3MWExLjcgMS43IDAgMDAtLjQ5My0uOTY3Yy0uNTEzLS41MDMtMS4zMjgtLjg5NC0yLjcwMi0xLjI4bC0uMTE0LS4wMzItLjE0NS0uMDRjLS4zMi0uMDktLjU3LS4xNTktLjgzNS0uMjQ2LS41OS0uMTk0LS44ODItLjM1LS45NDgtMS40Ni0uMDMtLjQ4Ni0uMTE0LTIuMTc2LS4xNDQtMi44NzUtLjA1NC0xLjIyNC0uMjAxLTIuODk4LTEuMjQtMy41ODhhMS43NCAxLjc0IDAgMDAtLjg4Ny0uMjg0Yy0uMjU1LS4wMTItLjQwNS4wMjMtLjQ4NS4wNDJsLS4wNDIuMDFjLS41Ni4wOTQtLjkwNC4zODItMS4zMS43MmwtLjA3LjA2Yy0xLjI5NSAxLjA3OS0yLjM4OSAxLjI1NS0zLjYwNCAxLjIwMy0uMzgtLjAxNi0uNzctLjA1NC0xLjE4My0uMDk1LS4zNzgtLjAzNy0uNzc0LS4wNzYtMS4xOTctLjEwMWwtLjEtLjAwNmMtLjEzOS0uMDA4LS4yNzctLjAxNy0uNDE2LS4wMjQtMi4wMzYtLjEwNC00LjIyIDEuNjU1LTQuNTg0IDQuMTUzLS40MDUgMi43ODcgMS4xMzMgNC40OTQgMi4xMzMgNS42MDUuMjQ4LjI3NS40NjIuNTEzLjYwNy43MjJhLjc1Ni43NTYgMCAwMS0uMDYuOTdsLjAwMS4wMDFjLTIuMDc4IDIuMTM3LTIuNzQyIDUuNTMyLTEuOTYgOC4zNi4wOTkuMzU0LjIyMi42OTIuMzcgMS4wMTQgMS44MzYgNC4yOTQgNy41MzUgNi4yOTMgMTMuMTAzIDQuNDc0YTEzLjY3NyAxMy42NzcgMCAwMDIuMTE1LS44OTMgMTEuMTEyIDExLjExMiAwIDAwMy4yNC0yLjQyem0tNi41Ni0xNi4wMzdjLjM0LS4wNC42NjctLjA0Mi45NjcgMCAuMTczLS4zOTguMjAzLTEuMDg0LjA0Ny0xLjgzMS0uMjMyLTEuMTExLS41NDYtMS43ODMtMS4xOTUtMS42NzgtLjY1LjEwNC0uNjczLjkwOS0uNDQxIDIuMDIuMTMuNjI0LjM2MyAxLjE1OS42MjIgMS40OXptLTUuNTcyLjg4Yy0xLjAwMS0uNDMyLTEuNzc3LS41NjUtMy4yNC0uMDk0bC0uMTE1LjAzOGMtLjI5MS4wOTUtLjQ5NC4xNjEtLjYyMy4xNTVhLjI2LjI2IDAgMDEtLjA0LS4wMDVjLS4wNjktLjAxNC0uMTE2LS4wNTctLjEzLS4xMTktLjA0Mi0uMTkxLjI1My0uNTA3LjU2NC0uNzM0Ljk0LS42NzcgMi4xNi0uODIzIDMuMTg0LS4zODMuNS4yMTMuOTcxLjU5MyAxLjIuOTY3LjExMS4xODEuMTMzLjMyMS4wNjEuMzk1LS4xMTIuMTE4LS4zMzUuMDE3LS43NC0uMTY2aC0uMDAxbC0uMTItLjA1NXptLS45MzUuNTMyYy0uMDk0LjAxLS4xODEuMDMtLjI2Ni4wNWwtLjAwNi4wMDFhNC45NTIgNC45NTIgMCAwMS0uMDc1LjAxNyAyLjAxIDIuMDEgMCAwMC0uODA1LjQxM2MtLjE4My4xNi0uMjk2LjMzNi0uMjk1LjQ2IDAgLjA2LjAyNi4wOTMuMDQ2LjExLjAyOC4wMjUuMDYuMDM2LjEuMDM4LjA4My4wMDQuMTk2LS4wMzYuMzUxLS4wOWwuMDkxLS4wMzJhMy43NzcgMy43NzcgMCAwMTEuOTEtLjIwN2wuMDM4LjAwNWMuMjc5LjAzMy40NDcuMDUzLjUxNC0uMDUyLjAyLS4wMy4wNDQtLjA5NS0uMDE3LS4xOTMtLjE0Mi0uMjMtLjc1My0uNjE4LTEuNTg2LS41MnptNS42MzUgMS43OGMtLjE0Ny4zLS42LjM3OS0xLjAxLjE3Ny0uNDEtLjIwMi0uNjI0LS42MDgtLjQ3Ny0uOTA3LjE0Ny0uMy42LS4zOCAxLjAxLS4xNzcuNDEuMjAxLjYyNC42MDguNDc3LjkwN3ptMS42My0yLjEzYy0uMzMzLS4wMDYtLjYxLjM2LS42MTguODE4LS4wMDguNDU4LjI1Ny44MzMuNTkuODM5LjMzNC4wMDYuNjEtLjM2LjYxOC0uODE4LjAwOC0uNDU4LS4yNTYtLjgzMy0uNTktLjgzOXptLTIyLjc2MSA4LjIwOGMuMTMyLS4wMy4yNjgtLjA2Mi4zNTEuMDQyLjAzLjAzNC4wNzguMTEzLjAyMi4yNDItLjA5NS4yMi0uNDY4LjUyLTEuMDAyLjUtLjU1LS4wNDMtMS4xNi0uNDQzLTEuMjQ0LTEuNDM3LS4wNC0uNDkuMTQ1LTEuMDg5LjI2LTEuNDAxLjIyLS42MDUuMDItMS4yMzgtLjQ5Ni0xLjU3N2ExLjM0IDEuMzQgMCAwMC0xLjg1OC4zODdjLS4xNTguMjQ3LS4yNTUuNTU1LS4zMDYuNzItLjAxNC4wNDUtLjAyNS4wOC0uMDM0LjEwMi0uMTE2LjMxMy0uMzAyLjQwNS0uNDI3LjM4OC0uMDYtLjAwOC0uMTQyLS4wNDgtLjE5NC0uMTkxLS4xNDMtLjM5Mi0uMDI3LTEuNS43MS0yLjMxNGEyLjIzMyAyLjIzMyAwIDAxMS45MTUtLjY5Yy43NDIuMDk0IDEuMzU5LjU0MyAxLjczNyAxLjI2My41MDMuOTU4LjA1NSAxLjk2My0uMjEyIDIuNTYzbC0uMDA1LjAxYTguNSA4LjUgMCAwMC0uMDc0LjE2OWMtLjE2Ny4zOTgtLjE3Ni43NDYtLjAyNC45OC4xMTcuMTc5LjMyNC4yODQuNTcuMjg4LjExNC4wMDIuMjE4LS4wMjIuMzEtLjA0M2guMDAxeiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg=="
-                      alt=""
-                    />
-
-                    <div class="mc-field-group w-full">
-                      <label for="mce-EMAIL" class="font-[300]">
-                        Confirme su correo electrónico <span style="color: red;"
-                          >*</span
-                        >
-                      </label>
-                      <input
-                        type="email"
-                        name="EMAIL"
-                        class="required email w-full rounded-lg bg-[#DCE0CD] border-none"
-                        id="mce-EMAIL"
-                        required=""
-                        value=""
-                      />
-                    </div>
-
-                    <div hidden="">
-                      <input
-                        type="hidden"
-                        name="tags"
-                        value="6599234,6602074"
-                      />
-                    </div>
-                    <div id="mce-responses" class="clear">
-                      <div
-                        class="response"
-                        id="mce-error-response"
-                        style="display: none;"
-                      >
-                      </div>
-                      <div
-                        class="response"
-                        id="mce-success-response"
-                        style="display: none;"
-                      >
-                      </div>
-                    </div>
-                    <div
-                      aria-hidden="true"
-                      style="position: absolute; left: -5000px;"
-                    >
-                      <input
-                        type="text"
-                        name="b_8b7b6e645360b5ca05e9feecf_89ba7c353a"
-                        tabindex="-1"
-                        value=""
-                      />
-                    </div>
-
-                    <div class="clear mt-4">
-                      <input
-                        type="submit"
-                        name="subscribe"
-                        id="mc-embedded-subscribe"
-                        class="button"
-                        value="Suscribirse"
-                        style="background-color:#113545;text-transform: capitalize; border-radius: 5px 5px 5px 5px;"
-                      />
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer
+    <!-- <footer
       class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full"
     >
       <div class="max-w-[90%] mx-auto">
@@ -559,18 +218,12 @@ import Menu from "../components/Menu.astro";
           VON HUMBOLDT
         </p>
       </div>
-    </footer>
+    </footer> -->
+  
   </main>
 </Layout>
 
 <style>
-  /* .opciones {
-    border: 1px solid #000;
-    padding: 2em;
-    display: flex;
-    flex-direction: row;
-    margin: 1em 0;
-  } */
   .link-card-grid {
     display: flex;
     justify-content: space-around;
@@ -578,6 +231,9 @@ import Menu from "../components/Menu.astro";
     border: 1px solid #000;
     margin: 1em auto;
     border-radius: 10em;
+  }
+  #planta{
+    background-image: url(img/fondo-planta.png);
   }
   @media screen and (max-width: 767px) {
     .link-card-grid {
