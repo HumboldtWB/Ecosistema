@@ -9,46 +9,18 @@ interface Props {
 const { href, title,classes, targets } = Astro.props;
 ---
 
-<li class="opciones">
+<li class="opciones my-3 md:my-0 ">
   <a href={href} class={classes} target={targets}>
     {title}
   </a>
 </li>
 
 <style>
-  .opciones {
-    list-style: none;
-    display: flex;
-    padding: 0.2em 1.2em;
-    text-align: center;
-    max-width: 220px;
-    height: 65px;
-    align-items: center;
-    margin: 5px 0;
-  }
-  .opciones:hover {
-    background-color: black;
-    color: white;
-    border-radius: 10em;
-  }
-  .opciones a {
-    font-size: 14px;
-    display: block;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-  }
   .active,
   .active:hover{
     background-color: black;
     color: white;
     border-radius: 10em;
-    padding: 10px 2.5em;
-  }
-  @media screen and (max-width: 767px) {
-    .opciones {
-      padding: 0.2em 1.2em;
-      height: 45px;
-    }
+    padding: 0.8rem 2.5rem;
   }
 </style>

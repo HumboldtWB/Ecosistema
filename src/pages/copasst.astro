@@ -7,9 +7,9 @@ import Menu from "../components/Menu.astro";
   <main>
     <section class=" max-w-[90%] md:max-w-[70%] mx-auto">
       <ul role="list" class="link-card-grid">
-        <Menu href="#copasst" title="Copasst" classes="active" targets="_self" />
-        <Menu href="convivencia" title="Comité de convivencia"  classes="" targets="_self"/>      
-        <Menu href="#brigada" title="Brigadistas" classes="" targets="_self"/>
+        <Menu href="#copasst" title="Copasst" classes="active py-2 px-3" targets="_self" />
+        <Menu href="convivencia" title="Comité de convivencia"  classes="py-2 px-3 m-3" targets="_self"/>      
+        <Menu href="#brigada" title="Brigadistas" classes="py-2 px-3" targets="_self"/>
       </ul>
     </section>
     <div class="max-w-[90%] mx-auto">
@@ -375,32 +375,27 @@ import Menu from "../components/Menu.astro";
 
   <script src="flowbite/dist/flowbite.min.js"></script>
 </Layout>
-
 <style>
-  /* .opciones {
-    border: 1px solid #000;
-    padding: 2em;
-    display: flex;
-    flex-direction: row;
-    margin: 1em 0;
-  } */
+
   .link-card-grid {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid #000;
     margin: 1em auto;
+    padding: 1em;
     border-radius: 10em;
   }
-  
+  .link-card-grid .opciones a{
+    text-decoration: underline;
+  }
   @media screen and (max-width: 767px) {
     .link-card-grid {
       flex-direction: column;
       border: none;
       margin: 0.5em auto;
+      padding: 1em;
     }
   }
-  @media screen (max-width:598px) {
-      
-  }
+  
 </style>
