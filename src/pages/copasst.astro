@@ -5,27 +5,43 @@ import Menu from "../components/Menu.astro";
 
 <Layout title="Copasst | Ecosistema Humboldt">
   <main>
-    <section class=" max-w-[90%] md:max-w-[70%] mx-auto mt-28">
+    <section class="max-w-[90%] md:max-w-[70%] mx-auto mt-28">
       <ul role="list" class="link-card-grid">
-        <Menu href="#copasst" title="Copasst" classes="active py-2 px-3" targets="_self" />
-        <Menu href="convivencia" title="Comité de convivencia"  classes="py-2 px-3 m-3" targets="_self"/>      
-        <Menu href="docs/brigadistas.xlsx" title="Brigadistas" classes="py-2 px-3" targets="_blank"/>
+        <Menu
+          href="#copasst"
+          title="Copasst"
+          classes="active py-2 px-3"
+          targets="_self"
+        />
+        <Menu
+          href="convivencia"
+          title="Comité de convivencia"
+          classes="py-2 px-3 m-3"
+          targets="_self"
+        />
+        <Menu
+          href="docs/brigadistas.xlsx"
+          title="Brigadistas"
+          classes="py-2 px-3"
+          targets="_blank"
+        />
       </ul>
     </section>
     <div class="max-w-[90%] mx-auto">
-      <span onclick="history.back()" class="text-azul-humboldt text-base mt-10 mb-3 block cursor-pointer">
-        <img src="img/volver.svg" alt="volver" width="20" class="inline mr-3">
+      <span
+        onclick="history.back()"
+        class="text-azul-humboldt text-base mt-10 mb-3 block cursor-pointer"
+      >
+        <img src="img/volver.svg" alt="volver" width="20" class="inline mr-3" />
         Volver
-      </span>  
-      <h1 class="text-azul-humboldt text-5xl mt-10 mb-3">COPASST</h1>
+      </span>
+      <h1 class="text-black text-5xl mt-32 mb-3 font-bold">COPASST</h1>
     </div>
 
     <section class="mt-10" id="copasst">
       <div class="max-w-[90%] mx-auto mb-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div id="accordion-collapse" data-accordion="collapse">
-          
-          
             <h2 id="accordion-collapse-heading-3">
               <button
                 type="button"
@@ -62,13 +78,15 @@ import Menu from "../components/Menu.astro";
               <div class="p-5">
                 <ul class="mb-2 text-base">
                   <li class="text-base">
-                    Conjunto de personas que promocionan y vigilan las normas y reglamentos de Seguridad y Salud en el Trabajo dentro del Instituto, a través de actividades de información y divulgación.
+                    Conjunto de personas que promocionan y vigilan las normas y
+                    reglamentos de Seguridad y Salud en el Trabajo dentro del
+                    Instituto, a través de actividades de información y
+                    divulgación.
                   </li>
-                  
                 </ul>
               </div>
             </div>
-  
+
             <h2 id="accordion-collapse-heading-4">
               <button
                 type="button"
@@ -112,16 +130,14 @@ import Menu from "../components/Menu.astro";
                   </li>
                   <li class="text-base">
                     Estudiar las condiciones de trabajo y de salud de los
-                    empleados para identificar los factores de riesgo que atentan
-                    contra la integridad física de estos y los bienes materiales
-                    de la empresa.
+                    empleados para identificar los factores de riesgo que
+                    atentan contra la integridad física de estos y los bienes
+                    materiales de la empresa.
                   </li>
                 </ul>
               </div>
             </div>
-                     
-            
-  
+
             <h2 id="accordion-collapse-heading-1">
               <button
                 type="button"
@@ -156,78 +172,124 @@ import Menu from "../components/Menu.astro";
               aria-labelledby="accordion-collapse-heading-1"
             >
               <div class="p-5">
-                <a href="docs/AGR-GH-R-02 Reglamento Higiene y Seguridad Industrial.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="docs/AGR-GH-R-02 Reglamento Higiene y Seguridad Industrial.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Reglamento Higiene y Seguridad Industrial
                 </a>
               </div>
             </div>
-  
           </div>
 
           <div>
             <h3 class="pl-5 text-base text-azul-light font-bold mb-8">
               Integrantes
             </h3>
-            <div class="grid grid-cols-2 md:grid-cols-3 ">
+            <div class="grid grid-cols-2 md:grid-cols-3">
               <div>
-                    
-                <img src="img/fotos/claudia-alfonso.jpg" alt="claudia alfonso" width="100" height="100" class="block mx-auto w-[150px] h-[150px] object-cover mb-5">
-                
+                <img
+                  src="img/fotos/claudia-alfonso.jpg"
+                  alt="claudia alfonso"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
+
                 <p class="text-center font-bold">Claudia Esperanza Alfonso</p>
                 <p class="text-center text-sm">Principal</p>
               </div>
               <div>
-                <img src="img/fotos/Angela-perez.jpeg" alt="ana roldan" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
+                <img
+                  src="img/fotos/Angela-perez.jpeg"
+                  alt="ana roldan"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
                 <p class="text-center font-bold">Angela Patricia Perez</p>
                 <p class="text-center text-sm">
-                  Suplente <br>
-                  Secretaria del comité 
+                  Suplente <br />
+                  Secretaria del comité
                 </p>
               </div>
               <div>
-                <img src="img/fotos/ana-maria-roldan.png" alt="claudia alfonso" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
+                <img
+                  src="img/fotos/ana-maria-roldan.png"
+                  alt="claudia alfonso"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
                 <p class="text-center font-bold">Ana María Roldán</p>
                 <p class="text-center text-sm">
-                  Principal <br> Presidente
+                  Principal <br /> Presidente
                 </p>
               </div>
               <div>
-                <img src="img/fotos/maria-claudia.jpg" alt="maria claudia" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
-                <p class="text-center font-bold">María Claudia González Penagos
+                <img
+                  src="img/fotos/maria-claudia.jpg"
+                  alt="maria claudia"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
+                <p class="text-center font-bold">
+                  María Claudia González Penagos
                 </p>
                 <p class="text-center text-sm">Suplente</p>
               </div>
               <div>
-                <img src="img/fotos/luceidy-johana.png" alt="luceidy" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
-                <p class="text-center font-bold">Luceidy Johanna Santana Velazco 
+                <img
+                  src="img/fotos/luceidy-johana.png"
+                  alt="luceidy"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
+                <p class="text-center font-bold">
+                  Luceidy Johanna Santana Velazco
                 </p>
                 <p class="text-center text-sm">Principal</p>
               </div>
               <div>
-                <img src="img/fotos/julian-saenz.jpg" alt="julian saenz" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
-                <p class="text-center font-bold">Julián Andrés Sáenz
-                </p>
+                <img
+                  src="img/fotos/julian-saenz.jpg"
+                  alt="julian saenz"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
+                <p class="text-center font-bold">Julián Andrés Sáenz</p>
                 <p class="text-center text-sm">Suplente</p>
               </div>
               <div>
-                <img src="img/fotos/sandra-pena.jpg" alt="sandra peña" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
-                <p class="text-center font-bold">Sandra Patricia Peña 
-                </p>
+                <img
+                  src="img/fotos/sandra-pena.jpg"
+                  alt="sandra peña"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
+                <p class="text-center font-bold">Sandra Patricia Peña</p>
                 <p class="text-center text-sm">Suplente</p>
               </div>
               <div>
-                <img src="img/fotos/diana-patricia.png" alt="diana" width="100" height="100" class="block  mx-auto w-[150px] h-[150px] object-cover mb-5">
+                <img
+                  src="img/fotos/diana-patricia.png"
+                  alt="diana"
+                  width="100"
+                  height="100"
+                  class="block mx-auto w-[150px] h-[150px] object-cover mb-5"
+                />
                 <p class="text-center font-bold">Diana Patricia Espitia</p>
-                <p class="text-center text-sm">Suplente</p>  
+                <p class="text-center text-sm">Suplente</p>
               </div>
-
-
-
             </div>
           </div>
         </div>
       </div>
-      
     </section>
 
     <footer
@@ -240,14 +302,17 @@ import Menu from "../components/Menu.astro";
               class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
             >
               <div class="max-w-[80px]">
-                <a href="https://www.humboldt.org.co/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.humboldt.org.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
-                  alt=""
-                  width="69"
-                />
+                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
+                    alt=""
+                    width="69"
+                  />
                 </a>
-                
               </div>
               <div class="w-full max-w-[300px] text-white pr-3">
                 Instituto de Investigación de Recursos Biológicos Alexander von
@@ -259,7 +324,11 @@ import Menu from "../components/Menu.astro";
           <div>
             <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
               <li class="px-2">
-                <a href="https://www.instagram.com/instituto_humboldt/?hl=en" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/instituto_humboldt/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
                     alt=""
@@ -268,7 +337,11 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="https://twitter.com/inst_humboldt?lang=en" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://twitter.com/inst_humboldt?lang=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
                     alt=""
@@ -277,7 +350,11 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="https://www.facebook.com/instituto.humboldt/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.facebook.com/instituto.humboldt/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
                     alt=""
@@ -285,10 +362,13 @@ import Menu from "../components/Menu.astro";
                   />
                 </a>
               </li>
-              
-              
+
               <li class="px-2">
-                <a href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
                     alt=""
@@ -297,7 +377,11 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
                     alt=""
@@ -306,7 +390,11 @@ import Menu from "../components/Menu.astro";
                 </a>
               </li>
               <li class="px-2">
-                <a href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
                     alt=""
@@ -342,7 +430,7 @@ import Menu from "../components/Menu.astro";
             <div class="text-[12px] font-bold text-white mb-2">
               LÍNEAS ESPECIALES
             </div>
-            
+
             <p class="text-white mb-4">
               Línea anticorrupción: <span class="underline"
                 >01 800 518 9191</span
@@ -376,7 +464,6 @@ import Menu from "../components/Menu.astro";
   <script src="flowbite/dist/flowbite.min.js"></script>
 </Layout>
 <style>
-
   .link-card-grid {
     display: flex;
     justify-content: space-around;
@@ -386,7 +473,7 @@ import Menu from "../components/Menu.astro";
     padding: 1em;
     border-radius: 10em;
   }
-  .link-card-grid .opciones a{
+  .link-card-grid .opciones a {
     text-decoration: underline;
   }
   @media screen and (max-width: 767px) {
@@ -397,5 +484,4 @@ import Menu from "../components/Menu.astro";
       padding: 1em;
     }
   }
-  
 </style>

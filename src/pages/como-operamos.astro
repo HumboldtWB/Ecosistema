@@ -5,59 +5,91 @@ import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
-  <main class="relative">  
-    
-    
-    <section class="max-w-[90%] mx-auto h-auto  bg-contain bg-right-bottom lg:bg-right-top bg-no-repeat py-16 mt-12" id="operamos">
+  <main class="relative">
+    <section
+      class="max-w-[90%] mx-auto h-auto bg-contain bg-right-bottom lg:bg-right-top bg-no-repeat py-16 mt-12"
+      id="operamos"
+    >
       <h1 class="text-5xl md:text-7xl mt-20 text-azul-humboldt">
         ¿Cómo operamos?
       </h1>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-40 min-h-[30vh] lg:max-w-[80%] gap-12 lg:gap-8">
-      <div class="relative">    
-        <div class="group">
-          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-0 border-2 rounded-full" width="30">
-          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light ">
-            Ingresa al centro operacional y documental de cada una de las áreas del Instituto
-          </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-40 min-h-[30vh] lg:max-w-full xl:max-w-[80%] gap-12 lg:gap-8"
+      >
+        <div class="relative">
+          <div class="group">
+            <img
+              src="img/mas.png"
+              alt="boton más"
+              class="absolute -top-10 right-0 border-2 rounded-full"
+              width="30"
+            />
+            <p
+              class="hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light"
+            >
+              Ingresa al centro operacional y documental de cada una de las
+              áreas del Instituto
+            </p>
+          </div>
+          <a
+            href="/admin/sidg/procesos"
+            class="lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex"
+          >
+            Lineamientos para la operación
+          </a>
         </div>
-        <a href="/admin/sidg/procesos" target="_top" class=" lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex">
-          Lineamientos  para la operación
-        </a>
-      </div>
-      <div class="relative">
-        <div class="group ">
-          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-2 border-2 rounded-full" width="30">
-          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
-            Conoce la estructura y funcionamiento organizacional del Instituto
-          </p>
-        </div>        
-        <a href="estructura" target="_top" class=" lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex">
-          Estructura organizacional
-        </a>
-      </div>
-      <div class="relative">
+        <div class="relative">
+          <div class="group">
+            <img
+              src="img/mas.png"
+              alt="boton más"
+              class="absolute -top-10 right-2 border-2 rounded-full"
+              width="30"
+            />
+            <p
+              class="hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light"
+            >
+              Conoce la estructura y funcionamiento organizacional del Instituto
+            </p>
+          </div>
+          <a
+            href="estructura"
+            class="lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex"
+          >
+            Estructura organizacional
+          </a>
+        </div>
+        <div class="relative">
+          <div class="group">
+            <img
+              src="img/mas.png"
+              alt="boton más"
+              class="absolute -top-10 right-2 border-2 rounded-full"
+              width="30"
+            />
+            <p
+              class="hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light"
+            >
+              Infórmate del progreso de cada uno de los proyectos
+              institucionales
+            </p>
+          </div>
 
-        <div class="group">
-          <img src="img/mas.png" alt="boton más" class="absolute -top-10 right-2 border-2 rounded-full" width="30">
-          <p class=" hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg  max-w-[240px] font-light ">
-            Infórmate del progreso de cada uno de los proyectos institucionales
-          </p>
+          <a
+            href="proyectos"
+            class="lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex"
+          >
+            Proyectos Institucionales
+          </a>
         </div>
-        
-        <a href="https://docs.google.com/spreadsheets/d/1zEczx172bvq-y8Gpj48r8octsl7L8pRw_Mh_kAKp5FU/edit?gid=110458861#gid=110458861" target="_blank" class=" lg:mx-auto border-2 border-azul-humboldt px-5 py-3 rounded-full text-xl bg-[#E0E0E0] text-azul-humboldt hover:text-white hover:bg-azul-humboldt justify-center items-center flex">
-          Proyectos  Institucionales
-        </a>
       </div>
-     </div>
-      
     </section>
-
   </main>
 </Layout>
 
 <style>
-  #operamos{
-    background-image: url('img/sonidos-min.png') ; 
+  #operamos {
+    background-image: url("img/sonidos-min.png");
   }
   .link-card-grid {
     display: flex;

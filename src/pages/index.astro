@@ -5,26 +5,23 @@ import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
-  <main class="relative">  
-    
-
-    <section class="max-w-[90%] mx-auto h-auto  bg-contain bg-center lg:bg-right-top bg-no-repeat py-16" id="planta">
-      <h1 class=" text-5xl md:text-7xl mt-20">
-        Bienvenido al 
-      </h1>
-      <h2 class="text-5xl md:text-7xl lg:my-5">
-        Ecosistema Humboldt
-      </h2>
-      <h3 class=" text-xl mt-8">
+  <main class="relative">
+    <section
+      class="max-w-[90%] mx-auto h-auto bg-contain bg-center lg:bg-right-top bg-no-repeat py-16"
+      id="planta"
+    >
+      <h1 class="text-5xl md:text-7xl mt-20">Bienvenido al</h1>
+      <h2 class="text-5xl md:text-7xl lg:my-5">Ecosistema Humboldt</h2>
+      <h3 class="text-xl mt-8">
         Conoce, interactúa y conéctate con nuestra gestión interna
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 my-10">
-        <div class="relative ">
-          <img src="img/conectate.png" alt="">
-          <figcaption class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px] ">
-            <h4 class="text-white font-bold">
-              Conéctate con el Humbolt
-            </h4>
+        <div class="relative">
+          <img src="img/conectate.png" alt="" />
+          <figcaption
+            class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]"
+          >
+            <h4 class="text-white font-bold">Conéctate con el Humbolt</h4>
             <p class="text-white py-3">
               Entérate de las últimas noticias del Humboldt.
             </p>
@@ -33,12 +30,12 @@ import Menu from "../components/Menu.astro";
             </a>
           </figcaption>
         </div>
-        <div class="relative ">
-          <img src="img/operamos.png" alt="">
-          <figcaption class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]">
-            <h4 class="text-white font-bold">
-              ¿Cómo operamos?
-            </h4>
+        <div class="relative">
+          <img src="img/operamos.png" alt="" />
+          <figcaption
+            class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]"
+          >
+            <h4 class="text-white font-bold">¿Cómo operamos?</h4>
             <p class="text-white py-3">
               Conoce a detalle los diferentes procesos y proyectos del Instituto
             </p>
@@ -47,12 +44,12 @@ import Menu from "../components/Menu.astro";
             </a>
           </figcaption>
         </div>
-        <div class="relative ">
-          <img src="img/gestion.png" alt="">
-          <figcaption class="absolute bottom-0 p-6 2xlxl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]">
-            <h4 class="text-white font-bold">
-              Gestión de solicitudes
-            </h4>
+        <div class="relative">
+          <img src="img/gestion.png" alt="" />
+          <figcaption
+            class="absolute bottom-0 p-6 2xlxl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]"
+          >
+            <h4 class="text-white font-bold">Gestión de solicitudes</h4>
             <p class="text-white py-3">
               Realiza aquí cualquier solicitud que necesites en tu labor.
             </p>
@@ -61,16 +58,19 @@ import Menu from "../components/Menu.astro";
             </a>
           </figcaption>
         </div>
-        <div class="relative ">
-          <img src="img/plataformas.png" alt="">
-          <figcaption class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]">
-            <h4 class="text-white font-bold">
-              Plataformas institucionales
-            </h4>
+        <div class="relative">
+          <img src="img/plataformas.png" alt="" />
+          <figcaption
+            class="absolute bottom-0 p-6 2xl:p-8 bg-black bg-opacity-70 rounded-b-3xl min-h-[220px]"
+          >
+            <h4 class="text-white font-bold">Plataformas institucionales</h4>
             <p class="text-white py-3">
               Enlaces directos a nuestras diferentes plataformas
             </p>
-            <a href="plataformas-institucionales" class="text-yellow-strong font-bold">
+            <a
+              href="plataformas-institucionales"
+              class="text-yellow-strong font-bold"
+            >
               Ver más
             </a>
           </figcaption>
@@ -219,7 +219,13 @@ import Menu from "../components/Menu.astro";
         </p>
       </div>
     </footer> -->
-  
+    <a
+      href="https://docs.google.com/forms/d/1YasvohVbB6L688-EsCXwG5kVngsH5wimHuDYnkG_B0c/viewform?edit_requested=true"
+      target="_blank"
+      title="Sugerencias y comentarios"
+      class="fixed z-90 bottom-10 right-8 bg-white w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-black text-4xl hover:bg-black hover:drop-shadow-2xl hover:text-white hover:animate-bounce duration-300"
+      >&#9993;</a
+    >
   </main>
 </Layout>
 
@@ -232,7 +238,7 @@ import Menu from "../components/Menu.astro";
     margin: 1em auto;
     border-radius: 10em;
   }
-  #planta{
+  #planta {
     background-image: url(img/fondo-planta.png);
   }
   @media screen and (max-width: 767px) {
