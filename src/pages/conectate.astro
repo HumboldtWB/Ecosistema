@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import Noticias from "../components/Noticias.astro";
 import Menu from "../components/Menu.astro";
-import Calendar from "../components/Calendar.astro";
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
@@ -476,12 +475,10 @@ import Calendar from "../components/Calendar.astro";
     <section class="max-w-[90%] mx-auto mb-10" id="cumples">
       <h3 class="text-5xl md:text-7xl mt-16">Cumpleaños</h3>
       <hr class="mt-10 mb-7 border-gray-500" />
-      <div style="flex-direction: column !important;"><Calendar /></div>
-
-      <style>
-        .barra .fc-header-toolbar {
-        }
-      </style>
+      <div style="flex-direction: column !important;">
+        <iframe src="cumple" class="border-0 w-full h-auto min-h-[800px]"
+        ></iframe>
+      </div>
     </section>
 
     <section class="bg-[#DCE0CD] w-full py-5">
@@ -519,148 +516,6 @@ import Calendar from "../components/Calendar.astro";
         </div>
       </div>
     </section>
-
-    <!-- <footer
-      class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full"
-    >
-      <div class="max-w-[90%] mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
-          <div>
-            <div
-              class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
-            >
-              <div class="max-w-[80px]">
-                <a href="https://www.humboldt.org.co/" target="_blank" rel="noopener noreferrer">
-                  <img
-                  src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
-                  alt=""
-                  width="69"
-                />
-                </a>
-                
-              </div>
-              <div class="w-full max-w-[300px] text-white pr-3">
-                Instituto de Investigación de Recursos Biológicos Alexander von
-                Humboldt
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
-              <li class="px-2">
-                <a href="https://www.instagram.com/instituto_humboldt/?hl=en" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="https://twitter.com/inst_humboldt?lang=en" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="https://www.facebook.com/instituto.humboldt/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              
-              
-              <li class="px-2">
-                <a href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-              <li class="px-2">
-                <a href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
-                    alt=""
-                    width="32"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <hr class="mt-10 mb-5" />
-
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 justify-center"
-        >
-          <div>
-            <div class="text-[12px] font-bold text-white mb-2">
-              INFORMACIÓN DE CONTACTO
-            </div>
-            <p class="text-white mb-2">
-              Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia
-            </p>
-            <p class="text-white mb-2">PBX: (+57) 601 320 2767</p>
-          </div>
-          <div>
-            <div class="text-[12px] font-bold text-white mb-2">
-              HORARIO DE ATENCIÓN
-            </div>
-            <p class="text-white mb-2">Lunes a viernes 8:00 a.m. - 5:00 p.m.</p>
-          </div>
-          <div>
-            <div class="text-[12px] font-bold text-white mb-2">
-              LÍNEAS ESPECIALES
-            </div>
-            
-            <p class="text-white mb-4">
-              Línea anticorrupción: <span class="underline"
-                >01 800 518 9191</span
-              >
-            </p>
-          </div>
-          <div>
-            <div class="text-[12px] font-bold text-white mb-2">
-              ATENCIÓN AL CIUDADANO
-            </div> 
-            <p class="text-white">
-              Correo PQRSF: <br />
-              <a
-                href="mailto:atencionalciudadano@humboldt.org.co"
-                class="underline">atencionalciudadano@humboldt.org.co</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <hr class="my-5" />
-
-        <p class="text-center text-[12px] text-white">
-          © 2024 INSTITUTO DE INVESTIGACIÓN DE RECURSOS BIOLÓGICOS ALEXANDER
-          VON HUMBOLDT
-        </p>
-      </div> 
-    </footer> -->
   </main>
 </Layout>
 
