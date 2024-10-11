@@ -1,0 +1,47 @@
+---
+const jsonUrl =
+  "https://drive.google.com/uc?export=download&id=1at4ej0QPtA1BrjxIIV3GcNMITAlSwePc";
+
+// Cargar los datos desde el archivo JSON
+const response = await fetch(jsonUrl);
+const noticias = await response.json();
+
+// Tomar solo las primeras 3 noticias
+const primerasNoticias = noticias.slice(0, 3);
+
+function truncate(text: string, length: number | undefined) {
+  // Verificar que 'text' no sea undefined o null
+  if (typeof text !== "string") {
+    return "";
+  }
+
+  if (length == undefined) length = 0;
+  return text.length > length ? text.slice(0, length) + "..." : text;
+}
+---
+
+{
+  primerasNoticias.map((noticia: any) => (
+    <div class="h-full min-h-[240px]">
+      <div class="grid grid-cols-2 gap-3 h-full">
+        <img
+          src={noticia.imagen}
+          alt={noticia.titulo}
+          class="h-full object-cover rounded-lg"
+        />
+        <div class="flex flex-col justify-between">
+          <h3 class="text-base text-azul-humboldt">{noticia.titulo}</h3>
+          <p class="text-sm">{truncate(noticia.resumen, 100)}</p>
+          <a
+            href={`https://www.humboldt.org.co/noticias/${noticia.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-base text-azul-humboldt underline decoration-solid"
+          >
+            Ver más
+          </a>
+        </div>
+      </div>
+    </div>
+  ))
+}

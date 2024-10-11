@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Noticias from "../components/Noticias.astro";
 import Menu from "../components/Menu.astro";
+import News from "../components/News.astro";
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
@@ -49,91 +50,7 @@ import Menu from "../components/Menu.astro";
       <div
         class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 h-auto lg:h-[260px]"
       >
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://cdn.prod.website-files.com/64df6dd37ac6a0dbb9d03cb3/66abb83aeb02bbec343e24ee_Emesis_pacis_Instituto-Humboldt.jpg"
-              alt="foto de nueva mariposa sobre fondo blanco"
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                Colombia revela una nueva mariposa endémica: Un símbolo de paz y
-                riqueza biológica
-              </h3>
-              <p class="text-sm">
-                El Instituto Humboldt anuncia el descubrimiento de una nueva
-                especie de mariposa endémica de Colombia, la <i
-                  >Emesis pacis
-                </i>
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/colombia-revela-una-nueva-mariposa-endemica-un-simbolo-de-paz-y-riqueza-biologica"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://cdn.prod.website-files.com/64df6dd37ac6a0dbb9d03cb3/66aa6100641a2fe3cd64ce4c_oso-andino-acostado-min.JPG"
-              alt="oso de espaldas en bosque"
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                Oso andino: descubriendo al guardían de las montañas de la mano
-                de un experto.
-              </h3>
-              <p class="text-sm">
-                La conservación del oso andino invita a pensar en la forma cómo
-                se organiza el territorio y cómo se fortalecen los procesos de
-                gobernanza comunitarios.
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/pensar-en-la-conservacion-del-oso-andino-es-pensar-en-la-conservacion-de-los-bosques-de-los-paramos-y-de-nosotros-mismos-como-humanos"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="h-full min-h-[240px]">
-          <div class="grid grid-cols-2 gap-3 h-full">
-            <img
-              src="https://cdn.prod.website-files.com/64df6dd37ac6a0dbb9d03cb3/66a40f222410d04b496073e5_IAvH-14052_%20lateral_derecha_negro.jpg"
-              alt="personas en taller con legos"
-              class="h-full object-cover rounded-lg"
-            />
-            <div class="flex flex-col justify-between">
-              <h3 class="text-base text-azul-humboldt">
-                Siguiendo el ADN del pez graso. El pez de agua dulce en peligro
-                crítico que podría estar extinto en Colombia.
-              </h3>
-              <p class="text-sm">
-                Se trata del pez graso, descrito en 1942 por el ictiólogo inglés
-                Cecil Miles cuando realizaba algunos estudios en el lago de Tota
-                donde logró colectar tres especímenes
-              </p>
-              <a
-                href="https://www.humboldt.org.co/noticias/siguiendo-el-adn-del-pez-graso-el-pez-de-agua-dulce-en-peligro-critico-que-podria-estar-extinto-en-colombia"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-base text-azul-humboldt underline decoration-solid"
-              >
-                Ver más
-              </a>
-            </div>
-          </div>
-        </div>
+        <News />
       </div>
       <div class="block text-center mt-10">
         <a
