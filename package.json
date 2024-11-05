@@ -10,12 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.6",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
     "@fullcalendar/core": "^6.1.11",
     "@fullcalendar/daygrid": "^6.1.11",
     "@fullcalendar/web-component": "^6.1.11",
-    "astro": "^4.4.12",
+    "astro": "^4.16.9",
     "flowbite": "^2.3.0",
     "fullcalendar": "^6.1.11",
     "swiper": "^11.0.7",
