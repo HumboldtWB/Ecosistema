@@ -37,6 +37,21 @@ export const directoryData = [
         position: "Gerente Jurídica y Cumplimiento",
         email: "jgalvis@humboldt.org.co",
         image: "img/directorio/direccion/Claudia Johanna Galvis Galindo.jpg"
+    },
+    {
+        id: "6",
+        name: "Carolina Pinto",
+        position: "Responsable",
+        email: "ppinto@humboldt.org.co",
+        image: "img/directorio/gerencia_juridica/juridica/Paola Carolina Pinto Escobar.jpg"
+    }
+    ,
+    {
+        id: "8",
+        name: "Lorena Heredia",
+        position: "Analista Senior",
+        email: "dheredia@humboldt.org.co",
+        image: "img/directorio/gerencia_juridica/auditoria/Deicy%20Lorena%20Heredia%20G%C3%B3mez.png"
     }
 ];
 
