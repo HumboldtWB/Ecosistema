@@ -2,10 +2,66 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
+<script>
+  import { idx, directoryData } from "../utils/idx";
+  function search() {
+    const inputElement = document.getElementById(
+      "searchInput"
+    ) as HTMLInputElement;
+    if (!inputElement) {
+      console.error("Elemento #searchInput no encontrado");
+      return;
+    }
+
+    const query = inputElement.value || "";
+    const results = idx.search(query);
+
+    const searchResultsDiv = document.getElementById("searchResults");
+    if (!searchResultsDiv) {
+      console.error("Elemento #searchResults no encontrado");
+      return;
+    }
+
+    searchResultsDiv.innerHTML = "";
+
+    if (results.length === 0) {
+      searchResultsDiv.innerHTML = "<p>No se encontraron resultados.</p>";
+      return;
+    }
+
+    results.forEach((result) => {
+      const doc = directoryData.find((d) => d.id === result.ref);
+      if (!doc) {
+        console.warn(`Documento con id ${result.ref} no encontrado`);
+        return;
+      }
+
+      const resultElement = document.createElement("div");
+      resultElement.innerHTML = `
+          <div  class="max-w-[320px] rounded-lg shadow-md p-8">
+            <img src="${doc.image || ""}" alt="${doc.name || "Sin imagen"}" width="150" class="rounded-full block mx-auto">
+            <p class="max-w-full"><strong>${doc.name || "Nombre desconocido"}</strong></p>
+            <p class="max-w-full">${doc.position || "Posición desconocida"}</p>
+            <p class="max-w-full text-sm">${doc.email || "Correo electrónico desconocido"}</p>
+          </div>
+        `;
+      searchResultsDiv.appendChild(resultElement);
+    });
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const button = document.querySelector("#searchButton");
+    if (button) {
+      button.addEventListener("click", search);
+    } else {
+      console.error("Botón #searchButton no encontrado");
+    }
+  });
+</script>
+
 <Layout title="Directorio | Ecosistema Humboldt">
   <main>
-    <header class="link-card-grid2">
-      <img src="img/Banner-directorio.png" width="1500" />
+    <header class="container block mx-auto max-w-[1280px]">
+      <img src="img/Banner-directorio.png" class="max-w-full" />
     </header>
     <div class="max-w-[80%] mx-auto">
       <span
@@ -16,6 +72,22 @@ import Layout from "../layouts/Layout.astro";
         Volver
       </span>
     </div>
+    <div class="container mx-auto">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Escribe nombre cargo o correo"
+      />
+      <button
+        id="searchButton"
+        class="bg-black text-white py-3 px-14 max-w-fit ml-4 rounded-3xl font-light"
+        >Buscar</button
+      >
+      <div class="flex justify-center my-4">
+        <div id="searchResults"></div>
+      </div>
+    </div>
+
     <!-- Inicio Directorio dirección General  -->
     <div
       id="accordion-collapse-1"
@@ -30,7 +102,7 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-1"
         >
-          <span class="text-5xl text-azul-light font-bold title-directions">
+          <span class="text-4xl text-azul-light font-bold title-directions">
             Dirección General
           </span>
           <svg
@@ -115,9 +187,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-2"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia Jurídica y Cumplimiento
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia Jurídica y Cumplimiento
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -290,7 +365,7 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-3"
         >
-          <span class="text-5xl text-azul-light font-bold title-directions">
+          <span class="text-4xl text-azul-light font-bold title-directions">
             Dirección de Conocimiento</span
           >
           <svg
@@ -441,14 +516,18 @@ import Layout from "../layouts/Layout.astro";
       <h2 id="accordion-collapse-heading-4">
         <button
           type="button"
-          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          class="flex items-center justify-between w-full p-5 gap-3"
           data-accordion-target="#accordion-collapse-body-4"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-4"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Centro de Colecciones y Gestión de Especies</span
-          >
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Centro de Colecciones y Gestión de Especies
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -1114,14 +1193,18 @@ import Layout from "../layouts/Layout.astro";
       <h2 id="accordion-collapse-heading-5">
         <button
           type="button"
-          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          class="flex items-center justify-between w-full p-5 gap-3"
           data-accordion-target="#accordion-collapse-body-5"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-5"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Centro de Estudios Socio Ecológicos y Cambio Global
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Centro de Estudios Socio Ecológicos y Cambio Global
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -1499,14 +1582,18 @@ import Layout from "../layouts/Layout.astro";
       <h2 id="accordion-collapse-heading-6">
         <button
           type="button"
-          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          class="flex items-center justify-between w-full p-5 gap-3"
           data-accordion-target="#accordion-collapse-body-6"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-6"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Centro de Economía y Finanzas de la Biodiversidad
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Centro de Economía y Finanzas de la Biodiversidad
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -1898,14 +1985,18 @@ import Layout from "../layouts/Layout.astro";
       <h2 id="accordion-collapse-heading-7">
         <button
           type="button"
-          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          class="flex items-center justify-between w-full p-5 gap-3"
           data-accordion-target="#accordion-collapse-body-7"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-7"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Centro de Soluciones Basadas en la Naturaleza
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Centro de Soluciones Basadas en la Naturaleza
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -2354,14 +2445,18 @@ import Layout from "../layouts/Layout.astro";
       <h2 id="accordion-collapse-heading-8">
         <button
           type="button"
-          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          class="flex items-center justify-between w-full p-5 gap-3"
           data-accordion-target="#accordion-collapse-body-8"
           aria-expanded="false"
           aria-controls="accordion-collapse-body-8"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Centro de Apropiación Social
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Centro de Apropiación Social
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -2897,9 +2992,13 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-9"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Información Científica
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Información Científica
+            </span>
+          </div>
+
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
