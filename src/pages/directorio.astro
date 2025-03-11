@@ -38,11 +38,13 @@ import Layout from "../layouts/Layout.astro";
 
       const resultElement = document.createElement("div");
       resultElement.innerHTML = `
-          <div  class="max-w-[320px] rounded-lg shadow-md p-8">
-            <img src="${doc.image || ""}" alt="${doc.name || "Sin imagen"}" width="150" class="rounded-full block mx-auto">
-            <p class="max-w-full"><strong>${doc.name || "Nombre desconocido"}</strong></p>
-            <p class="max-w-full">${doc.position || "Posición desconocida"}</p>
-            <p class="max-w-full text-sm">${doc.email || "Correo electrónico desconocido"}</p>
+          <div  class="bg-white shadow-lg rounded-2xl p-4 mb-2 flex flex-col items-center">
+            <img src="${doc.image || ""}" alt="${doc.name || "Sin imagen"}" class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full">
+            <p class="text-xl font-semibold"><strong>${doc.name || "Nombre desconocido"}</strong></p>
+            <p class="text-gray-500">${doc.position || "Posición desconocida"}</p>
+            <p class="text-gray-500">${doc.email || "Correo electrónico desconocido"}</p>
+            <p class="text-gray-500">${doc.ciudad || "Ciudad desconocida"}</p>
+            <p class="text-gray-500">${doc.profesion || "Profesión desconocida"}</p>
           </div>
         `;
       searchResultsDiv.appendChild(resultElement);
@@ -72,19 +74,21 @@ import Layout from "../layouts/Layout.astro";
         Volver
       </span>
     </div>
-    <div class="container mx-auto">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Escribe nombre cargo o correo"
-      />
-      <button
-        id="searchButton"
-        class="bg-black text-white py-3 px-14 max-w-fit ml-4 rounded-3xl font-light"
-        >Buscar</button
-      >
-      <div class="flex justify-center my-4">
-        <div id="searchResults"></div>
+    <div>
+      <div class="container mx-auto">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Escribe nombre cargo o correo"
+        />
+        <button
+          id="searchButton"
+          class="bg-black text-white py-3 px-14 max-w-fit ml-4 rounded-3xl font-light"
+          >Buscar</button
+        >
+        <div class="flex justify-center my-4">
+          <div id="searchResults"></div>
+        </div>
       </div>
     </div>
 
@@ -122,7 +126,6 @@ import Layout from "../layouts/Layout.astro";
           </svg>
         </button>
       </h2>
-      <div>
       <div
         id="accordion-collapse-body-1"
         class="hidden"
@@ -130,7 +133,6 @@ import Layout from "../layouts/Layout.astro";
       >
         <div class="flex flex-col items-center space-y-8">
           <div class="flex flex-col items-center space-y-6">
-            
             <div
               class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
             >
@@ -140,7 +142,9 @@ import Layout from "../layouts/Layout.astro";
               />
               <h2 class="text-xl font-semibold">Hernando García</h2>
               <p class="text-gray-500">Director General</p>
-              <p class="text-gray-500">hgarcia@humboldt.org.co</p>            
+              <p class="text-gray-500">hgarcia@humboldt.org.co</p>
+              <p class="text-gray-500">Bogotá</p>
+              <p class="text-gray-500">Biologo</p>
             </div>
             <div class="grid grid-cols-3 gap-6">
               <div
@@ -3554,7 +3558,7 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-10"
         >
-          <span class="text-5xl text-azul-light font-bold title-directions">
+          <span class="text-4xl text-azul-light font-bold title-directions">
             Dirección de Relacionamiento
           </span>
           <svg
@@ -3630,9 +3634,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-11"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Política Pública y Cooperación
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Política Pública y Cooperación
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -3839,9 +3846,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-12"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Experiencias
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Experiencias
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -4195,7 +4205,7 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-13"
         >
-          <span class="text-5xl text-azul-light font-bold title-directions">
+          <span class="text-4xl text-azul-light font-bold title-directions">
             Dirección de Desarrollo Organizacional
           </span>
           <svg
@@ -4250,9 +4260,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-14"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Gestión Humana
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Gestión Humana
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -4479,9 +4492,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-15"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Tecnología
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Tecnología
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -4667,9 +4683,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-16"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia de Gestión Estratégica
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia de Gestión Estratégica
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -4963,7 +4982,7 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-17"
         >
-          <span class="text-5xl text-azul-light font-bold title-directions">
+          <span class="text-4xl text-azul-light font-bold title-directions">
             Dirección Financiera y Administrativa
           </span>
           <svg
@@ -5068,9 +5087,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-18"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia Administrativa
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia Administrativa
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
@@ -5679,9 +5701,12 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-19"
         >
-          <span class="text-4xl text-azul-light font-bold">
-            Gerencia Financiera
-          </span>
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-3xl text-azul-light font-bold">
+              Gerencia Financiera
+            </span>
+          </div>
           <svg
             data-accordion-icon
             class="w-3 h-3 rotate-180 shrink-0"
