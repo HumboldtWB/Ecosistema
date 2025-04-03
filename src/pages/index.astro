@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout-yellow.astro";
-
 ---
 
 <Layout title="Portada | Ecosistema Humboldt">
@@ -228,45 +227,85 @@ import Layout from "../layouts/Layout-yellow.astro";
       >&#9993;</a
     > -->
     <!-- nuevo boton de acceso rapido  -->
-    <div id="menu-container" class="fixed bottom-4 left-11 inline-block">
-      <button id="menu-button" class="w-10 ml-12 mb-4 h-10 bg-white text-black rounded-full hover:bg-black hover:text-white transition text-3xl animate-bounce"
-        onmouseenter="toggleMenu(true)" onmouseleave="toggleMenu(false)">
-        + 
+    <div id="menu-container" class="fixed bottom-4 right-11 inline-block">
+      <span class="text-xl mr-2">Descubre más</span>
+      <button
+        id="menu-button"
+        class="w-8 h-8 mr-12 mb-4 bg-white text-black rounded-full hover:invert transition text-xl animate-bounce border border-black"
+        onmouseenter="toggleMenu(true)"
+        onmouseleave="toggleMenu(false)"
+      >
+        +
       </button>
-      <span class="text-2xl ml-2 pb-2">Descubre más</span>
-      <div id="dropdown-menu" class="absolute left-0 bottom-full ml-20 w-full shadow-lg rounded-lg hidden flex flex-col gap-3"
-        onmouseenter="toggleMenu(true)" onmouseleave="toggleMenu(false)">
+      <div
+        id="dropdown-menu"
+        class="absolute right-0 bottom-full mr-60 w-full shadow-lg rounded-lg hidden flex flex-col gap-1"
+        onmouseenter="toggleMenu(true)"
+        onmouseleave="toggleMenu(false)"
+      >
         <a href="directorio" target="_blank" rel="noopener noreferrer">
-          <button class="w-full px-4 py-2 bg-white text-black rounded-lg hover:invert text-lg flex items-center justify-start gap-4">
-            <img src="/img/Acceso-directo-icono-1.png" class="w-10 h-10 hover:invert" />
-            Directorio Humboldt
+          <button
+            class="w-96 px-4 py-4 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-xl flex items-center border border-black border-opacity-25 group"
+          >
+            <span class="flex-1 text-center">Directorio Humboldt</span>
+            <img
+              src="/img/Acceso-directo-icono-1.png"
+              class="w-10 h-10 mr-2 group-hover:invert"
+            />
           </button>
         </a>
-        <a href="https://bit.ly/3DQhJXs" target="_blank" rel="noopener noreferrer">
-          <button class="w-full px-4 py-2 bg-white text-black rounded-lg hover:invert text-lg flex items-center justify-start gap-4">
-            <img src="/img/Acceso-directo-icono-2.png" class="w-10 h-10 hover:invert" />
-            Entérate Humboldt
+        <a
+          href="https://bit.ly/3DQhJXs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="w-96 px-4 py-4 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-xl flex items-center border border-black border-opacity-25 group"
+          >
+            <span class="flex-1 text-center">Entérate Humboldt</span>
+            <img
+              src="/img/Acceso-directo-icono-2.png"
+              class="w-10 h-10 mr-2 group-hover:invert"
+            />
           </button>
         </a>
-        <a href="https://docs.google.com/forms/d/1YasvohVbB6L688-EsCXwG5kVngsH5wimHuDYnkG_B0c/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">
-          <button class="w-full px-4 py-2 bg-white text-black rounded-lg hover:invert text-lg flex items-center justify-start gap-4">
-            <img src="/img/Acceso-directo-icono-3.png" class="w-10 h-10 hover:invert" />
-            Buzón de opiniones y sugerencias
+        <a
+          href="https://docs.google.com/forms/d/1YasvohVbB6L688-EsCXwG5kVngsH5wimHuDYnkG_B0c/viewform?edit_requested=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="w-96 px-4 py-4 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-xl flex items-center border border-black border-opacity-25 group"
+          >
+            <span class="flex-1 text-center">Buzón opiniones y sugerencias</span
+            >
+            <img
+              src="/img/Acceso-directo-icono-3.png"
+              class="w-10 h-10 mr-2 group-hover:invert"
+            />
           </button>
         </a>
-        <a href="https://calendar.google.com/calendar/embed?src=c_18a5a08f013212e6d72e017f564a97106b0a59ef132676e4c83a871d1823f257%40group.calendar.google.com&ctz=America%2FBogota" target="_blank" rel="noopener noreferrer">
-          <button class="w-full px-4 py-2 bg-white text-black rounded-lg hover:invert text-lg flex items-center justify-start gap-4">
-            <img src="/img/Acceso-directo-icono-4.png" class="w-10 h-10" />
-            Agéndate con el Humboldt
+        <a
+          href="https://calendar.google.com/calendar/embed?src=c_18a5a08f013212e6d72e017f564a97106b0a59ef132676e4c83a871d1823f257%40group.calendar.google.com&ctz=America%2FBogota"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button
+            class="w-96 px-4 py-4 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-xl flex items-center border border-black border-opacity-25 group"
+          >
+            <span class="flex-1 text-center">Agéndate con el Humboldt</span>
+            <img
+              src="/img/Acceso-directo-icono-4.png"
+              class="w-10 h-10 mr-2 group-hover:invert"
+            />
           </button>
         </a>
       </div>
     </div>
-    
-    </div>
-  
-    <!-- Modal -->
-    <!-- <div id="modal_cop" class="fixed z-10 inset-0">
+  </main>
+
+  <!-- Modal -->
+  <!-- <div id="modal_cop" class="fixed z-10 inset-0">
       <div
         class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-75 transition-opacity"
       >
@@ -290,7 +329,6 @@ import Layout from "../layouts/Layout-yellow.astro";
         </div>
       </div>
     </div> -->
-  </main>
 </Layout>
 
 <style>
