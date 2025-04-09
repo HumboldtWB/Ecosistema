@@ -45,6 +45,7 @@ import Layout from "../layouts/Layout.astro";
 
       const resultElement = document.createElement("div");
       resultElement.innerHTML = `
+      <div class="flex flex-col items-center space-y-6">
         <div class="bg-white shadow-lg rounded-2xl p-4 mb-2 flex flex-col items-center">
           <img src="${doc.image || ""}" alt="${doc.name || "Sin imagen"}" class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full">
           <p class="text-xl font-semibold"><strong>${doc.name || "Nombre desconocido"}</strong></p>
@@ -52,7 +53,8 @@ import Layout from "../layouts/Layout.astro";
           <p class="text-gray-500">${doc.email || "Correo electrónico desconocido"}</p>
           <p class="text-gray-500 text-sm">${doc.ciudad || "Ciudad desconocida"}</p>
           <p class="text-gray-500 text-sm">${doc.profesion || "Profesión desconocida"}</p>
-        </div>     
+        </div>   
+      </div>
       `;
 
       searchResultsDiv.appendChild(resultElement);
@@ -134,7 +136,9 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-1"
         >
-          <span class="text-4xl text-azul-light font-bold title-directions">
+          <span
+            class="text-3xl xl:text-4xl text-azul-light font-bold title-directions"
+          >
             Dirección General
           </span>
           <svg
@@ -174,7 +178,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-gray-500 text-sm">Bogotá</p>
               <p class="text-gray-500 text-sm">Biología</p>
             </div>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -229,7 +233,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia Jurídica y Cumplimiento
             </span>
           </div>
@@ -287,7 +291,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
                 <p class="text-3xl text-azul-light font-bold">Auditoría</p>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -333,7 +337,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Derecho</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -427,7 +431,9 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-3"
         >
-          <span class="text-4xl text-azul-light font-bold title-directions">
+          <span
+            class="text-3xl xl:text-4xl text-azul-light font-bold title-directions"
+          >
             Dirección de Conocimiento</span
           >
           <svg
@@ -467,7 +473,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-gray-500 text-sm">Bogotá</p>
               <p class="text-gray-500 text-sm">Biología</p>
             </div>
-            <div class="grid grid-cols-5 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -537,7 +543,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Administración De Empresas</p>
               </div>
             </div>
-            <div class="grid grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -609,7 +615,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Centro de Colecciones y Gestión de Especies
             </span>
           </div>
@@ -686,7 +692,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Curaduría de datos</p>
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -716,7 +722,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Laboratorios</p>
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -746,7 +752,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Genética</p>
-            <div class="grid grid-cols-5 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -814,7 +820,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Ingeniería Forestal</p>
               </div>
             </div>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -858,7 +864,7 @@ import Layout from "../layouts/Layout.astro";
             <p class="text-3xl text-azul-light font-bold">
               Especies de interés
             </p>
-            <div class="grid grid-cols-5 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -926,7 +932,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Biología</p>
               </div>
             </div>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -987,7 +993,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Herbario</p>
-            <div class="grid grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1080,7 +1086,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div> -->
             <p class="text-3xl text-azul-light font-bold">Aves y huevos</p>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1125,7 +1131,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Sonidos</p>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1171,7 +1177,7 @@ import Layout from "../layouts/Layout.astro";
             <p class="text-3xl text-azul-light font-bold">
               Anfibios y reptiles
             </p>
-            <div class="grid grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1228,7 +1234,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Mamíferos</p>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1272,7 +1278,7 @@ import Layout from "../layouts/Layout.astro";
               </div>
             </div>
             <p class="text-3xl text-azul-light font-bold">Peces</p>
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1305,7 +1311,7 @@ import Layout from "../layouts/Layout.astro";
             <p class="text-3xl text-azul-light font-bold">
               Insectos e invertebrados
             </p>
-            <div class="grid grid-cols-6 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
               <div
                 class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
               >
@@ -1405,7 +1411,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Centro de Estudios Socio Ecológicos y Cambio Global
             </span>
           </div>
@@ -1448,7 +1454,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Bogotá</p>
                 <p class="text-gray-500 text-sm">Biología</p>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1507,7 +1513,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Características y funcionamiento de ecosistémas
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1579,7 +1585,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Electrónica</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1626,7 +1632,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Análisis de relaciones en ecosistemas
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1684,7 +1690,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Química</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1731,7 +1737,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Aspectos económicos y sociales
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1789,7 +1795,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Biología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1851,7 +1857,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Ambiental</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -1927,7 +1933,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Centro de Economía y Finanzas de la Biodiversidad
             </span>
           </div>
@@ -1970,7 +1976,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Bogotá</p>
                 <p class="text-gray-500 text-sm">Ingeniería Agronómica</p>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2016,7 +2022,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Laboratorio de innovación en bioeconomía
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2092,7 +2098,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ecología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2174,7 +2180,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Laboratorio de valores de la naturaleza
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2248,7 +2254,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Medicina Veterinaria</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2323,7 +2329,7 @@ import Layout from "../layouts/Layout.astro";
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2403,7 +2409,7 @@ import Layout from "../layouts/Layout.astro";
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2461,7 +2467,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm"></p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2535,7 +2541,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Centro de Soluciones Basadas en la Naturaleza
             </span>
           </div>
@@ -2578,7 +2584,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Bogotá</p>
                 <p class="text-gray-500 text-sm">Biología</p>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2609,7 +2615,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Conservación</p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2668,7 +2674,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Ordenamiento</p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2729,7 +2735,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Restauración</p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2801,7 +2807,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Ambiental</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2875,7 +2881,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm"></p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -2952,7 +2958,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Sectorial</p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3011,7 +3017,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Agenda Urbana</p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3071,7 +3077,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Centro de Apropiación Social
             </span>
           </div>
@@ -3132,7 +3138,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Innovación Socioambiental
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3190,7 +3196,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Sociología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3251,7 +3257,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Educación ambiental
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3311,7 +3317,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Historia</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3355,10 +3361,10 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Periodismo</p>
                 </div>
               </div>
-              <p class="text-3xl text-azul-light font-bold">
+              <p class="text-xl xl:text-3xl text-azul-light font-bold">
                 Gobernanza y Transformación de conflictos socio ambientales
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3430,7 +3436,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ciencia Política</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3501,7 +3507,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Sociología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3562,7 +3568,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Ciencia Participativa
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3638,7 +3644,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Biología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3713,7 +3719,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Información Científica
             </span>
           </div>
@@ -3756,7 +3762,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Bogotá</p>
                 <p class="text-gray-500 text-sm">Biología</p>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3789,7 +3795,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Informática de la Biodiversidad
               </p>
-              <div class="grid grid-cols-6 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3872,7 +3878,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Gestión y Productos de Información
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3939,7 +3945,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ecología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -3985,7 +3991,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Integración de datos
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4061,7 +4067,7 @@ import Layout from "../layouts/Layout.astro";
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4137,7 +4143,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Biología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4184,7 +4190,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Análisis y Síntesis
               </p>
-              <div class="grid grid-cols-6 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4270,7 +4276,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Geografía</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4328,7 +4334,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Forestal</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4385,7 +4391,9 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-10"
         >
-          <span class="text-4xl text-azul-light font-bold title-directions">
+          <span
+            class="text-3xl xl:text-4xl text-azul-light font-bold title-directions"
+          >
             Dirección de Relacionamiento
           </span>
           <svg
@@ -4426,7 +4434,7 @@ import Layout from "../layouts/Layout.astro";
                 <p class="text-gray-500 text-sm">Bogotá</p>
                 <p class="text-gray-500 text-sm">Politología</p>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4473,7 +4481,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Política Pública y Cooperación
             </span>
           </div>
@@ -4518,7 +4526,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Cooperación y asuntos internacionales
               </p>
-              <div class="grid grid-cols-6 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4611,7 +4619,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Política pública y grupos de interés
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4670,7 +4678,7 @@ import Layout from "../layouts/Layout.astro";
                 </div> -->
               </div>
               <p class="text-3xl text-azul-light font-bold">Observatorio</p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4715,7 +4723,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Experiencias
             </span>
           </div>
@@ -4766,7 +4774,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Gestión de proyectos de comunicaciones
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4859,7 +4867,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Arte y diseño</p>
-              <div class="grid grid-cols-6 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -4948,7 +4956,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Publicaciones</p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5009,7 +5017,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Canales</p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5058,7 +5066,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Servicios de conocimiento
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5105,7 +5113,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Nuevos negocios</p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5150,7 +5158,9 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-13"
         >
-          <span class="text-4xl text-azul-light font-bold title-directions">
+          <span
+            class="text-3xl xl:text-4xl text-azul-light font-bold title-directions"
+          >
             Dirección de Desarrollo Organizacional
           </span>
           <svg
@@ -5227,7 +5237,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Gestión Humana
             </span>
           </div>
@@ -5291,7 +5301,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Incorporación y administración del talento humano
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5364,7 +5374,7 @@ import Layout from "../layouts/Layout.astro";
                   </p>
                 </div> -->
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5429,7 +5439,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Cultura y transformación organizacional
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5485,7 +5495,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Tecnología
             </span>
           </div>
@@ -5530,7 +5540,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería De Sistemas</p>
                 </div>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5565,7 +5575,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Sistemas de información y aplicativos
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5644,7 +5654,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Servicios tecnológicos
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5700,7 +5710,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia de Gestión Estratégica
             </span>
           </div>
@@ -5750,7 +5760,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Planeación Estratégica
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5815,7 +5825,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Gestión de proyectos
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5875,7 +5885,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Contaduría Pública</p>
                 </div>
               </div>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5939,7 +5949,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Industrial</p>
                 </div>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -5967,7 +5977,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Ingeniería Ambiental</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6057,7 +6067,9 @@ import Layout from "../layouts/Layout.astro";
           aria-expanded="false"
           aria-controls="accordion-collapse-body-17"
         >
-          <span class="text-4xl text-azul-light font-bold title-directions">
+          <span
+            class="text-3xl xl:text-4xl text-azul-light font-bold title-directions"
+          >
             Dirección Financiera y Administrativa
           </span>
           <svg
@@ -6103,7 +6115,7 @@ import Layout from "../layouts/Layout.astro";
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6178,7 +6190,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia Administrativa
             </span>
           </div>
@@ -6223,7 +6235,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Economía</p>
                 </div>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6258,7 +6270,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Contratos</p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6330,7 +6342,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Derecho</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6402,7 +6414,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Derecho</p>
                 </div>
               </div>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6463,7 +6475,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Compras y adquisiciones
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6525,7 +6537,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Psicología</p>
                 </div>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6560,7 +6572,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Infraestructura física
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6591,7 +6603,7 @@ import Layout from "../layouts/Layout.astro";
                 </div>
               </div>
               <p class="text-3xl text-azul-light font-bold">Agencia</p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6672,7 +6684,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Gestión de activos y almacén
               </p>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6744,7 +6756,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Gestión De Mercados</p>
                 </div>
               </div>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6777,7 +6789,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Gestión administrativa
               </p>
-              <div class="grid grid-cols-4 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6854,7 +6866,7 @@ import Layout from "../layouts/Layout.astro";
         >
           <div class="flex text-start items-center">
             <span class="text-azul-light mr-4">&#x279C;</span>
-            <span class="text-3xl text-azul-light font-bold">
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
               Gerencia Financiera
             </span>
           </div>
@@ -6902,7 +6914,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Planeación financiera
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6937,7 +6949,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Ejecución presupuestal
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -6993,7 +7005,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Informes financieros
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -7056,7 +7068,7 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Contaduría Pública</p>
                 </div>
               </div>
-              <div class="grid grid-cols-5 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -7131,7 +7143,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Contabilidad y Tributario
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -7164,7 +7176,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Facturación y conciliaciones bancarias
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -7197,7 +7209,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Comisión y gastos de viaje
               </p>
-              <div class="grid grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
@@ -7249,7 +7261,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-3xl text-azul-light font-bold">
                 Cuentas por pagar y conciliaciones contables
               </p>
-              <div class="grid grid-cols-3 gap-6">
+              <div class="grid grid-cols-1 gap-6">
                 <div
                   class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
                 >
