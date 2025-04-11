@@ -1024,7 +1024,7 @@ export const directoryData = [
   },
   {
     id: "104",
-    name: "Lina Sánchez",
+    name: "Lina Marcela Sánchez",
     position: "Analista Senior",
     email: "lmsanchez@humboldt.org.co",
     image:
@@ -1998,7 +1998,7 @@ export const directoryData = [
   },
   {
     id: "201",
-    name: "Lina Sánchez",
+    name: "Lina María Sánchez",
     position: "Inv. Principal",
     email: "lsanchez@humboldt.org.co",
     image:
@@ -2917,9 +2917,9 @@ export const directoryData = [
     position: "Analista",
     email: "archivo@humboldt.org.co",
     image:
-      "img/directorio/DDO/gestionestrategica/gestiondocumental/Johan Steven Gonzalez Romero.jpg",
+      "img/directorio/DDO/gestionestrategica/gestiondocumental/johan steven gonzalez romero.png",
     ciudad: "Bogotá",
-    profesion: "Profesional en Ciencia de la Información y Bibliotecología",
+    profesion: "Ciencia de la Información y Bibliotecología",
   },
   {
     id: "296",
