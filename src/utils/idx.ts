@@ -1748,7 +1748,7 @@ export const directoryData = [
   {
     id: "176",
     name: "Camilo Zapata",
-    position: "Inv. Asistente 3",
+    position: "Inv. Adjunto 1",
     email: "czapata@humboldt.org.co",
     image:
       "img/directorio/DICO/informacioncientifica/Camilo Alberto Zapata Martínez.jpg",
@@ -1993,8 +1993,8 @@ export const directoryData = [
     email: "psalinas@humboldt.org.co",
     image:
       "img/directorio/DICO/informacioncientifica/integraciondatos/Paula Yesenia Salinas Bossa.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
+    ciudad: "Ibagué - Tolima",
+    profesion: "Licenciatura en Biología",
   },
   {
     id: "201",
