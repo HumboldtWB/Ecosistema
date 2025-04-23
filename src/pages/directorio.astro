@@ -222,6 +222,77 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
       </div>
+      <h2 id="accordion-collapse-heading-20">
+        <button
+          type="button"
+          class="flex items-center justify-between w-full p-5 border-b-2 gap-3"
+          data-accordion-target="#accordion-collapse-body-20"
+          aria-expanded="false"
+          aria-controls="accordion-collapse-body-20"
+        >
+          <div class="flex text-start items-center">
+            <span class="text-azul-light mr-4">&#x279C;</span>
+            <span class="text-xl xl:text-3xl text-azul-light font-bold">
+              Auditoría
+            </span>
+          </div>
+          <svg
+            data-accordion-icon
+            class="w-3 h-3 rotate-180 shrink-0"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 10 6"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5 5 1 1 5"></path>
+          </svg>
+        </button>
+      </h2>
+      <div
+        id="accordion-collapse-body-20"
+        class="hidden"
+        aria-labelledby="accordion-collapse-heading-2"
+      >
+        <div class="p-5">
+          <div class="flex flex-col items-center space-y-8">
+            <div class="flex flex-col items-center space-y-6">
+              <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
+                <div
+                  class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
+                >
+                  <img
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                    src="img/directorio/gerencia_juridica/auditoria/Erica Johana Pineda Mateus.png"
+                  />
+                  <h3 class="text-lg font-semibold">Erica Pineda</h3>
+                  <p class="text-gray-500">Líder Auditoría</p>
+                  <p class="text-gray-500">auditoriainterna@humboldt.org.co</p>
+                  <p class="text-gray-500 text-sm">Bogotá</p>
+                  <p class="text-gray-500 text-sm">Administración Pública</p>
+                </div>
+                <div
+                  class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
+                >
+                  <img
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                    src="img/directorio/gerencia_juridica/auditoria/Deicy Lorena Heredia Gómez.png"
+                  />
+                  <h2 class="text-xl font-semibold">Lorena Heredia</h2>
+                  <p class="text-gray-500">Analista Senior</p>
+                  <p class="text-gray-500">dheredia@humboldt.org.co</p>
+                  <p class="text-gray-500 text-sm">Bogotá</p>
+                  <p class="text-gray-500 text-sm">Contaduría Pública</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Inicio Gerencia Jurídica y Cumplimiento  -->
       <h2 id="accordion-collapse-heading-2">
         <button
@@ -289,36 +360,8 @@ import Layout from "../layouts/Layout.astro";
                   <p class="text-gray-500 text-sm">Bogotá</p>
                   <p class="text-gray-500 text-sm">Ingeniería Industrial</p>
                 </div>
-                <p class="text-3xl text-azul-light font-bold">Auditoría</p>
               </div>
-              <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
-                <div
-                  class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
-                >
-                  <img
-                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
-                    src="img/directorio/gerencia_juridica/auditoria/Erica Johana Pineda Mateus.png"
-                  />
-                  <h3 class="text-lg font-semibold">Erica Pineda</h3>
-                  <p class="text-gray-500">Líder Auditoría</p>
-                  <p class="text-gray-500">auditoriainterna@humboldt.org.co</p>
-                  <p class="text-gray-500 text-sm">Bogotá</p>
-                  <p class="text-gray-500 text-sm">Administración Pública</p>
-                </div>
-                <div
-                  class="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center"
-                >
-                  <img
-                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
-                    src="img/directorio/gerencia_juridica/auditoria/Deicy Lorena Heredia Gómez.png"
-                  />
-                  <h2 class="text-xl font-semibold">Lorena Heredia</h2>
-                  <p class="text-gray-500">Analista Senior</p>
-                  <p class="text-gray-500">dheredia@humboldt.org.co</p>
-                  <p class="text-gray-500 text-sm">Bogotá</p>
-                  <p class="text-gray-500 text-sm">Contaduría Pública</p>
-                </div>
-              </div>
+
               <p class="text-3xl text-azul-light font-bold">
                 Asesoría Jurídica
               </p>
