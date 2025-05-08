@@ -11,6 +11,8 @@ export const directoryData = [
     image: "img/directorio/direccion/Hernando Garcia Martinez.jpg",
     ciudad: "Bogotá",
     profesion: "Biologo",
+    direccion: "Dirección General",
+    gerencia: "",
   },
   {
     id: "2",
@@ -20,6 +22,8 @@ export const directoryData = [
     image: "img/directorio/direccion/German Ignacio Andrade Perez.jpg",
     ciudad: "Bogotá",
     profesion: "Biologo",
+    direccion: "Dirección General",
+    gerencia: "",
   },
   {
     id: "3",
@@ -29,6 +33,8 @@ export const directoryData = [
     image: "img/directorio/direccion/Ximena Franco Villegas.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Industrial",
+    direccion: "Dirección General",
+    gerencia: "",
   },
   {
     id: "4",
@@ -38,6 +44,8 @@ export const directoryData = [
     image: "img/directorio/direccion/Claudia Esperanza Alfonso.jpg",
     ciudad: "Bogotá",
     profesion: "Auxiliar contable",
+    direccion: "Dirección General",
+    gerencia: "",
   },
   /* gerencia jurídica */
   {
@@ -48,6 +56,8 @@ export const directoryData = [
     image: "img/directorio/direccion/Claudia Johanna Galvis Galindo.jpg",
     ciudad: "Cajicá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Gerencia Jurídica",
   },
   {
     id: "6",
@@ -58,6 +68,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Paola Carolina Pinto Escobar.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería industrial",
+    direccion: "Dirección General",
+    gerencia: "Gerencia Jurídica",
   },
   /* auditoria */
   {
@@ -69,6 +81,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/auditoria/Erica Johana Pineda Mateus.png",
     ciudad: "Bogotá",
     profesion: "Administración Pública",
+    direccion: "Dirección General",
+    gerencia: "Gerencia Jurídica",
   },
   {
     id: "8",
@@ -79,6 +93,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/auditoria/Erica Johana Pineda Mateus.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección General",
+    gerencia: "Gerencia Jurídica",
   },
   /* asesoría juirídica */
   {
@@ -90,6 +106,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Diana Lucia Botero Jerez.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "10",
@@ -100,6 +118,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Julieth Sastoque Valbuena.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "11",
@@ -110,6 +130,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Nicolas Tapias Schachtebeck.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "12",
@@ -120,6 +142,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Maria Camila Guerrero Hoyos.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "13",
@@ -130,6 +154,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Paula Andrea Arroyo Triviño.jpeg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "14",
@@ -140,6 +166,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Ana Karina Perico Sanchez.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   {
     id: "15",
@@ -150,6 +178,8 @@ export const directoryData = [
       "img/directorio/gerencia_juridica/juridica/Juan Esteban Molina Cadena.PNG",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección General",
+    gerencia: "Asesoría Jurídica",
   },
   /* Inicia Direccion de conocimiento */
   {
@@ -3947,6 +3977,8 @@ export const idx = (() => {
     this.field("email");
     this.field("ciudad");
     this.field("profesion");
+    this.field("direccion");
+    this.field("gerencia");
 
     directoryData.forEach((doc) => {
       this.add(doc);
