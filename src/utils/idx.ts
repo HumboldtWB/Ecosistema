@@ -82,7 +82,7 @@ export const directoryData = [
     ciudad: "Bogotá",
     profesion: "Administración Pública",
     direccion: "Dirección General",
-    gerencia: "Gerencia Jurídica",
+    gerencia: "Auditoría",
   },
   {
     id: "8",
@@ -90,11 +90,11 @@ export const directoryData = [
     position: "Líder Auditoría",
     email: "auditoriainterna@humboldt.org.co",
     image:
-      "img/directorio/gerencia_juridica/auditoria/Erica Johana Pineda Mateus.png",
+      "img/directorio/gerencia_juridica/auditoria/Deicy Lorena Heredia Gómez.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
     direccion: "Dirección General",
-    gerencia: "Gerencia Jurídica",
+    gerencia: "Auditoría",
   },
   /* asesoría juirídica */
   {
@@ -190,6 +190,8 @@ export const directoryData = [
     image: "img/directorio/DICO/Gisele Didier.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
   },
   {
     id: "17",
@@ -199,6 +201,9 @@ export const directoryData = [
     image: "img/directorio/DICO/María Fernanda Gomez Ahumada.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "18",
@@ -208,6 +213,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Soraya Milena Rozo Velasco.jpeg",
     ciudad: "Bogotá",
     profesion: "Relaciones Internacionales Y Estudios Políticos",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "19",
@@ -217,6 +225,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Lina Marcela Garcia Loaiza.png",
     ciudad: "Pereira - Risaralda",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "20",
@@ -225,7 +236,11 @@ export const directoryData = [
     email: "sbeltran@humboldt.org.co",
     image: "img/directorio/DICO/Sebastian Beltran Cruz.png",
     ciudad: "Bogotá",
-    profesion: "Ingeniería Industrial",
+    profesion: "Ingeniería Industrial"
+    ,
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "21",
@@ -235,6 +250,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Juan David Castañeda Puentes .jpg",
     ciudad: "Cajicá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "22",
@@ -244,6 +262,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Paula Valeria Diaz Duarte.jpg",
     ciudad: "Bogotá",
     profesion: "Tecnología En Cartografía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "23",
@@ -253,6 +274,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Diana Marcela Olivera Feria.png",
     ciudad: "Bogotá",
     profesion: "Técnico Apoyo Administrativo En Salud",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "24",
@@ -262,6 +286,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Ana María Chaparro.png",
     ciudad: "Bogotá",
     profesion: "Asistencia Administrativa",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   {
     id: "25",
@@ -271,6 +298,9 @@ export const directoryData = [
     image: "img/directorio/DICO/Sharom Osmarla Amortegui.jpeg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "",
+
   },
   /* Inicia Centro colección y gestión de especies */
   {
@@ -281,6 +311,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/Carolina Castellanos Castro.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "27",
@@ -290,6 +322,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/Fabio Hernan Colorado.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Procesos Industriales",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "28",
@@ -299,6 +333,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/Maria Carolina Gomez Posada.png",
     ciudad: "Tunja - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "29",
@@ -309,6 +345,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/curaduria/Kevin Giancarlo Borja Acosta.jpg",
     ciudad: "Oicatá - Boyacá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "30",
@@ -319,6 +357,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/curaduria/Bomnierw Lisefth Hernandez Acosta.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "31",
@@ -328,6 +368,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/laboratorio/EDUARDO TOVAR.png",
     ciudad: "Cali - Valle",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "32",
@@ -338,6 +380,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/laboratorio/Sandra Patricia Medina Saiz.jpg",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "33",
@@ -348,6 +392,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/genetica/Mailyn Adriana Gonzalez Herrera.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "34",
@@ -358,6 +404,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/genetica/Jose Vladimir Sandoval Sierra.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "35",
@@ -367,6 +415,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/genetica/GARCIA ERIKA.png",
     ciudad: "Bogotá",
     profesion: "Microbiología Industrial",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "36",
@@ -377,6 +427,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/genetica/Natalia Trujillo Arias.png",
     ciudad: "Armenia - Quindío",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "37",
@@ -387,6 +439,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/genetica/Maria Claudia Gonzalez Penagos.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "38",
@@ -396,6 +450,8 @@ export const directoryData = [
     image: "img/directorio/DICO/Sharom Osmarla Amortegui.jpeg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "39",
@@ -415,6 +471,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/genetica/Juan Alejandro Guerrero Cupacan.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "41",
@@ -425,6 +483,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Maria Piedad Baptiste Espinosa.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "42",
@@ -435,6 +495,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Carlos Andres Lasso Alcala.png",
     ciudad: "Bogotá",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "43",
@@ -445,6 +507,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Maria Claudia Torres Romero.png",
     ciudad: "Pereira - Risaralda",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "44",
@@ -455,6 +519,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Karolina Fierro Calderon.png",
     ciudad: "Cali - Valle",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "45",
@@ -465,6 +531,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/German Eduardo Torres Morales.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "46",
@@ -475,6 +543,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Luisa Fernanda Casas Caro.png",
     ciudad: "Armenia - Quindío",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "47",
@@ -485,6 +555,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Samanta Castro Sanabria.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "48",
@@ -495,6 +567,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/especies/Laura Johanna Nova Leon.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "49",
@@ -505,6 +579,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/herbario/Carmen Amalia Diaz Peña.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "50",
@@ -514,6 +590,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/herbario/Daniel Nossa Silva.jpg",
     ciudad: "Chía - Cundinamarca",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "51",
@@ -524,6 +602,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/herbario/Leidy Yuliana Vallejo Mayo.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "52",
@@ -534,6 +614,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/herbario/Alba Yaneth Robles Pardo.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Mercadeo Agropecuario",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "53",
@@ -544,6 +626,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/herbario/Aura Eugenia Robles Pardo.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "54",
@@ -554,6 +638,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/herbario/Monica Andrea Florez Pulido.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "55",
@@ -564,6 +650,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/tejidos/Luis Miguel Leyton Ramos.jpg",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "56",
@@ -574,6 +662,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/avesyhuevos/Gustavo Adolfo Bravo Mora.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "57",
@@ -584,6 +674,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/avesyhuevos/Andres Felipe Sierra Ricaurte.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "58",
@@ -594,6 +686,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/avesyhuevos/Maria del Socorro Sierra Buitrago.jpg",
     ciudad: "Sáchica - Boyacá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "59",
@@ -604,6 +698,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/sonidos/Daniela Martinez Medina.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "60",
@@ -613,6 +709,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/sonidos/Eliana Barona Cortes.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "61",
@@ -622,6 +720,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/sonidos/Maria Paula Toro Gomez.png",
     ciudad: "Pijao - Quindío",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "62",
@@ -632,6 +732,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/anfibiosyreptiles/Sandra Patricia Galeano Muñoz.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "63",
@@ -642,6 +744,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/anfibiosyreptiles/Khristian Venegas Valencia.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "64",
@@ -652,6 +756,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/anfibiosyreptiles/Maria Ximena Garcia Gonzalez.png",
     ciudad: "Cali - Valle",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "65",
@@ -662,6 +768,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/anfibiosyreptiles/Carlos Ricardo Montaña Gil.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "66",
@@ -672,6 +780,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/mamiferos/Nicolas Rafael Reyes Amaya.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "67",
@@ -682,6 +792,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/mamiferos/Alejandra Castaño Rivera.jpg",
     ciudad: "Tuluá - Valle",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "68",
@@ -692,6 +804,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/mamiferos/Robinson Fabian Sanchez Letrado.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "69",
@@ -702,6 +816,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/peces/Angela Liliana Gutierrez Cortes.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "70",
@@ -711,6 +827,8 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/peces/Yuliana Chala Velasquez.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "71",
@@ -721,6 +839,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/insectos/Jhon Cesar Neita Moreno.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "72",
@@ -731,6 +851,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/insectos/Diana Patricia Espitia Reina.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "73",
@@ -741,6 +863,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/insectos/Jenilee Maarit Montes Fontalvo.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "74",
@@ -751,6 +875,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/insectos/Miguel Angel Torres Pineda.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Obras Civiles",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "75",
@@ -761,6 +887,8 @@ export const directoryData = [
       "img/directorio/DICO/colecciones/insectos/Edwin Daniel Torres Pineda.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "76",
@@ -770,10 +898,12 @@ export const directoryData = [
     image: "img/directorio/DICO/colecciones/insectos/Julián Clavijo Bustos.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   /* Centro de Estudio Socio Ecológicos y Cambio Global */
   {
-    id: "76",
+    id: "371",
     name: "José Manuel Ochoa",
     position: "Gerente de Centro",
     email: "jochoa@humboldt.org.co",
@@ -781,6 +911,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/Jose Manuel Ochoa Quintero.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "77",
@@ -791,6 +923,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/Diana Susana Rodriguez Buritica.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "78",
@@ -801,6 +935,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/Julian David Gomez Gil.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "79",
@@ -811,6 +947,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/Sandra Patricia Peña Alfonso.jpg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "80",
@@ -821,6 +959,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Natalia Norden Medina.png",
     ciudad: "Bogotá",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "81",
@@ -831,6 +971,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Daniel Hernan Garcia Villalobos.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "82",
@@ -841,6 +983,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Sonia Paola Rodríguez Martinez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "83",
@@ -851,6 +995,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Luis Hernando Romero Jiménez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "84",
@@ -861,6 +1007,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Juan Sebastian Ulloa Chacon.png",
     ciudad: "Cali - Valle",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "85",
@@ -871,6 +1019,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Fabian Camilo Garzon Ramos.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "86",
@@ -881,6 +1031,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Laura Viviana Salinas Vargas.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "87",
@@ -891,6 +1043,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Nicolas Betancourt Cardona.png",
     ciudad: "Bogotá",
     profesion: "Matemáticas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "88",
@@ -901,6 +1055,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Bibiana Gomez Valencia.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "89",
@@ -911,6 +1067,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Jennyfer Ruiz Sanchez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "90",
@@ -921,6 +1079,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Margarita Maria Roa Cubillos.png",
     ciudad: "Bucaramanga - Santander",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "91",
@@ -931,6 +1091,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Jorge Armando Amador Moncada.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Química",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "92",
@@ -941,6 +1103,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Adriana Restrepo Isaza.jpg",
     ciudad: "La Estrella - Antioquia",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "93",
@@ -951,6 +1115,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Ana Belen Hurtado Martilletti.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "94",
@@ -961,6 +1127,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Dario Javier Torres Guelgua.png",
     ciudad: "Pasto - Nariño",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "95",
@@ -971,6 +1139,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Monica Patricia Hernandez.png",
     ciudad: "Bogotá",
     profesion: "Historia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "96",
@@ -981,6 +1151,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Angelica Paola Diaz Pulido.png",
     ciudad: "Medellín - Antioquia",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "97",
@@ -991,6 +1163,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Ana Carolina Santos Rocha.JPG",
     ciudad: "Bogotá",
     profesion: "Ingeniería Civil",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "98",
@@ -1001,6 +1175,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Hector Manuel Arango Martinez.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Villa de Leyva - Boyacá",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "99",
@@ -1011,6 +1187,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Oriana de Jesus Ceballos Rivera.jpg",
     ciudad: "Barrancabermeja - Santander",
     profesion: "Barrancabermeja - Santander",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "100",
@@ -1021,6 +1199,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Sindy Jineth Martinez Callejas.jpeg",
     ciudad: "Bogotá",
     profesion: "Bogotá",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "101",
@@ -1031,6 +1211,8 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Juan Sebastian Sanabria Jimenez.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "102",
@@ -1041,8 +1223,10 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/María Lucía Palomino Briceño.jpg",
     ciudad: "Piedecuesta - Santander",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
-  /* Centro de Estudio Socio Ecológicos y Cambio Global */
+  /* Centro de Economía y Finanzas de la Biodiversidad*/
   {
     id: "103",
     name: "Felipe García",
@@ -1051,6 +1235,9 @@ export const directoryData = [
     image: "img/directorio/DICO/economiayfinanzas/Felipe Garcia Cardona.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Agronómica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
+
   },
   {
     id: "104",
@@ -1061,6 +1248,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/Lina Marcela Sanchez Giraldo.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "105",
@@ -1071,6 +1260,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/Diana Marcela Moreno Sotelo.jpg",
     ciudad: "Cali - Valle",
     profesion: "Administración de Empresas Comerciales",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "106",
@@ -1081,6 +1272,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Nathalia Maria Vanessa Florez Zapata.png",
     ciudad: "Bogotá",
     profesion: "Bacteriología y Laboratorio Clínico",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "107",
@@ -1091,6 +1284,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Camila Cristina Bernal Mattos.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "108",
@@ -1101,6 +1296,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Laura Paola Gomez Santiago.JPG",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental y Sanitaria",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "109",
@@ -1111,6 +1308,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Natalia Estefania Sanabria.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "110",
@@ -1121,6 +1320,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Alejandra Castro Correa.jpg",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "111",
@@ -1131,6 +1332,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Leidy Paola Arce Castellanos.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "112",
@@ -1141,6 +1344,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Brian Amaya Guzman.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "113",
@@ -1151,6 +1356,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Maria Fernanda Cañon Ruiz.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "114",
@@ -1161,6 +1368,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Manuela Montoya Castrillon.png",
     ciudad: "Rionegro - Antioquia",
     profesion: "Ingeniería Bioquímica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "115",
@@ -1171,6 +1380,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriofinanzas/Carla Blondineth Mosquera Zapata.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "116",
@@ -1181,6 +1392,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Diana Alexandra Tovar Bonilla.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "117",
@@ -1191,6 +1404,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Marcela Arango Bernal.png",
     ciudad: "Bogotá",
     profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "118",
@@ -1201,6 +1416,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Carlos Alberto Cortes Gutierrez.jpg",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "119",
@@ -1211,6 +1428,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Luz Herminda Ruiz Ortiz.png",
     ciudad: "Málaga - Santander",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "120",
@@ -1221,6 +1440,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Jenny Paola Vanegas Pinilla.jpeg",
     ciudad: "Popayán - Cauca",
     profesion: "Medicina Veterinaria",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "121",
@@ -1231,6 +1452,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Gersson Farid Vergel Mendieta.jpeg",
     ciudad: "Ráquira - Boyacá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "122",
@@ -1241,6 +1464,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Jennifer Dayana Ceballos.jpg",
     ciudad: "Ibagué - Tolima",
     profesion: "Agronomía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "123",
@@ -1251,6 +1476,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Ana Milena Moreno Quevedo.jpeg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Agroecológica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "124",
@@ -1261,6 +1488,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Marcela Carolina Carlosama Colimba.jpg",
     ciudad: "Guachucal - Nariño",
     profesion: "Zootecnia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "125",
@@ -1271,6 +1500,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Lisseth Marcela Acosta Pidiache.jpg",
     ciudad: "Piedecuesta - Santander",
     profesion: "Tecnología En Producción Agropecuaria Ecológica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "126",
@@ -1281,6 +1512,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Eduin Yamid Usama Hidalgo.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "127",
@@ -1291,6 +1524,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Diego Armando Calambas Vásquez.jpg",
     ciudad: "Puracé - Cauca",
     profesion: "Tecnología En Producción Ganadera",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "128",
@@ -1301,6 +1536,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Junior Fernando Muñoz Serna.png",
     ciudad: "Popayán - Cauca",
     profesion: "Tecnología en Control Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "129",
@@ -1311,6 +1548,8 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Jhoel Mauricio Lozano Chaves.png",
     ciudad: "Roncesvalles - Tolima",
     profesion: "Tecnología En Control Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "130",
@@ -1321,9 +1560,11 @@ export const directoryData = [
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Estefani Olmos Tovar.jpeg",
     ciudad: "Murillo - Tolima",
     profesion: "Tecnología en Sistemas de Gestión Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
 
-  /* Centro de Estudio Socio Ecológicos y Cambio Global */
+  /* Centro de Apropiación Social */
   {
     id: "131",
     name: "Marcela Lozano",
@@ -1333,6 +1574,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/Maria Marcela Lozano Borda.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Comunicación Social",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "132",
@@ -1343,6 +1586,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/Johanna Marisel Jimenez Moreno.jpg",
     ciudad: "Cota - Cundinamarca",
     profesion: "Secretariado General",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "133",
@@ -1353,6 +1598,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Ana Maria Roldan Ortiz.png",
     ciudad: "Medellín - Antioquia",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "134",
@@ -1363,6 +1610,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Claudia Cardenas Botero.png",
     ciudad: "Sabaneta - Antioquia",
     profesion: "Antropología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "135",
@@ -1373,6 +1622,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Laura Isabel Castellanos Camacho.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "136",
@@ -1383,6 +1634,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Monica Alejandra Diaz Gomez.png",
     ciudad: "Bogotá",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "137",
@@ -1393,6 +1646,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Angela Maria Herrera Bustos.png",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "138",
@@ -1403,6 +1658,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Paula Natalya Hoyos Cepeda.png",
     ciudad: "Duitama - Boyacá",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "139",
@@ -1413,6 +1670,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Ana Patricia Figueroa Estrella.jpg",
     ciudad: "Pasto - Nariño",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "140",
@@ -1423,6 +1682,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/innovacion/Daniela Buitrago Rojas.jpg",
     ciudad: "Bogotá",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "141",
@@ -1433,6 +1694,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Jairo Alejandro Hernandez Cobos.jpg",
     ciudad: "Chía - Cundinamarca",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "142",
@@ -1443,6 +1706,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Angela Patricia Hernandez Arevalo.jpg",
     ciudad: "Bogotá",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "143",
@@ -1453,6 +1718,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Angie Paola Fonseca Arias.png",
     ciudad: "Bogotá",
     profesion: "Gestión Ambiental y Servicios Públicos",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "144",
@@ -1463,6 +1730,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Lucia Zenaida Grande Ruiz.jpeg",
     ciudad: "Popayán - Cauca",
     profesion: "Historia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "145",
@@ -1473,6 +1742,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Yesica Pahola Lopez Velasquez.jpg",
     ciudad: "Guachucal - Nariño",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "146",
@@ -1483,6 +1754,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Melissa Duran Oviedo.jpg",
     ciudad: "Bogotá",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "147",
@@ -1493,6 +1766,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Julian Andres Saenz Rodriguez.jpg",
     ciudad: "Bogotá",
     profesion: "Periodismo",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "148",
@@ -1503,6 +1778,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Omar Fernando Ruiz Nieto.png",
     ciudad: "Chía - Cundinamarca",
     profesion: "Historia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "149",
@@ -1513,6 +1790,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Camilo Eduardo Rodriguez Murcia.png",
     ciudad: "Bogotá",
     profesion: "Geografía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "150",
@@ -1523,6 +1802,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Christian Camilo Gil Moreno.png",
     ciudad: "Bogotá",
     profesion: "Psicología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "151",
@@ -1533,6 +1814,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Angela Daniela Rojas Becerra.png",
     ciudad: "Bogotá",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "152",
@@ -1543,6 +1826,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Camila Andrea Ortiz Díaz.png",
     ciudad: "Bogotá",
     profesion: "Ciencia Política",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "153",
@@ -1553,6 +1838,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Paola Acosta Jimenez.png",
     ciudad: "Bogotá",
     profesion: "Gobierno y Asuntos Públicos",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "154",
@@ -1563,6 +1850,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Laura Daniela Ramirez Prieto.png",
     ciudad: "Bucaramanga - Santander",
     profesion: "Trabajo Social",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "155",
@@ -1573,6 +1862,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Nury Marcela Garcia Porras.png",
     ciudad: "Bogotá",
     profesion: "Trabajo Social",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "156",
@@ -1583,6 +1874,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Jilver Yesid Benavidez Melenje.png",
     ciudad: "Popayán - Cauca",
     profesion: "Derecho",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "157",
@@ -1593,6 +1886,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Karen Natalia Giraldo Garcia.jpeg",
     ciudad: "Ibagué - Tolima",
     profesion: "Sociología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "158",
@@ -1603,6 +1898,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Sara Lizarazo Mendez.jpeg",
     ciudad: "Bucaramanga - Santander",
     profesion: "Trabajo Social",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "159",
@@ -1613,6 +1910,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Fenner Alexander Mompotes Pizo.png",
     ciudad: "Puracé - Cauca",
     profesion: "Ingeniería Agropecuaria",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "160",
@@ -1623,6 +1922,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Lexa Yhomar Tavera Luna.png",
     ciudad: "Rovira - Tolima",
     profesion: "Técnico En Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "161",
@@ -1633,6 +1934,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/gobernanza/Edwin Leonidas Revelo Chasoy.jpg",
     ciudad: "Guachucal - Nariño",
     profesion: "Administración Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "162",
@@ -1643,6 +1946,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Carolina Soto Vargas.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "163",
@@ -1653,6 +1958,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Talia Isadora Waldron Henriquez.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "164",
@@ -1663,6 +1970,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Andres Felipe Santodomingo Jacome.png",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "165",
@@ -1673,6 +1982,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Emmerson Miguel Pastas Cuastumal.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "166",
@@ -1683,6 +1994,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Aura Fiorela Delgado Chaves.png",
     ciudad: "Pasto - Nariño",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "167",
@@ -1693,6 +2006,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Angela Patricia Sierra Tuta.png",
     ciudad: "Acacías - Meta",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "168",
@@ -1703,6 +2018,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Angela Catherine Celis Tarazona.png",
     ciudad: "Piedecuesta - Santander",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "169",
@@ -1713,6 +2030,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Fredy Antonio Rincon Villanueva.jpg",
     ciudad: "Manizales - Caldas",
     profesion: "Gestión Cultural y Comunicativa",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   {
     id: "170",
@@ -1723,6 +2042,8 @@ export const directoryData = [
       "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Kreyssig Abaunsa Garzon.jpeg",
     ciudad: "Villavicencio - Meta",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
   /* Gerencia de Información Científica */
   {
@@ -1734,6 +2055,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Maria Cecilia Londoño Murcia.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "172",
@@ -1744,6 +2067,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Karen Lorena Muñoz Alfonso.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "173",
@@ -1754,6 +2079,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Marcela Portillo Gomez.jpg",
     ciudad: "Madrid - Cundinamarca",
     profesion: "Administración Financiera",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "174",
@@ -1764,6 +2091,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Erika Suarez Valencia.jpeg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "175",
@@ -1774,6 +2103,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Carlos Andres Toro Mendieta.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "176",
@@ -1784,6 +2115,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Camilo Alberto Zapata Martínez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "177",
@@ -1794,6 +2127,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Manuel Fernando Galvez Bohorquez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "178",
@@ -1804,6 +2139,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Denis Andrea Armenta Chang.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "179",
@@ -1814,6 +2151,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Jorge Luis Higuita Castro.png",
     ciudad: "Medellín - Antioquia",
     profesion: "Bioingeniería",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "180",
@@ -1824,6 +2163,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Maria Elena Olaya Rodriguez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "181",
@@ -1834,6 +2175,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Erika Nathalia Salazar Gómez.jpg",
     ciudad: "Bogotá",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "182",
@@ -1844,6 +2187,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Alfio Efrén Barragán Castillo.png",
     ciudad: "Bogotá",
     profesion: "Diseño Visual",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "183",
@@ -1854,6 +2199,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/David Fernando Gonzalez Tovar.png",
     ciudad: "Bogotá",
     profesion: "Publicidad",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "184",
@@ -1864,6 +2211,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Maria Camila Parra Guevara.jpeg",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "185",
@@ -1874,6 +2223,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Cesar Fernando Gutierrez Montoya.jpg",
     ciudad: "Bogotá",
     profesion: "Diseño Gráfico",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "186",
@@ -1884,6 +2235,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Jose David Gomez Otero.jpg",
     ciudad: "Ocaña - Norte de Santander",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "187",
@@ -1894,6 +2247,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Juan Sebastian Lozano.jpg",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "188",
@@ -1904,6 +2259,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Johan Manuel Calderon Rodriguez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "189",
@@ -1914,6 +2271,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Ricardo Ortiz Gallego.png",
     ciudad: "Mosquera - Cundinamarca",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "190",
@@ -1924,6 +2283,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Marius Jean Bottin.png",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "191",
@@ -1934,6 +2295,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Angie Natalia Medina Avellaneda.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental y Sanitaria",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "192",
@@ -1944,6 +2307,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Diego Randolf Perez Rincon.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Geográfica y Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "193",
@@ -1954,6 +2319,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Santiago Andres Orjuela Ortigoza.jpeg",
     ciudad: "Bogotá",
     profesion: "Administración Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
 
   {
@@ -1965,6 +2332,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Andrea Carolina Castro Moreno.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "195",
@@ -1975,6 +2344,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Julian David Torres Caicedo.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Catastral y Geodesia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "196",
@@ -1985,6 +2356,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Gonzalo Cabezas Martin.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Catastral y Geodesia",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "197",
@@ -1995,6 +2368,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/David Mateo Murillo Cardona.png",
     ciudad: "Itagüi - Antioquia",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "198",
@@ -2005,6 +2380,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Esteban Marentes Herrera.png",
     ciudad: "Fusagasugá - Cundinamarca",
     profesion: "Biología Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "199",
@@ -2015,6 +2392,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Laura Juliana Sanchez Gomez.jpg",
     ciudad: "Ibagué - Tolima",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "200",
@@ -2025,6 +2404,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/integraciondatos/Paula Yesenia Salinas Bossa.png",
     ciudad: "Ibagué - Tolima",
     profesion: "Licenciatura en Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "201",
@@ -2035,6 +2416,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Lina Maria Sanchez Clavijo.jpeg",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "202",
@@ -2045,6 +2428,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Elkin Alexander Tenorio.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "203",
@@ -2055,6 +2440,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Juan Carlos Rey Velasco.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "204",
@@ -2065,6 +2452,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Nerieth Goretti Leuro Robles.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "205",
@@ -2075,6 +2464,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Laura Sofia Garcia Castro.jpeg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "206",
@@ -2085,6 +2476,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Sergio Enrique Rojas Sanchez.png",
     ciudad: "Bogotá",
     profesion: "Geografía",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "207",
@@ -2095,6 +2488,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Alejandra Narvaez Vallejo.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "208",
@@ -2105,6 +2500,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Leidy Tatiana Silva Ruiz.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "209",
@@ -2115,6 +2512,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Luis Fernando Urbina Gonzalez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "210",
@@ -2125,6 +2524,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Leidy Marcela Cepeda Buitrago.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Forestal",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "211",
@@ -2135,6 +2536,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Elkin Noguera Urbano.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "212",
@@ -2145,6 +2548,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/MOLINA ALEJANDRA.png",
     ciudad: "Bogotá",
     profesion: "Ecología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "213",
@@ -2155,6 +2560,8 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/analisisysintesis/Edwin Styben Uribe Velasquez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Gerencia de Información Científica",
   },
   /* Dirección de relacionamiento */
   {
@@ -2165,6 +2572,8 @@ export const directoryData = [
     image: "img/directorio/DIRE/Alicia Lozano Vila.png",
     ciudad: "Bogotá",
     profesion: "Politología",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "",
   },
   {
     id: "215",
@@ -2174,6 +2583,8 @@ export const directoryData = [
     image: "img/directorio/DIRE/Paola Andrea Martinez Ocampo.jpg",
     ciudad: "Bogotá",
     profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "",
   },
   {
     id: "216",
@@ -2183,6 +2594,8 @@ export const directoryData = [
     image: "img/directorio/DIRE/Carolina Marín Rozo.jpg",
     ciudad: "Bogotá",
     profesion: "Economía en Comercio Exterior",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "",
   },
   {
     id: "217",
@@ -2193,6 +2606,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/Sandra Jeannette Perdomo Medina.png",
     ciudad: "Bogotá",
     profesion: "Ciencia Política y Gobierno",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "218",
@@ -2203,6 +2618,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Diana Estefania Pulido Mojica.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "219",
@@ -2213,6 +2630,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Carlos Adolfo Hernandez Mercado.png",
     ciudad: "Bogotá",
     profesion: "Ciencia Política",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "220",
@@ -2223,6 +2642,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Rodrigo Moreno Villamil.jpeg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Agronómica",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "221",
@@ -2233,6 +2654,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Orlando Vargas Rayo.jpg",
     ciudad: "Cali - Valle",
     profesion: "Economía",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "222",
@@ -2243,6 +2666,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Erika Adelaida Peñuela Vega.jpg",
     ciudad: "Bogotá",
     profesion: "Administración y Gestión Ambiental",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "223",
@@ -2253,6 +2678,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/cooperacion/Diana Ponce de Leon Martinez.png",
     ciudad: "Bogotá",
     profesion: "Gobierno y Asuntos Públicos",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "224",
@@ -2263,6 +2690,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/politica/Erika Vanesa Enriquez Chacon.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "225",
@@ -2273,6 +2702,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/politica/Laura Tatiana Barrios Diaz.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "226",
@@ -2283,6 +2714,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/politica/Adriana Patricia Camelo.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "227",
@@ -2293,6 +2726,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/observatorio/Felipe Rivera Sanin.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Industrial",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "228",
@@ -2303,6 +2738,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciapolitica/observatorio/Felipe Calpa Benavides.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   /* Gerencia de Experiencias */
   {
@@ -2314,6 +2751,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/desarrollo/Felipe Villegas Vélez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "230",
@@ -2324,6 +2763,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/proyectosycomunicaciones/Luz Adriana Moreno Gonzalez.jpg",
     ciudad: "Bogotá",
     profesion: "Biología Marina",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "231",
@@ -2334,6 +2775,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/proyectosycomunicaciones/Maria Alejandra Navarrete Tovar.jpg",
     ciudad: "Bogotá",
     profesion: "Comunicación Social",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "232",
@@ -2344,6 +2787,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/proyectosycomunicaciones/Maria Isabel Victoria Florez.png",
     ciudad: "Cali - Valle",
     profesion: "Comunicación Social Y Periodismo",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "233",
@@ -2354,6 +2799,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/proyectosycomunicaciones/Laura Marcela Mora Suarez.jpg",
     ciudad: "Bogotá",
     profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "234",
@@ -2364,6 +2811,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/Gina Paola Gaitan Hernandez.jpg",
     ciudad: "Diseño Gráfico",
     profesion: "Diseño Gráfico",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "235",
@@ -2374,6 +2823,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/John Jairo Bernal Ibañez.jpg",
     ciudad: "Biología",
     profesion: "Biología",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "236",
@@ -2384,6 +2835,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/Julian Adolfo Guiza Cubides.jpg",
     ciudad: "Diseño Gráfico",
     profesion: "Diseño Gráfico",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "237",
@@ -2394,6 +2847,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/Laura Patricia Naranjo Pulido.jpg",
     ciudad: "Diseño Gráfico",
     profesion: "Diseño Gráfico",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "238",
@@ -2404,6 +2859,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/Felipe Reyes Ramirez.jpg",
     ciudad: "Bogotá",
     profesion: "Comunicación Audiovisual y Multimedios",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "239",
@@ -2414,6 +2871,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/Jose Libardo Hernández Montenegro.jpg",
     ciudad: "Bogotá",
     profesion: "Diseño Gráfico",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "240",
@@ -2424,6 +2883,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/publicaciones/Luis Miguel Gallego Sepulveda.png",
     ciudad: "Bogotá",
     profesion: "Filosofía y Letras",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "241",
@@ -2434,6 +2895,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/publicaciones/Daniel Humberto Trujillo Martinez.png",
     ciudad: "Bogotá",
     profesion: "Historia",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "242",
@@ -2444,6 +2907,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/publicaciones/Laura Morales Gonzalez.png",
     ciudad: "Bogotá",
     profesion: "Filosofía",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "243",
@@ -2454,6 +2919,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/publicaciones/Edith Cicela Alarcon Piñeros.jpg",
     ciudad: "Bogotá",
     profesion: "Bibliotecología y Archivística",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "244",
@@ -2464,6 +2931,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/canales/Teresa Alexandra Tafur Rios.png",
     ciudad: "Bogotá",
     profesion: "Publicidad",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "245",
@@ -2474,6 +2943,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/canales/Diego Armando Herrera Chaves.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "246",
@@ -2484,6 +2955,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/canales/Giselle Natalia Rodriguez Calvo.jpg",
     ciudad: "Bogotá",
     profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "247",
@@ -2494,6 +2967,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/servicios/Diana Lucia Diaz Gomez.png",
     ciudad: "Bogotá",
     profesion: "Biología",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "248",
@@ -2504,6 +2979,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/servicios/Maria Alejandra Beltran Castaño.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "249",
@@ -2514,6 +2991,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/servicios/Adriana Mireya Torres Tovar.jpg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "250",
@@ -2524,6 +3003,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/negocios/Alessandra Osejo.jpeg",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "251",
@@ -2534,6 +3015,8 @@ export const directoryData = [
       "img/directorio/DIRE/gerenciaexperiencias/negocios/Natalia Grisales Muñoz.jpg",
     ciudad: "Bogotá",
     profesion: "Técnica Gestion Contable y Financiera",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Experiencias",
   },
   /* Dirección de Desarrollo Organizacional */
   {
@@ -2544,6 +3027,8 @@ export const directoryData = [
     image: "img/directorio/DDO/Maria Fernanda Gutierrez Botero.jpg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "",
   },
   {
     id: "253",
@@ -2553,6 +3038,8 @@ export const directoryData = [
     image: "img/directorio/DDO/gestionhumana/Monica Gallego Ocampo.png",
     ciudad: "Chía - Cundinamarca",
     profesion: "Ingeniería Industrial",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "",
   },
   {
     id: "254",
@@ -2563,6 +3050,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/Rafael Antonio Parra Cristancho.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "255",
@@ -2572,6 +3061,8 @@ export const directoryData = [
     image: "img/directorio/DDO/gestionhumana/July Hasbleidy Cubillo Leiton.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "256",
@@ -2582,6 +3073,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Yury Marcela Cañas Pardo.jpg",
     ciudad: "Bogotá",
     profesion: "Psicología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "257",
@@ -2592,6 +3085,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Yeny Adriana Pardo Duran.png",
     ciudad: "Bogotá",
     profesion: "Psicología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "258",
@@ -2602,6 +3097,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Viviana Betancur Quiceno.png",
     ciudad: "Madrid - Cundinamarca",
     profesion: "Psicología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "259",
@@ -2612,6 +3109,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Patricia Linares Umaña.png",
     ciudad: "Bogotá",
     profesion: "Administración Financiera",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "260",
@@ -2622,6 +3121,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Magda Constanza Aizaga Galeano.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "261",
@@ -2632,6 +3133,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Andrea Iraida Enciso Guerra.png",
     ciudad: "Bogotá",
     profesion: "Gestión del Talento Humano",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "262",
@@ -2642,6 +3145,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Juan Camilo Tobon Galeano.jpg",
     ciudad: "Bogotá",
     profesion: "Administración en Salud Ocupacional",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "263",
@@ -2652,6 +3157,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/talentohumano/Lina Susana Mendoza Cano.png",
     ciudad: "Bogotá",
     profesion: "Seguridad y Salud en el Trabajo",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "264",
@@ -2662,6 +3169,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/cultura/Catalina Delgado Parra.png",
     ciudad: "Bogotá",
     profesion: "Comunicación Social",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "265",
@@ -2672,6 +3181,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/cultura/Angela Patricia Perez Cortes.png",
     ciudad: "Bogotá",
     profesion: "Psicología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "266",
@@ -2682,6 +3193,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionhumana/cultura/Fernando Rodriguez Moreno.png",
     ciudad: "Bogotá",
     profesion: "Publicidad",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   /* Gerencia de Tecnología */
   {
@@ -2692,6 +3205,8 @@ export const directoryData = [
     image: "img/directorio/DDO/tecnologia/Francisco Ernesto Reyes Jimenez.jpeg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "268",
@@ -2701,6 +3216,8 @@ export const directoryData = [
     image: "img/directorio/DDO/tecnologia/Harvey Alonso Hernandez Rincon.jpg",
     ciudad: "Zipaquira - Cundinamarca",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "269",
@@ -2710,6 +3227,8 @@ export const directoryData = [
     image: "img/directorio/DDO/tecnologia/Fanny Paola Peña Samaca.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "270",
@@ -2720,6 +3239,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/sistemasinformacion/Ivan Dario Rios Becerra.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "271",
@@ -2730,6 +3251,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/sistemasinformacion/Jose Albeiro Sanchez Ibañez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "272",
@@ -2740,6 +3263,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/sistemasinformacion/Jimmy Herley Amaya Orjuela.jpg",
     ciudad: "Sogamoso - Boyacá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "273",
@@ -2750,6 +3275,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/sistemasinformacion/Yonatan Avila Bohorquez.png",
     ciudad: "Soacha - Cundinamarca",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "274",
@@ -2760,6 +3287,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/infraestructura/Daniel Alejandro Sepúlveda Núñez.png",
     ciudad: "Tunja - Boyacá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "275",
@@ -2770,6 +3299,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/serviciostecnologicos/Edwin Yamid Rios Castro.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "276",
@@ -2780,6 +3311,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/serviciostecnologicos/Carlos Andres Lopez Mojica.jpg",
     ciudad: "Madrid - Cundinamarca",
     profesion: "Ingeniería De Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   {
     id: "277",
@@ -2790,6 +3323,8 @@ export const directoryData = [
       "img/directorio/DDO/tecnologia/serviciostecnologicos/Juan David Peña Camacho.jpg",
     ciudad: "Bogotá",
     profesion: "Técnico En Sistemas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Tecnología",
   },
   /* Gerencia de Gestión Estratégica */
   {
@@ -2800,6 +3335,8 @@ export const directoryData = [
     image: "img/directorio/DDO/gestionestrategica/Juliana Montoya.jpg",
     ciudad: "Envigado - Antioquia",
     profesion: "Administración De Negocios",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "281",
@@ -2810,6 +3347,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/planeacion/Claudia Maria Villa Garcia.jpg",
     ciudad: "Medellín - Antioquia",
     profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "282",
@@ -2820,6 +3359,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/planeacion/Martha Patricia Hernandez.jpg",
     ciudad: "Chía - Cundinamarca",
     profesion: "Licenciatura En Biología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "283",
@@ -2830,6 +3371,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/planeacion/Lenard Alejandro Silva Parra.jpg",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "284",
@@ -2840,6 +3383,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/planeacion/Darly Valentina Perez Pineda.png",
     ciudad: "Bogotá",
     profesion: "Tecnología en Diseño de Productos Industriales",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "285",
@@ -2850,6 +3395,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Dario Fernando Leal Ussa.jpeg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "286",
@@ -2860,6 +3407,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Isabel Garcia Gonzalez.png",
     ciudad: "Bogotá",
     profesion: "Ciencia Política",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "287",
@@ -2870,6 +3419,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Kelly Gomez Muñoz.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "288",
@@ -2880,6 +3431,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Ronald Alejandro Guevara Urrea.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "289",
@@ -2890,6 +3443,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Leidy Vanessa Tovar Rodriguez.jpeg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "290",
@@ -2900,6 +3455,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Diana Milena Mortigo Castro.jpeg",
     ciudad: "Bogotá",
     profesion: "Administración Pública",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "291",
@@ -2910,6 +3467,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestionproyectos/Natalia Gallego López.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "292",
@@ -2920,6 +3479,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/Jheimy Catalina Fernández Olarte.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Industrial",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "293",
@@ -2930,6 +3491,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/procesos/Yenny Andrea Caceres Barbosa.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "294",
@@ -2940,6 +3503,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/procesos/Carlos Andres Martinez Cely.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "295",
@@ -2950,6 +3515,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestiondocumental/johan steven gonzalez romero.png",
     ciudad: "Bogotá",
     profesion: "Ciencia de la Información y Bibliotecología",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "296",
@@ -2960,6 +3527,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestiondocumental/Kandy Jhoana Paredes Anillo.png",
     ciudad: "Bogotá",
     profesion: "Asistencia de Organización de Archivos",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "297",
@@ -2970,6 +3539,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestiondocumental/Clara Cecilia Gonzalez.png",
     ciudad: "Soacha - Cundinamarca",
     profesion: "Administración De Empresas",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "298",
@@ -2980,6 +3551,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestiondocumental/Maria Nancy Bello Gavilan.png",
     ciudad: "Bogotá",
     profesion: "Auxiliar Administrativo y de Talento Humano",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   {
     id: "299",
@@ -2990,6 +3563,8 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/gestiondocumental/Diana Liseth Lozano Salinas.png",
     ciudad: "Bogotá",
     profesion: "Asistencia de Organización de Archivos",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Estratégica",
   },
   /* Dirección Financiera y Administrativa */
   {
@@ -3000,6 +3575,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/Ricardo Marcelo Bentacur Correa.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "",
   },
   {
     id: "301",
@@ -3009,6 +3586,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/Cesar Arnovil Sossa Chaparro.png",
     ciudad: "Bogotá",
     profesion: "Construcción y Gestión en Arquitectura",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "",
   },
   {
     id: "302",
@@ -3018,6 +3597,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/Helmuth Yesit Bettin Alvarez.png",
     ciudad: "Chía - Cundinamarca",
     profesion: "Ingeniería Industrial",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "",
   },
   {
     id: "303",
@@ -3027,6 +3608,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/Milena Rivera Castañeda.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "",
   },
   {
     id: "304",
@@ -3036,7 +3619,10 @@ export const directoryData = [
     image: "img/directorio/DIFA/Carolina Angulo Ospina.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Electrónica",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "",
   },
+  /* Gerencia Administrativa */
   {
     id: "305",
     name: "Andrea Gómez",
@@ -3045,6 +3631,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/gerenciaadministrativa/Andrea Gomez Guzman.jpg",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "306",
@@ -3054,6 +3642,8 @@ export const directoryData = [
     image: "img/directorio/DIFA/gerenciaadministrativa/",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "307",
@@ -3064,6 +3654,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/Ricardo Fabian Forero Reina.png",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "308",
@@ -3074,6 +3666,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Andrea Carolina Vergara Espinosa.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "309",
@@ -3084,6 +3678,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Maria Cristina Llanos Velasco.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "310",
@@ -3094,6 +3690,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/July Andrea Gordillo Rodas.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "311",
@@ -3104,6 +3702,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Luis Miguel Pantoja Rojas.jpg",
     ciudad: "Ibagué - Tolima",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "312",
@@ -3114,6 +3714,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Cesar Augusto Castillo Sanchez.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "313",
@@ -3124,6 +3726,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Maria Alejandra Mendoza Aguirre.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "314",
@@ -3134,6 +3738,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Lucy Nataly Aguilar.jpg",
     ciudad: "Chía - Cundinamarca",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "315",
@@ -3144,6 +3750,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Natalia Perez Romero.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "316",
@@ -3154,6 +3762,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Diana Aurora Villanueva Preciado.png",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "317",
@@ -3164,6 +3774,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Rafael Junior Orozco Suarez.jpg",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "318",
@@ -3174,6 +3786,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Diego Andres Brand Fonseca.JPG",
     ciudad: "Bogotá",
     profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "319",
@@ -3184,6 +3798,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Brigitte Johana Vega Trujillo.jpg",
     ciudad: "Bogotá",
     profesion: "Secretariado Ejecutivo",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "320",
@@ -3194,6 +3810,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Andres Felipe Sanchez Sarmiento.png",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "321",
@@ -3204,6 +3822,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Samuel Arrieta Londoño.png",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "322",
@@ -3214,6 +3834,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Nohora Johanna Peralta Ballesteros.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "323",
@@ -3224,6 +3846,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Jackson Fabian Salas Pachon.jpg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "324",
@@ -3234,6 +3858,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Lorena Del Pilar Ferreira Gomez.png",
     ciudad: "Bogotá",
     profesion: "Administración Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "325",
@@ -3244,6 +3870,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Viviana Galan Arevalo.png",
     ciudad: "Bogotá",
     profesion: "Psicología",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "326",
@@ -3254,6 +3882,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Daniela Caicedo Caballero.png",
     ciudad: "Bogotá",
     profesion: "Negocios Internacionales",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "327",
@@ -3264,6 +3894,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/David Sebastian Ramirez Ospina.jpeg",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "328",
@@ -3274,6 +3906,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/infraestructurafisica/Aitza Pulido Casallas.png",
     ciudad: "Bogotá",
     profesion: "Arquitectura",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "329",
@@ -3284,6 +3918,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/infraestructurafisica/Lorena Alejandra Valencia Cruz.png",
     ciudad: "Fusagasugá - Cundinamarca",
     profesion: "Arquitectura",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "330",
@@ -3294,6 +3930,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/agencia/Heidy Astrid Pedraza Ojeda.jpg",
     ciudad: "Bogotá",
     profesion: "Administración Turística y Hotelera",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "331",
@@ -3303,6 +3941,8 @@ export const directoryData = [
     image: "",
     ciudad: "Bogotá",
     profesion: "Gestión de Aerolineas y Agencia de Viajes",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "332",
@@ -3313,6 +3953,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/agencia/Gina Ximena Ortiz Chinome.jpg",
     ciudad: "Soacha - Cundinamarca",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "333",
@@ -3323,6 +3965,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Ximena Parra Martin.png",
     ciudad: "Bogotá",
     profesion: "Asistencia Administrativa",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "334",
@@ -3333,6 +3977,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/agencia/Karen Lorena Guzman Nieto.jpg",
     ciudad: "Chía - Cundinamarca",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "335",
@@ -3343,6 +3989,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/compras/Nic Harry Manosalva Hurtado.png",
     ciudad: "Bogotá",
     profesion: "Comercio Internacional",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "336",
@@ -3353,6 +4001,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Miguel Ballesteros Amaya.png",
     ciudad: "Bogotá",
     profesion: "Técnico Electromecánico",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "337",
@@ -3363,6 +4013,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Hernando Cortes Martin.png",
     ciudad: "Bogotá",
     profesion: "Técnico Linea Aviones",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "338",
@@ -3373,6 +4025,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Yubi Mireya Alarcon Arias.png",
     ciudad: "Bogotá",
     profesion: "Administración Documental",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "339",
@@ -3383,6 +4037,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Deisy Yaneth Cubides Garcia.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Gestión De Mercados",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "340",
@@ -3392,6 +4048,8 @@ export const directoryData = [
     image: "",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "341",
@@ -3402,6 +4060,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Julio Cesar Sanchez Rodriguez.jpg",
     ciudad: "Bogotá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "342",
@@ -3412,6 +4072,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Nidia Mariney Rodriguez Espitia.jpg",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "343",
@@ -3422,6 +4084,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Gina Alejandra Gil Rodriguez.jpeg",
     ciudad: "Bogotá",
     profesion: "Tecnología en Gestión del Talento Humano",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "344",
@@ -3432,6 +4096,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Yeimy Yohana Rios Castro.png",
     ciudad: "Bogotá",
     profesion: "Administración Y Finanzas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   {
     id: "345",
@@ -3442,6 +4108,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Dennis Sherly Vanegas Vargas.jpg",
     ciudad: "Bogotá",
     profesion: "Técnico Laboral En Sistemas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
   },
   /* Gerencia Financiera */
   {
@@ -3453,6 +4121,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/Adriana Lucía Pinto Dávila.png",
     ciudad: "Bogotá",
     profesion: "Economía",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "347",
@@ -3463,6 +4133,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/Ana Patricia Sanchez Marquez.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "348",
@@ -3473,6 +4145,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/Gina Lorena Rangel Patiño.png",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "349",
@@ -3483,6 +4157,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/presupuestal/Juan Sebastián Gutiérrez Patiño.jpg",
     ciudad: "Bogotá",
     profesion: "Relaciones Internacionales",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "350",
@@ -3493,6 +4169,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/presupuestal/Nelson Eduardo Romero Suarez.jpeg",
     ciudad: "Bogotá",
     profesion: "Finanzas y Negocios Internacionales",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "351",
@@ -3503,6 +4181,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/regalias/Andrea Carolina Diaz Olaya.jpg",
     ciudad: "Madrid - Cundinamarca",
     profesion: "Administración Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "352",
@@ -3513,6 +4193,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/informes/María Fernanda Leal Romero.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "353",
@@ -3523,6 +4205,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/informes/Cristian Sneyder Franco Jimenez.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "354",
@@ -3533,6 +4217,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/informes/Tatiana Carolina Pedraza Ortiz.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "355",
@@ -3543,6 +4229,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Ingrid Paola Reita Burgos.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "356",
@@ -3553,6 +4241,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Nancy Johana Ramirez Martinez.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "357",
@@ -3563,6 +4253,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Alexsandra Piedra Rozo.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "358",
@@ -3573,6 +4265,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Christian Jessid Herrera Pedraza.jpeg",
     ciudad: "Bogotá",
     profesion: "Banca y Finanzas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "359",
@@ -3583,6 +4277,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Natalia Betancourt Ortiz.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "360",
@@ -3593,6 +4289,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/recursosfinancieros/Daniel Ojeda Bobadilla.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "361",
@@ -3603,6 +4301,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/Fabio Nelson Morales.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "362",
@@ -3613,6 +4313,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/Aydee Aguilera Zambrano.jpg",
     ciudad: "Bogotá",
     profesion: "Asistencia Administrativa",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "363",
@@ -3623,6 +4325,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/facturacion/Lady Carolina Tolosa Suarez.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "364",
@@ -3633,6 +4337,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/facturacion/Maria Alejandra Cifuentes Barreto.png",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "365",
@@ -3643,6 +4349,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/comision/Clara Patricia Garzón León.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "366",
@@ -3653,6 +4361,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/comision/Leidy Johanna Diaz Valencia.png",
     ciudad: "Bogotá",
     profesion: "Auxiliar Administrativo",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "367",
@@ -3663,6 +4373,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/declaraciones/Rodolfo Pinilla Ferro.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "368",
@@ -3673,6 +4385,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/cuentasporpagar/Monica Paola Pimiento Bocanegra.jpg",
     ciudad: "Bogotá",
     profesion: "Contaduría Pública",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "369",
@@ -3683,6 +4397,8 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/cuentasporpagar/Paula Katherine Polania Fonseca.jpg",
     ciudad: "Bogotá",
     profesion: "Contabilidad Y Finanzas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   {
     id: "370",
@@ -3693,279 +4409,542 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciafinanciera/contabilidad/cuentasporpagar/Valentina Maldonado Lara.jpg",
     ciudad: "Bogotá",
     profesion: "Técnico en Nómina y Prestaciones Sociales",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
   },
   /*   -----------------------------------------
   Ingresos Nuevos 2025 */
   {
-    id: "371",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
-  },
-  {
     id: "372",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Yuli M. Rincón",
+    position: "Aux. Investigación 2",
+    email: "yrincon@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Yuly Rincon.png",
+    ciudad: "Murillo - Tolima",
+    profesion: "Tecnología en Guianza Turística",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "373",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Pedro E. Estepa",
+    position: "Aux. Investigación 2",
+    email: "pestepa@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Pedro E. Estepa.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "374",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Robinson A. Rincón",
+    position: "Cargo: Aux. Investigación 2",
+    email: "rrincon@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Robinson Alberto Rincon Suarez.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "375",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Jose A. Osnas",
+    position: "Aux. Investigación 2",
+    email: "josnas@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Jose Antonio Osnas Baltazar.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "376",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Natalia Figueroa",
+    position: "Analista Senior",
+    email: "nfigueroa@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/Natalia Figueroa.jpeg",
+    ciudad: "Bogotá",
+    profesion: "Negocios Internacionales",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "377",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Claudia Álvarez",
+    position: "Cargo: Inv. Adjunto 1",
+    email: "calvarez@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/Claudia Alvarez.jpg",
+    ciudad: "Bogotá",
+    profesion: "Economía",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "378",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Jorge A. Quijano",
+    position: "Cargo: Inv. Adjunto 1",
+    email: "jquijano@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Jorge Quijano.png",
+    ciudad: "Bogotá",
+    profesion: "Economía",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "379",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Tobias Leiva",
+    position: "Inv. Asistente 3",
+    email: "tleiva@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Tobias Leyva.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "380",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Martha I. Verbel",
+    position: "Inv. Asistente 1",
+    email: "mverbel@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Martha Verbel.jpeg",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "381",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Oscar H. Ibañez",
+    position: "Aux- Investigación 1",
+    email: "oibanez@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Oscar Ibañez.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "382",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Adriana L. Triana",
+    position: "Aux. Investigación 1",
+    email: "atriana@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Adriana Triana.png",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "383",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Wilmer A. Saenz",
+    position: "Aux. Investigación 1",
+    email: "wsaenz@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Wilmer Saenz .jpeg",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "384",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Santiago Gonzalez",
+    position: "Aux. Investigación 1",
+    email: "sgonzalez@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Santiago Gonzalez.JPG",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
   {
     id: "385",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
+    name: "Carlos H. Tiraca",
+    position: " Aux- Invstigación 1",
+    email: "ctiraca@humboldt.org.co",
+    image: "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Carlos Henrry Tiraca Cuaspud.jpg",
     ciudad: "",
     profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
+  /* Centro de Soluciones Basadas en la Naturaleza */
   {
     id: "386",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Wilson Ramírez",
+    position: "Gerente",
+    email: "wramirez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/Wilson Ariel Ramirez Hernandez.png",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "387",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Paula León",
+    position: "Analista Senior",
+    email: "pleon@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/Paula Andrea Leon Peraza.jpeg",
+    ciudad: "Tabio - Cundinamarca",
+    profesion: "Ingeniería Agroindustrial",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "388",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Sandra Parrado",
+    position: "Analista Senior",
+    email: "sparrado@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/Sandra Karina Parrado Suarez.jpg",
+    ciudad: "Bogotá",
+    profesion: "Administración De Empresas",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "389",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Juliana Cortés",
+    position: "Inv. Adjunto 2",
+    email: "jcortes@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/conservacion/Juliana Andrea Cortes Rincon.jpg",
+    ciudad: "Bogotá",
+    profesion: "Ecología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "390",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Jorge I. Bedoya",
+    position: "Inv. Adjunto 1",
+    email: "jbedoya@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/conservacion/BEDOYA JORGE.png",
+    ciudad: "La Ceja - Antioquia",
+    profesion: "Ingeniería Agronómica",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "391",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Adriana Vargas",
+    position: "Inv. Asistente 3",
+    email: "####@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/conservacion/Adriana Lorena Vargas Barrera.png",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "392",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Ana Y. Guevara",
+    position: "Inv. Asistente 2",
+    email: "aguevara@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/conservacion/Ana Yadira Guevara Ruiz.png",
+    ciudad: "Silvania - Cundinamarca",
+    profesion: "Trabajo Social",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "393",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Paola Morales",
+    position: "Inv. Principal",
+    email: "pmorales@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/ordenamiento/Paola Andrea Morales Ramirez.jpg",
+    ciudad: "Bogotá",
+    profesion: "Administración Ambiental",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "394",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Jeimy García",
+    position: "Inv. Asistente 2",
+    email: "jgarcia@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/ordenamiento/Jeimy Andrea Garcia Garcia.png",
+    ciudad: "Bogotá",
+    profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "395",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Carolina Osorio",
+    position: "Inv. Asistente 2",
+    email: "cosorio@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/ordenamiento/Carolina Osorio Sanchez.png",
+    ciudad: "Pereira - Risaralda",
+    profesion: "Administración Ambiental",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "396",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Iván Bernal",
+    position: "Profesional Especializado",
+    email: "ibernal@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/ordenamiento/Ivan Camilo Bernal Cadavid.png",
+    ciudad: "Cajicá - Cundinamarca",
+    profesion: "Finanzas y Comercio Exterior",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "397",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Paola Isaacs",
+    position: "Inv. Principal",
+    email: "pisaacs@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Paola Johanna Isaacs Cubides.png",
+    ciudad: "Bogotá",
+    profesion: "Ecología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "398",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
+    name: "Ronald Ayazo",
+    position: "Inv. Adjunto 1",
+    email: "rayaso@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Ronald Antonio Ayazo Toscano.png",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "399",
-    name: "",
-    position: "",
-    email: "@humboldt.org.co",
-    image: "",
-    ciudad: "",
-    profesion: "",
-  },
+    name: "Carolina Alcazar",
+    position: "Inv. Adjunto 1",
+    email: "calcazar@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Carolina Alcazar Caicedo.png",
+    ciudad: "Popayán - Cauca",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  }, 
   {
     id: "400",
+    name: "Carolina Moreno",
+    position: "Inv. Asistente 3",
+    email: "amoreno@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Ana Carolina Moreno Cardenas.png",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "401",
+    name: "José A. Muñoz",
+    position: "Inv. Asistente 3",
+    email: "jmunoz@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Jose Arnaldo Muñoz Diaz.png",
+    ciudad: "Bogotá",
+    profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "402",
+    name: "Carlos M. González",
+    position: "Inv. Asistente 3",
+    email: "cmgonzalez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Carlos Mario Gonzalez Charrasquiel.png",
+    ciudad: "Lorica - Córdoba",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "403",
+    name: "Yolima Rodríguez",
+    position: "Inv. Asistente 2",
+    email: "yrodriguez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Yolima Rodriguez Cossio.png",
+    ciudad: "Cajicá - Cundinamarca",
+    profesion: "Licenciatura en Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "404",
+    name: "Yolima Hurtado",
+    position: "Aux. Investigación 1",
+    email: "yhurtado@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Yolima Hurtado Yacumal.png",
+    ciudad: "Popayán - Cauca",
+    profesion: "Producción De Especies Menores",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "405",
+    name: "Leidy Cuastumal",
+    position: "Aux. Investigación 1",
+    email: "lcuastumal@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Leidy Nayive Cuastumal Caipe.png",
+    ciudad: "Guachucal - Nariño",
+    profesion: "Auxiliar En Sistemas",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "406",
+    name: "Mireya Pérez",
+    position: "Aux. Investigación 1",
+    email: "mperez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Mireya Perez Nuñez.jpg",
+    ciudad: "El Espino - Boyacá",
+    profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "407",
+    name: "Daniela Manquillo",
+    position: "Aux. Investigación 1",
+    email: "hmanquillo@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Herly Daniela Manquillo Quira.jpg",
+    ciudad: "Popayán - Cauca",
+    profesion: "Ciencia Política",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "408",
+    name: "Luzdary Chiran",
+    position: "Aux. Investigación 1",
+    email: "lchiran@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Luzdary Mireya Chiran Cuesta.jpeg",
+    ciudad: "Cumbal - Nariño",
+    profesion: "Licenciatura en Pedagogía Infantil",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "409",
+    name: "Luz M. Martínez",
+    position: "Aux. Investigación 1",
+    email: "lmartinez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Luz Marina Martinez Nova.png",
+    ciudad: "Guachetá - Cundinamarca",
+    profesion: "Ingeniería Ambiental",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "410",
+    name: "Cristian Beltrán",
+    position: "Aux. investigación 1",
+    email: "cbeltran@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Cristian Leandro Beltran Izquierdo.jpg",
+    ciudad: "Guasca - Cundinamarca",
+    profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "411",
+    name: "Angela Hernandez",
+    position: "Aux. Investigación 1",
+    email: "angelahernandez@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/restauracion/Angela Maria Hernandez.png",
+    ciudad: "Roncesvalles - Tolima",
+    profesion: "Tecnología en Gestión de Recursos Naturales",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "412",
+    name: "Germán Corzo",
+    position: "Inv. Principal",
+    email: "gcorzo@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/sectorial/German Arturo Corzo Mora.png",
+    ciudad: "Bogotá",
+    profesion: "Biología Marina",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "413",
+    name: "Claudia Medina",
+    position: "Inv. Titular 1",
+    email: "camedina@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/sectorial/Claudia Alejandra Medina Uribe.png",
+    ciudad: "Villa de Leyva - Boyacá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "414",
+    name: "Gustavo Aristizabal",
+    position: "Inv. Adjunto 2",
+    email: "garistizabal@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/sectorial/Gustavo Adolfo Aristizabal Hernandez.jpg",
+    ciudad: "Monteria - Córdoba",
+    profesion: "Ingeniería Sanitaria",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "415",
+    name: "Juán N. Corral",
+    position: "Inv. Adjunto 1",
+    email: "jcorral@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/sectorial/Juan Nicolas Corral Gomez.jpg",
+    ciudad: "Bogotá",
+    profesion: "Ecología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "416",
+    name: "Diana Ruíz",
+    position: "Inv. Adjunto 1",
+    email: "druiz@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/urbana/Diana Marcela Ruiz Rios.JPG",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "417",
+    name: "Isabel Melo",
+    position: "Inv. Asistente 3",
+    email: "imelo@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/urbana/Isabel Melo Vasquez.png",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "418",
+    name: "Anny Merlo",
+    position: "Investigador",
+    email: "amerlo@humboldt.org.co",
+    image: "img/directorio/DICO/solucionesnaturaleza/urbana/Anny Juliethe Merlo Moreno.png",
+    ciudad: "Bogotá",
+    profesion: "Ecología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  /* Nuevos ingresos  */
+  {
+    id: "419",
     name: "",
     position: "",
     email: "@humboldt.org.co",
     image: "",
     ciudad: "",
     profesion: "",
+    direccion: "",
+    gerencia: "",
   },
+  
 ];
 
 // Crear el índice de Lunr
