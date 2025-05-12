@@ -1562,7 +1562,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/Maria Marcela Lozano Borda.png",
     ciudad: "Villa de Leyva - Boyacá",
-    profesion: "Comunicación Social",
+    profesion: "Comunicación Científica y Medioambiental",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
