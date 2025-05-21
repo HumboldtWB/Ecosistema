@@ -61,7 +61,7 @@ import Layout from "../layouts/Layout.astro";
               <p class="text-lg">Cargo:${doc.position || "Posición desconocida"}</p>
               <br />
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=hgarcia@humboldt.org.co"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=${doc.email || ""}"
                 target="_blank"
                 class="text-white-600 underline text-center break-all w-full"
               >
