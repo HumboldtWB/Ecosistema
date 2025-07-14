@@ -50,7 +50,7 @@ export const directoryData = [
   /* gerencia jurídica */
   {
     id: "5",
-    name: "Johanna Gálvis",
+    name: "Johanna Galvis",
     position: "Gerente Jurídica y Cumplimiento",
     email: "jgalvis@humboldt.org.co",
     image: "img/directorio/direccion/Claudia Johanna Galvis Galindo.jpg",
@@ -255,7 +255,7 @@ export const directoryData = [
     email: "pdiaz@humboldt.org.co",
     image: "img/directorio/DICO/Paula Valeria Diaz Duarte.jpg",
     ciudad: "Bogotá",
-    profesion: "Tecnología En Cartografía",
+    profesion: "Tecnología en Cartografía",
     direccion: "Dirección Conocimiento",
     gerencia: "",
   },
@@ -266,7 +266,7 @@ export const directoryData = [
     email: "dolivera@humboldt.org.co",
     image: "img/directorio/DICO/Diana Marcela Olivera Feria.png",
     ciudad: "Bogotá",
-    profesion: "Técnico Apoyo Administrativo En Salud",
+    profesion: "Técnico Apoyo Administrativo en Salud",
     direccion: "Dirección Conocimiento",
     gerencia: "",
   },
@@ -484,7 +484,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/colecciones/especies/Carlos Andres Lasso Alcala.png",
     ciudad: "Bogotá",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
@@ -633,7 +633,7 @@ export const directoryData = [
   },
   {
     id: "55",
-    name: "Luís M. Leyton",
+    name: "Luis M. Leyton",
     position: "Investigador",
     email: "lleyton@humboldt.org.co",
     image:
@@ -799,7 +799,7 @@ export const directoryData = [
   },
   {
     id: "69",
-    name: "Angela Gutierrez",
+    name: "Angela Gutiérrez",
     position: "Curador",
     email: "agutierrez@humboldt.org.co",
     image:
@@ -870,7 +870,7 @@ export const directoryData = [
   },
   {
     id: "75",
-    name: "Edwín Torres",
+    name: "Edwin Torres",
     position: "Analista de Inv. 4",
     email: "etorres@humboldt.org.co",
     image:
@@ -936,7 +936,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/estudiossocioecologicos/Sandra Patricia Peña Alfonso.jpg",
     ciudad: "Bogotá",
-    profesion: "Administración De Empresas",
+    profesion: "Administración de Empresas",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
@@ -948,7 +948,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Natalia Norden Medina.png",
     ciudad: "Bogotá",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
@@ -978,7 +978,7 @@ export const directoryData = [
   },
   {
     id: "83",
-    name: "Luís Romero",
+    name: "Luis Romero",
     position: "Inv. Asistente 1",
     email: "lromero@humboldt.org.co",
     image:
@@ -990,7 +990,7 @@ export const directoryData = [
   },
   {
     id: "84",
-    name: "Juán Ulloa",
+    name: "Juan Sebastián Ulloa",
     position: "Inv. Adjunto 1",
     email: "julloa@humboldt.org.co",
     image:
@@ -1122,7 +1122,7 @@ export const directoryData = [
   },
   {
     id: "95",
-    name: "Monica Hernandez",
+    name: "Mónica Hernández",
     position: "Inv. Titular 1",
     email: "mhernandez@humboldt.org.co",
     image:
@@ -1182,7 +1182,7 @@ export const directoryData = [
   },
   {
     id: "100",
-    name: "Sindy Martinez",
+    name: "Sindy Martínez",
     position: "Inv. Asistente 3",
     email: "smartinez@humboldt.org.co",
     image:
@@ -1488,7 +1488,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Lisseth Marcela Acosta Pidiache.jpg",
     ciudad: "Piedecuesta - Santander",
-    profesion: "Tecnología En Producción Agropecuaria Ecológica",
+    profesion: "Tecnología en Producción Agropecuaria Ecológica",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -1499,8 +1499,8 @@ export const directoryData = [
     email: "eusama@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Eduin Yamid Usama Hidalgo.png",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Pasto",
+    profesion: "Ingeniería Forestal",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -1512,7 +1512,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Diego Armando Calambas Vásquez.jpg",
     ciudad: "Puracé - Cauca",
-    profesion: "Tecnología En Producción Ganadera",
+    profesion: "Tecnología en Producción Ganadera",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -1536,7 +1536,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Jhoel Mauricio Lozano Chaves.png",
     ciudad: "Roncesvalles - Tolima",
-    profesion: "Tecnología En Control Ambiental",
+    profesion: "Tecnología en Control Ambiental",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -1682,7 +1682,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Jairo Alejandro Hernandez Cobos.jpg",
     ciudad: "Chía - Cundinamarca",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
@@ -1694,7 +1694,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Angela Patricia Hernandez Arevalo.jpg",
     ciudad: "Bogotá",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
@@ -1730,7 +1730,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Yesica Pahola Lopez Velasquez.jpg",
     ciudad: "Guachucal - Nariño",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
@@ -1742,7 +1742,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/educacionambiental/Melissa Duran Oviedo.jpg",
     ciudad: "Bogotá",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
@@ -1910,7 +1910,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/apropiacionsocial/gobernanza/Lexa Yhomar Tavera Luna.png",
     ciudad: "Rovira - Tolima",
-    profesion: "Técnico En Sistemas",
+    profesion: "Técnico en Sistemas",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
@@ -2163,7 +2163,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/informacioncientifica/Erika Nathalia Salazar Gómez.jpg",
     ciudad: "Bogotá",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
@@ -2234,8 +2234,8 @@ export const directoryData = [
     email: "jlozano@humboldt.org.co",
     image:
       "img/directorio/DICO/informacioncientifica/Juan Sebastian Lozano.jpg",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Bogotá",
+    profesion: "Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
@@ -2494,7 +2494,7 @@ export const directoryData = [
   },
   {
     id: "209",
-    name: "Luís Urbina",
+    name: "Luis Urbina",
     position: "Inv. Adjunto 1",
     email: "lurbina@humboldt.org.co",
     image:
@@ -2865,7 +2865,7 @@ export const directoryData = [
   },
   {
     id: "240",
-    name: "Luís Miguel Gallego",
+    name: "Luis Miguel Gallego",
     position: "Editor General",
     email: "lgallego@humboldt.org.co",
     image:
@@ -2991,7 +2991,7 @@ export const directoryData = [
     image:
       "img/directorio/DIRE/gerenciaexperiencias/negocios/Alessandra Osejo.jpeg",
     ciudad: "Bogotá",
-    profesion: "",
+    profesion: "Artes Plásticas",
     direccion: "Dirección de Relacionamiento",
     gerencia: "Gerencia de Experiencias",
   },
@@ -3311,7 +3311,7 @@ export const directoryData = [
     image:
       "img/directorio/DDO/tecnologia/serviciostecnologicos/Juan David Peña Camacho.jpg",
     ciudad: "Bogotá",
-    profesion: "Técnico En Sistemas",
+    profesion: "Técnico en Sistemas",
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Tecnología",
   },
@@ -3347,7 +3347,7 @@ export const directoryData = [
     image:
       "img/directorio/DDO/gestionestrategica/planeacion/Martha Patricia Hernandez.jpg",
     ciudad: "Chía - Cundinamarca",
-    profesion: "Licenciatura En Biología",
+    profesion: "Licenciatura en Biología",
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Estratégica",
   },
@@ -3630,7 +3630,7 @@ export const directoryData = [
     email: "apgonzalez@humboldt.org.co",
     image: "img/directorio/DIFA/gerenciaadministrativa/",
     ciudad: "Bogotá",
-    profesion: "",
+    profesion: "Administración y Finanzas",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -3642,7 +3642,7 @@ export const directoryData = [
     image:
       "img/directorio/DIFA/gerenciaadministrativa/Ricardo Fabian Forero Reina.png",
     ciudad: "Bogotá",
-    profesion: "",
+    profesion: "Administración de Empresas",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -3684,7 +3684,7 @@ export const directoryData = [
   },
   /*{
     id: "311",
-    name: "Luís Pantoja",
+    name: "Luis Pantoja",
     position: "Abogado Esp 2",
     email: "lpantoja@humboldt.org.co",
     image:
@@ -3810,7 +3810,7 @@ export const directoryData = [
     image:
       "img/directorio/DIFA/gerenciaadministrativa/contratos/Samuel Arrieta Londoño.png",
     ciudad: "Bogotá",
-    profesion: "",
+    profesion: "Derecho",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -4001,7 +4001,7 @@ export const directoryData = [
     image:
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Hernando Cortes Martin.png",
     ciudad: "Bogotá",
-    profesion: "Técnico Linea Aviones",
+    profesion: "Técnico Línea Aviones",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -4096,7 +4096,7 @@ export const directoryData = [
     image:
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Dennis Sherly Vanegas Vargas.jpg",
     ciudad: "Bogotá",
-    profesion: "Técnico Laboral En Sistemas",
+    profesion: "Técnico Laboral en Sistemas",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -4422,8 +4422,8 @@ export const directoryData = [
     email: "pestepa@humboldt.org.co",
     image:
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Pedro E. Estepa.png",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Tunja",
+    profesion: "Biología",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
@@ -4434,8 +4434,8 @@ export const directoryData = [
     email: "rrincon@humboldt.org.co",
     image:
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Robinson Alberto Rincon Suarez.png",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Güican de la Sierra",
+    profesion: "Administración Agropecuaria",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
@@ -4446,7 +4446,7 @@ export const directoryData = [
     email: "josnas@humboldt.org.co",
     image:
       "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Jose Antonio Osnas Baltazar.png",
-    ciudad: "",
+    ciudad: "Rioblanco",
     profesion: "",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
@@ -4492,8 +4492,8 @@ export const directoryData = [
     email: "tleiva@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Tobias Leyva.png",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Bogotá",
+    profesion: "Geografía",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -4504,8 +4504,8 @@ export const directoryData = [
     email: "mverbel@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Martha Verbel.jpeg",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Valledupar",
+    profesion: "Biología",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -4516,7 +4516,7 @@ export const directoryData = [
     email: "oibanez@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Oscar Ibañez.png",
-    ciudad: "",
+    ciudad: "Bogotá",
     profesion: "",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
@@ -4528,8 +4528,8 @@ export const directoryData = [
     email: "atriana@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Adriana Triana.png",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Tasco",
+    profesion: "Agrobiotecnología",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -4540,8 +4540,8 @@ export const directoryData = [
     email: "wsaenz@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Wilmer Saenz .jpeg",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Bogotá",
+    profesion: "Control Ambiental",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -4552,7 +4552,7 @@ export const directoryData = [
     email: "sgonzalez@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Santiago Gonzalez.JPG",
-    ciudad: "",
+    ciudad: "Guasca",
     profesion: "",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
@@ -4564,8 +4564,8 @@ export const directoryData = [
     email: "ctiraca@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Carlos Henrry Tiraca Cuaspud.jpg",
-    ciudad: "",
-    profesion: "",
+    ciudad: "Túquerres",
+    profesion: "Operaciones Contables",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
@@ -4806,7 +4806,7 @@ export const directoryData = [
     image:
       "img/directorio/DICO/solucionesnaturaleza/restauracion/Leidy Nayive Cuastumal Caipe.png",
     ciudad: "Guachucal - Nariño",
-    profesion: "Auxiliar En Sistemas",
+    profesion: "Auxiliar en Sistemas",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
@@ -4913,7 +4913,7 @@ export const directoryData = [
     email: "garistizabal@humboldt.org.co",
     image:
       "img/directorio/DICO/solucionesnaturaleza/sectorial/Gustavo Adolfo Aristizabal Hernandez.jpg",
-    ciudad: "Monteria - Córdoba",
+    ciudad: "Montería - Córdoba",
     profesion: "Ingeniería Sanitaria",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Soluciones Basadas en la Naturaleza",
@@ -4986,7 +4986,7 @@ export const directoryData = [
     email: "jlobo@humboldt.org.co",
     image:
       "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/José de Jesús Lobo Camargo.jpeg",
-    ciudad: "Monteria",
+    ciudad: "Montería",
     profesion: "Economía",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
@@ -5125,7 +5125,7 @@ export const directoryData = [
     name: "Andrés F. Vargas",
     position: "Inv. Asistente 2",
     email: "afvargas@humboldt.org.co",
-    image: "img/directorio/DICO/Andrés Felipe Vargas Arboleda.png",
+    image: "img/directorio/DICO/colecciones/mamiferos/Andres Felipe Vargas Arboleda.png",
     ciudad: "Bogotá",
     profesion: "Biología",
     direccion: "Dirección de Conocimiento",
@@ -5135,7 +5135,7 @@ export const directoryData = [
     name: "Angie A. Mondragón",
     position: "Inv. Adjunto 1",
     email: "amondragon@humboldt.org.co",
-    image: "img/directorio/DICO/Angie-Alejandra-Mondragón-Mayo.png",
+    image: "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Angie Alejandra Mondragón.png",
     ciudad: "Bogotá",
     profesion: "Economía",
     direccion: "Dirección de Conocimiento",
