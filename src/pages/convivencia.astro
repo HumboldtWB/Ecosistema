@@ -193,121 +193,92 @@ import Menu from "../components/Menu.astro";
             </div>
           </div>
 
-          <div>
-            <h3 class="pl-5 text-base text-azul-light font-bold mb-8">
-              Integrantes
-            </h3>
-            <p class="my-5 text-center font-bold">
-              Representantes del empleador
-            </p>
-            <div class="grid grid-cols-2 md:grid-cols-3">
+          <div class="relative">
+            <div
+              class="grid grid-cols-2 md:grid-cols-4 gap-6 rounded-lg pt-16 pb-10 bg-[#e8e8e8] relative"
+            >
+              <h3
+                class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-6 py-2 text-xl text-black font-bold rounded-lg shadow-md"
+                style="background-color: #d1d96a"
+              >
+                Integrantes elegidos por los trabajadores
+              </h3>
               <div>
                 <img
-                  src="img/fotos/viviana-quinceno.png"
-                  alt="diana"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
+                  src="img/directorio/DICO/colecciones/especies/German Eduardo Torres Morales.jpg"
+                  alt="German Eduardo Morales"
+                  class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
                 />
+                <p class="text-center font-bold">German Eduardo Torres</p>
+              </div>
+              <div>
+                <img
+                  src="img/directorio/DIRE/gerenciaexperiencias/comunicaciones/proyectosycomunicaciones/Luz Adriana Moreno Gonzalez.jpg"
+                  alt="Luz Adriana Moreno"
+                  class="block mx-auto w-[150px] h-[150px] object-contain mb-3 rounded-full"
+                />
+                <p class="text-center font-bold">Luz Adriana Moreno</p>
+              </div>
 
-                <p class="text-center">Viviana Betancur Quiceno</p>
-                <p class="text-center text-sm">Principal-Presidente CCL</p>
+              <div>
+                <img
+                  src="img/directorio/DICO/solucionesnaturaleza/Sandra Karina Parrado Suarez.jpg"
+                  alt="Sandra Karina Parrado"
+                  class="block mx-auto w-[150px] h-[150px] object-contain mb-3 rounded-full"
+                />
+                <p class="text-center font-bold">Sandra Karina Parrado</p>
               </div>
               <div>
                 <img
-                  src="img/fotos/july.png"
-                  alt="Isabel"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
+                  src="img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/presupuestal/Juan Sebastián Gutiérrez Patiño.jpg"
+                  alt="Juan Sebastián Gutiérrez"
+                  class="block mx-auto w-[150px] h-[150px] object-contain mb-3 rounded-full"
                 />
-                <p class="text-center">July Hasbleidy Cubillos Leiton</p>
-                <p class="text-center text-sm">Principal</p>
-              </div>
-              <div>
-                <img
-                  src="img/fotos/erika-adelaida.png"
-                  alt="Erika"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
-                />
-                <p class="text-center">Erika Adelaida Peñuela Vega</p>
-                <p class="text-center text-sm">Suplente</p>
-              </div>
-              <div class="mt-2">
-                <img
-                  src="img/fotos/fernando.png"
-                  alt="Angela"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[120px] h-[120px] object-cover"
-                />
-                <p class="text-center">Fernando Rodríguez Moreno</p>
-                <p class="text-center text-sm">Suplente</p>
-              </div>
-              <div class="mt-2">
-                <img
-                  src="img/fotos/German Eduardo Torres Morales.jpg"
-                  alt="Angela"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[120px] h-[120px] object-cover"
-                />
-                <p class="text-center">German Eduardo Torres Morales</p>
-                <p class="text-center text-sm">Suplente</p>
+                <p class="text-center font-bold">Juan Sebastián Gutiérrez</p>
               </div>
             </div>
-
-            <p class="my-5 text-center font-bold">
-              Representantes del trabajador
-            </p>
-
-            <div class="grid grid-cols-2 md:grid-cols-3">
-              <div>
-                <img
-                  src="img/fotos/carolina-angulo.jpg"
-                  alt="carolina angulo"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
-                />
-
-                <p class="text-center">Carolina Angulo Ospina</p>
-                <p class="text-center text-sm">Principal-Secretaria CCL</p>
-              </div>
-              <div>
-                <img
-                  src="img/fotos/maria-camila-gongora.png"
-                  alt="Maria G"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
-                />
-                <p class="text-center">María Kamila Góngora</p>
-                <p class="text-center text-sm">Principal</p>
-              </div>
-              <div>
-                <img
-                  src="img/fotos/nohora-patricia.png"
-                  alt="Nohora"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
-                />
-                <p class="text-center">Nohora Patricia Quintero Cáceres</p>
-                <p class="text-center text-sm">Suplente</p>
-              </div>
-              <div>
-                <img
-                  src="img/fotos/Paula-Andrea.png"
-                  alt="Paula"
-                  width="100"
-                  height="100"
-                  class="block mx-auto w-[130px] h-[130px] object-cover mb-5 rounded-full"
-                />
-                <p class="text-center">Paula Andrea León Peraza</p>
-                <p class="text-center text-sm">Suplente</p>
+            <div class="relative mt-8">
+              <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-6 rounded-lg pt-16 pb-10 bg-[#e8e8e8] relative"
+              >
+                <h3
+                  class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-6 py-2 text-xl text-black font-bold rounded-lg shadow-md"
+                  style="background-color: #d1d96a"
+                >
+                  Integrantes elegidos por la dirección
+                </h3>
+                <div>
+                  <img
+                    src="img/directorio/DIRE/Carolina Marín Rozo.jpg"
+                    alt="Carolina Marin Rozo"
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                  />
+                  <p class="text-center font-bold">Carolina Marin Rozo</p>
+                </div>
+                <div>
+                  <img
+                    src="img/directorio/DIRE/gerenciapolitica/cooperacion/Erika Adelaida Peñuela Vega.jpg"
+                    alt="Erika Adelaida Peñuela"
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                  />
+                  <p class="text-center font-bold">Erika Adelaida Peñuela</p>
+                </div>
+                <div>
+                  <img
+                    src="img/directorio/DDO/gestionhumana/July Hasbleidy Cubillo Leiton.png"
+                    alt="July Hasbleidy Cubillos"
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                  />
+                  <p class="text-center font-bold">July Hasbleidy Cubillos</p>
+                </div>
+                <div>
+                  <img
+                    src="img/directorio/DDO/gestionhumana/cultura/Fernando Rodriguez Moreno.png"
+                    alt="Fernando Rodríguez Moreno"
+                    class="block mx-auto w-[150px] h-[150px] object-contain mb-5 rounded-full"
+                  />
+                  <p class="text-center font-bold">Fernando Rodríguez Moreno</p>
+                </div>
               </div>
             </div>
           </div>
