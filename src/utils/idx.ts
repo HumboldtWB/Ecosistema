@@ -2083,7 +2083,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
-  {
+  /*{
     id: "175",
     name: "Carlos A. Toro",
     position: "Inv. Asistente 3",
@@ -2094,7 +2094,7 @@ export const directoryData = [
     profesion: "Ingeniería De Sistemas",
     direccion: "Dirección Conocimiento",
     gerencia: "Gerencia de Información Científica",
-  },
+  },*/
   {
     id: "176",
     name: "Camilo Zapata",
@@ -3670,7 +3670,7 @@ export const directoryData = [
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
-  {
+  /*{
     id: "310",
     name: "July Gordillo",
     position: "Abogada Esp 2",
@@ -3681,7 +3681,7 @@ export const directoryData = [
     profesion: "Derecho",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
-  },
+  },*/
   /*{
     id: "311",
     name: "Luis Pantoja",
@@ -3876,11 +3876,10 @@ export const directoryData = [
   },
   {
     id: "327",
-    name: "David S. Ramírez",
-    position: "Analista",
-    email: "sramirez@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/compras/David Sebastian Ramirez Ospina.jpeg",
+    name: "Jorge A. Rojas",
+    position: "Analista Senior",
+    email: "jarojas@humboldt.org.co",
+    image: "",
     ciudad: "Bogotá",
     profesion: "Administración De Empresas",
     direccion: "Dirección Financiera y Administrativa",
@@ -5062,7 +5061,7 @@ export const directoryData = [
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
-    id: "426",
+    id: "451",
     name: "Sara P. Molina",
     position: "Inv. Asistente",
     email: "smolina@humboldt.org.co",
@@ -5329,7 +5328,7 @@ export const directoryData = [
 
   {
     id: "450",
-    name: "Lilibeth A. Palacios",
+    name: "Lilibeth A. Palacio",
     position: "Inv. Asistente 1",
     email: "lpalacios@humboldt.org.co",
     image: "img/directorio/DICO/colecciones/avesyhuevos/Lilibeth Arinda Palacio Gomez.jpg",
@@ -5340,6 +5339,155 @@ export const directoryData = [
   },
 
   {
+    id: "452",
+    name: "Tatiana A. Sierra",
+    position: "Analista Senior",
+    email: "tsierra@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Tecnología Saneamiento Ambiental",
+    direccion: "Dirección General",
+    gerencia: "Auditoría",
+  },
+
+  {
+    id: "453",
+    name: "Walter A. García",
+    position: "Inv. Asistente 2",
+    email: "wgarcia@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Biología Aplicada",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Gerencia de Información Científica",
+  },
+
+  {
+    id: "454",
+    name: "Maira A. León",
+    position: "Analista Senior",
+    email: "mleon@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Gobierno de Relaciones Internacionales",
+    direccion: "Dirección de Relacionamiento",
+    gerencia: "Gerencia de Política Pública y Cooperación",
+  },
+
+  {
+    id: "455",
+    name: "Oscar A. Peña",
+    position: "Inv. Asistente 3",
+    email: "opena@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Licenciatura en Psicología y Pedagogía",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Apropiación Social",
+  },
+
+  {
+    id: "456",
+    name: "Henry M. García",
+    position: "Inv. Asistente 2",
+    email: "hmgarcia@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Gerencia de Información Científica",
+  },
+
+  {
+    id: "457",
+    name: "Santiago Chamorro",
+    position: "Inv. Asistente 1",
+    email: "sorozco@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Apropiación Social",
+  },
+
+  {
+    id: "458",
+    name: "Karen X. Vargas",
+    position: "Inv. Asistente 3",
+    email: "kvargas@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Análisis y Desarrollo de Sistemas de Información",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Gerencia de Información Científica",
+  },
+{
+    id: "459",
+    name: "Henry W. Gallo ",
+    position: "Inv. Asistente 1",
+    email: "hgallo@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Apropiación Social",
+  },
+{
+    id: "460",
+    name: "Jessica Diaz",
+    position: "Inv. Asistente 1",
+    email: "jjdiazc@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Biología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
+  },
+{
+    id: "461",
+    name: "Hernando Solano",
+    position: "Investigador",
+    email: "hsolano@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Administración de Empresas",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Gerencia de Información Científica",
+  },
+{
+    id: "462",
+    name: "María C. García",
+    position: "Responsable",
+    email: "szapata@humboldt.org.co",  
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Comunicación Social y Periodismo",
+    direccion: "Comunicación Social y Periodismo",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
+  },
+{
+    id: "463",
+    name: "Nyria A. Ramirez",
+    position: "Responsable",
+    email: "naramirez@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Comunicación Social y Periodismo",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
+  },
+{
+    id: "464",
+    name: "Maria I. Loaiza",
+    position: "Responsable Senior",
+    email: "mloaiza@humboldt.org.co",
+    image: "",
+    ciudad: "Bogotá",
+    profesion: "Ciencia Política y Gobierno",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+{
     id: "",
     name: "",
     position: "",
@@ -5350,8 +5498,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
@@ -5362,8 +5509,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
@@ -5374,8 +5520,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
@@ -5386,8 +5531,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
@@ -5398,8 +5542,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
@@ -5410,8 +5553,7 @@ export const directoryData = [
     direccion: "",
     gerencia: "",
   },
-
-  {
+{
     id: "",
     name: "",
     position: "",
