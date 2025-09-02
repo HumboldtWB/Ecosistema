@@ -4935,7 +4935,7 @@ export const directoryData = [
     position: "Inv. Adjunto 1",
     email: "druiz@humboldt.org.co",
     image:
-      "dist/img/directorio/DICO/solucionesnaturaleza/urbana/Diana Marcela Ruiz Rios.jpg",
+      "img/directorio/DICO/solucionesnaturaleza/urbana/Diana Marcela Ruiz Rios.jpg",
     ciudad: "Bogotá",
     profesion: "Biología",
     direccion: "Dirección de Conocimiento",
