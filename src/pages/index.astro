@@ -227,28 +227,27 @@ import Layout from "../layouts/Layout-yellow.astro";
       >&#9993;</a
     > -->
     <!-- nuevo boton de acceso rapido  -->
-    <div id="menu-container" class="fixed bottom-4 right-11 inline-block">
-      <div class="group flex items-center">
-        <span
-          class="text-2xl mr-2 mb-4 group-hover:text-white transition-colors"
-          >Descubre más</span
-        >
-        <button
-          id="menu-button"
-          class="w-10 h-10 mr-12 mb-4 bg-white text-black rounded-full hover:invert transition text-2xl animate-pulse border-2 border-black"
-        >
-          +
-        </button>
-      </div>
-      <div
-        id="dropdown-menu"
-        class="absolute right-0 bottom-full mr-60 w-full shadow-lg rounded-lg hidden flex flex-col gap-1"
-        onmouseenter="toggleMenu(true)"
-        onmouseleave="toggleMenu(false)"
+    <div
+      id="menu-container"
+      class="fixed bottom-4 left-4 flex items-center gap-2 ml-28 mb-20"
+    >
+      <!-- Botón principal -->
+      <button
+        id="menu-button"
+        class="w-40 h-12 bg-white text-black hover:invert transition text-xl animate-pulse border-2 border-black rounded-lg"
       >
-        <a href="directorio" target="_blank" rel="noopener noreferrer">
+        Descubre más
+      </button>
+      <!-- Menú en fila alineado al botón -->
+      <div id="dropdown-menu" class="hidden flex-row items-center gap-2">
+        <a
+          href="directorio"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex"
+        >
           <button
-            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text- inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
+            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-lg inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Directorio Humboldt</span>
             <img
@@ -257,7 +256,6 @@ import Layout from "../layouts/Layout-yellow.astro";
             />
           </button>
         </a>
-
         <a
           href="https://bit.ly/3DQhJXs"
           target="_blank"
@@ -265,7 +263,7 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text- inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
+            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-lg inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Entérate con el Humboldt</span>
             <img
@@ -274,7 +272,6 @@ import Layout from "../layouts/Layout-yellow.astro";
             />
           </button>
         </a>
-
         <a
           href="https://docs.google.com/forms/d/1YasvohVbB6L688-EsCXwG5kVngsH5wimHuDYnkG_B0c/viewform?edit_requested=true"
           target="_blank"
@@ -282,7 +279,7 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text- inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
+            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-lg inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Buzón de sugerencias</span>
             <img
@@ -291,7 +288,6 @@ import Layout from "../layouts/Layout-yellow.astro";
             />
           </button>
         </a>
-
         <a
           href="https://calendar.google.com/calendar/embed?src=c_18a5a08f013212e6d72e017f564a97106b0a59ef132676e4c83a871d1823f257%40group.calendar.google.com&ctz=America%2FBogota"
           target="_blank"
@@ -299,7 +295,7 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text- inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
+            class="menu-item px-4 py-2 bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] text-lg inline-flex items-center border border-black border-opacity-25 group opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Agéndate con el Humboldt</span>
             <img
