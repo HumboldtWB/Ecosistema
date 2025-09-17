@@ -1819,18 +1819,6 @@ export const directoryData = [
     gerencia: "Centro de Apropiación Social",
   },
   {
-    id: "153",
-    name: "Paola Acosta",
-    position: "Inv. Asistente 1",
-    email: "pacosta@humboldt.org.co",
-    image:
-      "img/directorio/DICO/apropiacionsocial/gobernanza/Paola Acosta Jimenez.png",
-    ciudad: "Bogotá",
-    profesion: "Gobierno y Asuntos Públicos",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Apropiación Social",
-  },
-  {
     id: "154",
     name: "Laura D. Ramirez",
     position: "Inv. Asistente 1",
@@ -3114,18 +3102,6 @@ export const directoryData = [
     gerencia: "Gerencia de Gestión Humana",
   },
   {
-    id: "261",
-    name: "Andrea Enciso",
-    position: "Auxiliar Senior",
-    email: "aenciso@humboldt.org.co",
-    image:
-      "img/directorio/DDO/gestionhumana/talentohumano/Andrea Iraida Enciso Guerra.png",
-    ciudad: "Bogotá",
-    profesion: "Gestión del Talento Humano",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Humana",
-  },
-  {
     id: "262",
     name: "Juan Camilo Tobón",
     position: "Responsable",
@@ -3336,18 +3312,6 @@ export const directoryData = [
       "img/directorio/DDO/gestionestrategica/planeacion/Claudia Maria Villa Garcia.jpg",
     ciudad: "Medellín - Antioquia",
     profesion: "Comunicación Social y Periodismo",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Estratégica",
-  },
-  {
-    id: "282",
-    name: "Martha Hernández",
-    position: "Responsable Senior",
-    email: "mphernandez@humboldt.org.co",
-    image:
-      "img/directorio/DDO/gestionestrategica/planeacion/Martha Patricia Hernandez.jpg",
-    ciudad: "Chía - Cundinamarca",
-    profesion: "Licenciatura en Biología",
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Estratégica",
   },
@@ -3885,18 +3849,6 @@ export const directoryData = [
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
-  /*{
-    id: "328",
-    name: "Aitza Pulido",
-    position: "Arquitecta",
-    email: "apulido@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/infraestructurafisica/Aitza Pulido Casallas.png",
-    ciudad: "Bogotá",
-    profesion: "Arquitectura",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
-  },*/
   {
     id: "329",
     name: "Alejandra Valencia",
@@ -3981,18 +3933,6 @@ export const directoryData = [
     gerencia: "Gerencia Administrativa",
   },
   {
-    id: "336",
-    name: "José Ballesteros",
-    position: "Asistente Junior",
-    email: "jballesteros@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Miguel Ballesteros Amaya.png",
-    ciudad: "Bogotá",
-    profesion: "Técnico Electromecánico",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
-  },
-  {
     id: "337",
     name: "Hernando Cortés",
     position: "Asistente Junior",
@@ -4001,18 +3941,6 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Hernando Cortes Martin.png",
     ciudad: "Bogotá",
     profesion: "Técnico Línea Aviones",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
-  },
-  {
-    id: "338",
-    name: "Yubi Alarcón",
-    position: "Asistente Junior",
-    email: "yalarcon@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Yubi Mireya Alarcon Arias.png",
-    ciudad: "Bogotá",
-    profesion: "Administración Documental",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
