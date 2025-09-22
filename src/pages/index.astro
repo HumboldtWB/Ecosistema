@@ -4,6 +4,14 @@ import Layout from "../layouts/Layout-yellow.astro";
 
 <Layout title="Portada | Ecosistema Humboldt">
   <main class="relative">
+    <div class="absolute top-4 left-4 z-50">
+      <button
+        id="open-modal-btn"
+        class="bg-[#317e86] text-white px-4 py-2 rounded hover:bg-[#255f64]"
+      >
+        Abrir modal
+      </button>
+    </div>
     <section
       class="max-w-[90%] mx-auto h-auto bg-contain bg-center lg:bg-right-top bg-no-repeat py-16"
       id="planta"
@@ -229,7 +237,7 @@ import Layout from "../layouts/Layout-yellow.astro";
     <!-- nuevo boton de acceso rapido  -->
     <div
       id="menu-container"
-      class=" bottom-4 ml-4 md:ml-16 md:flex items-center gap-2  mb-4"
+      class="bottom-4 ml-4 md:ml-16 md:flex items-center gap-2 mb-4"
     >
       <!-- Botón principal -->
       <button
@@ -247,17 +255,16 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item 
+            class="menu-item
             px-9 py-1 text-sm
             sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
-            lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] 
+            md:px-8 md:py-4 md:text-12
+            lg:px-7 lg:py-1 lg:text-8
+            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
             
-            inline-flex items-center 
-            border border-black border-opacity-25 
-            group 
+            inline-flex items-center
+            border border-black border-opacity-25
+            group
             opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Directorio <br />Humboldt</span>
@@ -274,17 +281,16 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item 
+            class="menu-item
             px-7 py-1 text-sm
             sm:px-7 sm:py-1 <!--Tamaño para celulares-->
             md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
             lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] 
+            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
             
-            inline-flex items-center 
-            border border-black border-opacity-25 
-            group 
+            inline-flex items-center
+            border border-black border-opacity-25
+            group
             opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Entérate con <br />el Humboldt</span>
@@ -301,17 +307,16 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item 
+            class="menu-item
             px-7 py-1 text-sm
             sm:px-7 sm:py-1 <!--Tamaño para celulares-->
             md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
             lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] 
+            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
             
-            inline-flex items-center 
-            border border-black border-opacity-25 
-            group 
+            inline-flex items-center
+            border border-black border-opacity-25
+            group
             opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Buzón de <br />sugerencias</span>
@@ -328,17 +333,16 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item 
+            class="menu-item
             px-6 py-1 text-sm
             sm:px-7 sm:py-1 <!--Tamaño para celulares-->
             md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
             lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] 
+            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
             
-            inline-flex items-center 
-            border border-black border-opacity-25 
-            group 
+            inline-flex items-center
+            border border-black border-opacity-25
+            group
             opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">Agéndate con <br /> el Humboldt</span>
@@ -355,17 +359,16 @@ import Layout from "../layouts/Layout-yellow.astro";
           class="inline-flex"
         >
           <button
-            class="menu-item 
+            class="menu-item
             px-6 py-1 text-sm
             sm:px-7 sm:py-1 <!--Tamaño para celulares-->
             md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
             lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697] 
+            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
             
-            inline-flex items-center 
-            border border-black border-opacity-25 
-            group 
+            inline-flex items-center
+            border border-black border-opacity-25
+            group
             opacity-0 transform -translate-x-6"
           >
             <span class="mr-2">XTicket Mesa <br /> de ayuda</span>
@@ -380,30 +383,27 @@ import Layout from "../layouts/Layout-yellow.astro";
   </main>
 
   <!-- Modal -->
-  <!-- <div id="modal_cop" class="fixed z-10 inset-0">
+  <div id="modal_acceso" class="fixed z-10 inset-0 hidden">
+    <div
+      class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-75 transition-opacity"
+    >
       <div
-        class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-75 transition-opacity"
+        class="flex flex-col items-center bg-white p-10 rounded-2xl shadow-xl w-3/4 md:w-1/2 lg:w-1/3"
       >
-        <div
-          class="flex flex-col items-center justify-between bg-none p-20 rounded w-2/3"
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Accesos Rápidos</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full"></div>
+
+        <button
+          id="close-modal-btn"
+          type="button"
+          class="border px-3 py-1 mt-8 text-gray-700 border-gray-400 rounded-full hover:bg-gray-200 transition"
         >
-          <a href="https://bit.ly/3DQhJXs" target="_blank">
-            <img
-              src="../../public/img/pop-up-enterate.png"
-              alt="Entérate Humboldt"
-              class="w-200 h-200"
-            />
-          </a>
-          <button
-            id="close-modal-btn"
-            type="button"
-            class="border px-3 py-1 mt-10 text-white rounded-full"
-          >
-            X
-          </button>
-        </div>
+          X
+        </button>
       </div>
-    </div> -->
+    </div>
+  </div>
 </Layout>
 
 <style>
