@@ -4,12 +4,12 @@ import Layout from "../layouts/Layout-yellow.astro";
 
 <Layout title="Portada | Ecosistema Humboldt">
   <main class="relative">
-    <div class="absolute top-4 left-4 z-50">
+    <div class="absolute top-16 left-16 md:top-16 md:left-16 lg:top-16 lg:left-16 z-50">
       <button
         id="open-modal-btn"
-        class="bg-[#317e86] text-white px-4 py-2 rounded hover:bg-[#255f64]"
+        class="bg-white text-black px-4 py-2 rounded border border-black hover:bg-black hover:text-white transition-colors duration-300"
       >
-        Abrir modal
+        Descubre más
       </button>
     </div>
     <section
@@ -234,47 +234,50 @@ import Layout from "../layouts/Layout-yellow.astro";
       class="fixed z-90 bottom-10 right-8 bg-white w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-black text-4xl hover:bg-black hover:drop-shadow-2xl hover:text-white hover:animate-bounce duration-300"
       >&#9993;</a
     > -->
-    <!-- nuevo boton de acceso rapido  -->
+   
+  </main>
+
+  <!-- Modal -->
+  <div id="modal_acceso" class="fixed z-10 inset-0 hidden">
+  <div
+    id="modal_overlay"
+    class="flex items-center justify-center min-h-screen bg-black bg-opacity-50 transition-opacity p-18 shadow-xl transition-colors duration-300"
+  >
     <div
-      id="menu-container"
-      class="bottom-4 ml-4 md:ml-16 md:flex items-center gap-2 mb-4"
+      id="modal_content"
+      class="flex flex-col items-center bg-white rounded-2xl text-xl border-l-8 border-white"
     >
-      <!-- Botón principal -->
-      <button
-        id="menu-button"
-        class="w-40 h-12 bg-white text-black hover:invert transition text-xl animate-pulse border-2 border-black rounded-lg"
-      >
-        Descubre más
-      </button>
-      <!-- Menú en fila alineado al botón -->
-      <div id="dropdown-menu" class="hidden flex-row items-center gap-2">
-        <a
-          href="directorio"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex"
-        >
-          <button
-            class="menu-item
-            px-9 py-1 text-sm
-            sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-8 md:py-4 md:text-12
-            lg:px-7 lg:py-1 lg:text-8
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
-            
-            inline-flex items-center
-            border border-black border-opacity-25
-            group
-            opacity-0 transform -translate-x-6"
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Accesos Rápidos</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full">
+
+          <a
+            href="directorio"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex"
           >
-            <span class="mr-2">Directorio <br />Humboldt</span>
-            <img
-              src="/img/Acceso-directo-icono-1.png"
-              class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-5 md:h-5 lg:w-6 lg:h-6 ml-2 group-hover:invert"
-            />
-          </button>
-        </a>
-        <a
+            <button
+              class="menu-item
+                px-7 py-1 text-sm
+                sm:px-7 sm:py-1
+                md:px-7 md:py-1 md:text-lg
+                lg:px-7 lg:py-1 lg:text-lg
+                bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
+                inline-flex items-center
+                border border-black border-opacity-25
+                group
+                opacity-100 transform translate-x-0 transition"
+            >
+              <span class="mr-8">Directorio <br />Humboldt</span>
+              <img
+                src="/img/Acceso-directo-icono-1.png"
+                class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-5 md:h-5 lg:w-6 lg:h-6 ml-2 group-hover:invert"
+              />
+            </button>
+          </a>
+
+          <a
           href="https://bit.ly/3DQhJXs"
           target="_blank"
           rel="noopener noreferrer"
@@ -283,15 +286,14 @@ import Layout from "../layouts/Layout-yellow.astro";
           <button
             class="menu-item
             px-7 py-1 text-sm
-            sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
-            lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
+            sm:px-7 sm:py-1
+            md:px-7 md:py-1 md:text-lg
+            lg:px-7 lg:py-1 lg:text-lg
             bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
-            
             inline-flex items-center
             border border-black border-opacity-25
             group
-            opacity-0 transform -translate-x-6"
+            opacity-100 transform translate-x-0 transition"
           >
             <span class="mr-2">Entérate con <br />el Humboldt</span>
             <img
@@ -300,6 +302,7 @@ import Layout from "../layouts/Layout-yellow.astro";
             />
           </button>
         </a>
+        
         <a
           href="https://docs.google.com/forms/d/1YasvohVbB6L688-EsCXwG5kVngsH5wimHuDYnkG_B0c/viewform?edit_requested=true"
           target="_blank"
@@ -308,16 +311,16 @@ import Layout from "../layouts/Layout-yellow.astro";
         >
           <button
             class="menu-item
-            px-7 py-1 text-sm
-            sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
-            lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
-            
-            inline-flex items-center
-            border border-black border-opacity-25
-            group
-            opacity-0 transform -translate-x-6"
+              px-7 py-1 text-sm
+              sm:px-7 sm:py-1
+              md:px-7 md:py-1 md:text-lg
+              lg:px-7 lg:py-1 lg:text-lg
+              bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
+              inline-flex items-center
+              border border-black border-opacity-25
+              group
+              opacity-100 transform translate-x-0 transition
+            "
           >
             <span class="mr-2">Buzón de <br />sugerencias</span>
             <img
@@ -326,32 +329,34 @@ import Layout from "../layouts/Layout-yellow.astro";
             />
           </button>
         </a>
+
         <a
-          href="https://calendar.google.com/calendar/embed?src=c_18a5a08f013212e6d72e017f564a97106b0a59ef132676e4c83a871d1823f257%40group.calendar.google.com&ctz=America%2FBogota"
+          href="https://calendar.google.com/calendar/embed?src=c_18a5a08f013212e6d72e017f564a97106b0a59ef132676e4c83a871d1823f257%40group.calendar.google.com&ctz=America%2FBogota"       
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex"
         >
           <button
             class="menu-item
-            px-6 py-1 text-sm
-            sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
-            lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
-            
-            inline-flex items-center
-            border border-black border-opacity-25
-            group
-            opacity-0 transform -translate-x-6"
+              px-6 py-1 text-sm
+              sm:px-7 sm:py-1
+              md:px-7 md:py-1 md:text-lg
+              lg:px-7 lg:py-1 lg:text-lg
+              bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
+              inline-flex items-center
+              border border-black border-opacity-25
+              group
+              opacity-100 transform translate-x-0 transition
+            "
           >
-            <span class="mr-2">Agéndate con <br /> el Humboldt</span>
+            <span class="mr-0">Agéndate con <br /> Humboldt</span>
             <img
               src="/img/Acceso-directo-icono-4.png"
-              class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-5 md:h-5 lg:w-6 lg:h-6 ml-2 group-hover:invert"
+              class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-4 md:h-5 lg:w-6 lg:h-6 ml-2 group-hover:invert"
             />
           </button>
         </a>
+
         <a
           href="https://www.appsheet.com/start/ad97dfbe-e5fd-436f-a622-87e1dcb8d790#appName=Xticket20-dev-779464427&page=gallery&sort=%5B%5D&table=MenuSLC&view=Lobby+Principal&_mainprotocol=https:"
           target="_blank"
@@ -360,40 +365,26 @@ import Layout from "../layouts/Layout-yellow.astro";
         >
           <button
             class="menu-item
-            px-6 py-1 text-sm
-            sm:px-7 sm:py-1 <!--Tamaño para celulares-->
-            md:px-7 md:py-1 md:text-8 <!--Tamaño para pantallas medianas (laptops)-->
-            lg:px-7 lg:py-1 lg:text-8 <!--Tamaño para pantallas grandes (PC, Televisores)-->
-            bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
-            
-            inline-flex items-center
-            border border-black border-opacity-25
-            group
-            opacity-0 transform -translate-x-6"
+              px-6 py-1 text-sm
+              sm:px-7 sm:py-1
+              md:px-7 md:py-1 md:text-lg
+              lg:px-7 lg:py-1 lg:text-lg
+              bg-[#317e86] text-white rounded-lg hover:text-black hover:bg-[#fee697]
+              inline-flex items-center
+              border border-black border-opacity-25
+              group
+              opacity-100 transform translate-x-0 transition
+            "
           >
             <span class="mr-2">XTicket Mesa <br /> de ayuda</span>
             <img
               src="/img/Acceso-directo-icono-5.png"
-              class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-5 md:h-5 lg:w-6 lg:h-6 ml-2 group-hover:invert"
+              class="md:shrink-0 w-8 h-8 sm:w-8 sm:h-8 md:w-5 md:h-5 lg:w-5 lg:h-6 ml-2 group-hover:invert"
             />
           </button>
         </a>
-      </div>
-    </div>
-  </main>
-
-  <!-- Modal -->
-  <div id="modal_acceso" class="fixed z-10 inset-0 hidden">
-    <div
-      class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-75 transition-opacity"
-    >
-      <div
-        class="flex flex-col items-center bg-white p-10 rounded-2xl shadow-xl w-3/4 md:w-1/2 lg:w-1/3"
-      >
-        <h2 class="text-2xl font-bold text-gray-800 mb-6">Accesos Rápidos</h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full"></div>
-
+        </div>
+        
         <button
           id="close-modal-btn"
           type="button"
@@ -401,6 +392,7 @@ import Layout from "../layouts/Layout-yellow.astro";
         >
           X
         </button>
+        
       </div>
     </div>
   </div>
