@@ -41,31 +41,33 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
         <div
-          class="grid rounded-lg bg-[#DCE0CD] hover:bg-black hover:text-white p-3"
+          class="group relative grid rounded-lg bg-[#DCE0CD] hover:bg-black hover:text-white p-3 transition-colors"
         >
           <a
-            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQm7ABYI8TyBk8gDhxCO7NKgwt3mXOSFnbYa-_2qjnoKzKXNjSQaELEYwyPWlh2DwAHhWSVF7kOXbEv/pubhtml?gid=999946742&single=true"
+            href="https://app2.clarizen.com/Clarizen/Ext/WidgetSubsystemPage.aspx?wt=ViewSubsystem&uid=9.725838721.39907457&wid=dCZVd93aIUWaN2txAPaimg&pid=453.741111617.39907457&vid=354.397073473.39907457&ccontx=EnhancementRequest&rlop=ShowRelationsWithProperties&el=0&vietyp=Subsystem&psw=1&CSig=8E15922CA543DCDF01E34D90F6341042171CA9EE"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center h-full my-auto mx-auto"
           >
-            <!-- <img
-                src="img/organigrama.svg"
-                alt=""
-                width="60"
-                class="block mx-auto my-auto py-3 px-2"
-              /> -->
-
-            <div class="items-center">
-              <p
-                class="flex justify-center items-center h-full text-xl text-center font-light hover:text-white max-w-[220px] mx-auto"
-              >
-                Cadena PAI
-              </p>
-            </div>
+            <p class="text-xl text-center font-light max-w-[220px] mx-auto">
+              Cadena PAI
+            </p>
           </a>
-        </div>
 
+          <div
+            class="absolute top-[-60px] left-1/2 -translate-x-1/2 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <div
+              class="relative w-[400px] bg-black text-white text-center px-4 py-2 rounded-lg shadow-lg opacity-60"
+            >
+              Contraseña de ingreso al reporte: <i>Proyectos#30</i>
+              <div
+                class="absolute left-1/2 -bottom-4 w-3 h-3 bg-black rotate-45 -translate-x-1/2 shadow-md"
+              >
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           class="grid rounded-lg bg-[#DCE0CD] hover:bg-black hover:text-white p-3"
         >
