@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Menu from "../components/Menu.astro";
 ---
 
 <Layout title="Preguntas Frecuentes | Ecosistema Humboldt">
@@ -18,38 +17,44 @@ import Menu from "../components/Menu.astro";
     <section class="mt-16">
       <div class="max-w-[90%] md:max-w-[85%] mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-
           <!-- COLUMNA IZQUIERDA -->
           <div>
             <h1 class="text-black text-5xl font-bold leading-tight">
               Preguntas frecuentes <span class="font-bold">Gestión Humana</span>
             </h1>
 
-            <div class="mt-10 space-y-6 text-gray-700 text-base leading-relaxed max-w-xl">
+            <div
+              class="mt-10 space-y-6 text-gray-700 text-base leading-relaxed max-w-xl"
+            >
               <p>
-                Aquí encontrarás respuestas rápidas a las preguntas más comunes sobre los
-                procesos de Gestión Humana, con acceso directo a procedimientos, formatos
-                y recursos de apoyo.
+                Aquí encontrarás respuestas rápidas a las preguntas más comunes
+                sobre los procesos de Gestión Humana, con acceso directo a
+                procedimientos, formatos y recursos de apoyo.
               </p>
 
               <p>
-                Usa el buscador o despliega cada pregunta para ver el paso a paso, enlaces
-                y recomendaciones para completar tu solicitud correctamente.
+                Usa el buscador o despliega cada pregunta para ver el paso a
+                paso, enlaces y recomendaciones para completar tu solicitud
+                correctamente.
               </p>
 
               <p>
-                Si necesitas soporte adicional, al final encontrarás los canales de contacto
-                oficiales para recibir orientación.
+                Si necesitas soporte adicional, al final encontrarás los canales
+                de contacto oficiales para recibir orientación.
               </p>
             </div>
           </div>
 
           <!-- COLUMNA DERECHA (CARD + BUSCADOR + ACORDEÓN) -->
-          <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-200">
-
+          <div
+            class="bg-white rounded-3xl shadow-xl p-8 border border-gray-200"
+          >
             <!-- BUSCADOR -->
             <div class="mb-6">
-              <label for="faqSearch" class="block text-sm font-semibold text-gray-700 mb-2">
+              <label
+                for="faqSearch"
+                class="block text-sm font-semibold text-gray-700 mb-2"
+              >
                 Buscar en preguntas frecuentes
               </label>
 
@@ -61,13 +66,16 @@ import Menu from "../components/Menu.astro";
                   class="w-full border border-gray-300 rounded-2xl px-4 py-3 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 />
 
-                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400">
+                <span
+                  class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400"
+                >
                   🔍
                 </span>
               </div>
 
               <p id="faqSearchHint" class="text-xs text-gray-500 mt-2">
-                Tip: puedes buscar por palabras clave como “vacaciones”, “certificado”, “ingresar”, etc.
+                Tip: puedes buscar por palabras clave como “vacaciones”,
+                “certificado”, “ingresar”, etc.
               </p>
             </div>
 
@@ -81,7 +89,6 @@ import Menu from "../components/Menu.astro";
 
             <!-- ACORDEÓN -->
             <div id="accordion-faq" data-accordion="collapse" class="space-y-2">
-
               <!-- ITEM 1 -->
               <div class="faq-item">
                 <h2 id="accordion-faq-heading-1">
@@ -92,7 +99,9 @@ import Menu from "../components/Menu.astro";
                     aria-expanded="true"
                     aria-controls="accordion-faq-body-1"
                   >
-                    <span class="faq-question">¿Cómo puedo solicitar mis días de vacaciones?</span>
+                    <span class="faq-question"
+                      >¿Cómo puedo solicitar mis días de vacaciones?</span
+                    >
                     <svg
                       data-accordion-icon
                       class="w-5 h-5 rotate-180 shrink-0"
@@ -106,8 +115,7 @@ import Menu from "../components/Menu.astro";
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M9 5 5 1 1 5"
-                      />
+                        d="M9 5 5 1 1 5"></path>
                     </svg>
                   </button>
                 </h2>
@@ -119,9 +127,10 @@ import Menu from "../components/Menu.astro";
                 >
                   <div class="pt-5 pb-6 text-gray-700 text-sm leading-relaxed">
                     <p class="faq-answer">
-                      Para solicitar tus vacaciones debes ingresar al módulo correspondiente,
-                      validar tu saldo disponible y realizar la solicitud indicando las fechas.
-                      La aprobación depende de tu jefe inmediato y del flujo de Gestión Humana.
+                      Para solicitar tus vacaciones debes ingresar al módulo
+                      correspondiente, validar tu saldo disponible y realizar la
+                      solicitud indicando las fechas. La aprobación depende de
+                      tu jefe inmediato y del flujo de Gestión Humana.
                     </p>
 
                     <div class="mt-6 flex flex-wrap gap-3">
@@ -155,7 +164,9 @@ import Menu from "../components/Menu.astro";
                     aria-expanded="false"
                     aria-controls="accordion-faq-body-2"
                   >
-                    <span class="faq-question">¿Cómo solicito un certificado laboral?</span>
+                    <span class="faq-question"
+                      >¿Cómo solicito un certificado laboral?</span
+                    >
                     <svg
                       data-accordion-icon
                       class="w-5 h-5 rotate-180 shrink-0"
@@ -169,8 +180,7 @@ import Menu from "../components/Menu.astro";
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M9 5 5 1 1 5"
-                      />
+                        d="M9 5 5 1 1 5"></path>
                     </svg>
                   </button>
                 </h2>
@@ -182,8 +192,9 @@ import Menu from "../components/Menu.astro";
                 >
                   <div class="pt-5 pb-6 text-gray-700 text-sm leading-relaxed">
                     <p class="faq-answer">
-                      Puedes solicitar tu certificado laboral desde el portal de autogestión.
-                      Selecciona el tipo de certificado y descárgalo o envíalo por correo.
+                      Puedes solicitar tu certificado laboral desde el portal de
+                      autogestión. Selecciona el tipo de certificado y
+                      descárgalo o envíalo por correo.
                     </p>
                   </div>
                 </div>
@@ -199,7 +210,9 @@ import Menu from "../components/Menu.astro";
                     aria-expanded="false"
                     aria-controls="accordion-faq-body-3"
                   >
-                    <span class="faq-question">¿Qué hago si tengo problemas para ingresar al portal?</span>
+                    <span class="faq-question"
+                      >¿Qué hago si tengo problemas para ingresar al portal?</span
+                    >
                     <svg
                       data-accordion-icon
                       class="w-5 h-5 rotate-180 shrink-0"
@@ -213,8 +226,7 @@ import Menu from "../components/Menu.astro";
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M9 5 5 1 1 5"
-                      />
+                        d="M9 5 5 1 1 5"></path>
                     </svg>
                   </button>
                 </h2>
@@ -226,30 +238,35 @@ import Menu from "../components/Menu.astro";
                 >
                   <div class="pt-5 pb-6 text-gray-700 text-sm leading-relaxed">
                     <p class="faq-answer">
-                      Verifica tu usuario, contraseña y conexión. Si el error persiste,
-                      contacta al equipo de soporte o Gestión Humana.
+                      Verifica tu usuario, contraseña y conexión. Si el error
+                      persiste, contacta al equipo de soporte o Gestión Humana.
                     </p>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
-
   </main>
 </Layout>
 
-<footer class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full">
+<footer
+  class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full"
+>
   <div class="max-w-[90%] mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
       <div>
-        <div class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center">
+        <div
+          class="grid grid-cols-[80px_calc(100%-80px)] justify-items-stretch gap-5 items-center"
+        >
           <div class="max-w-[80px]">
-            <a href="https://www.humboldt.org.co/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.humboldt.org.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/6583a5f7b42a8d484be84409_Logo-instituto-humboldt-blanco.svg"
                 alt=""
@@ -258,7 +275,8 @@ import Menu from "../components/Menu.astro";
             </a>
           </div>
           <div class="w-full max-w-[300px] text-white pr-3">
-            Instituto de Investigación de Recursos Biológicos Alexander von Humboldt
+            Instituto de Investigación de Recursos Biológicos Alexander von
+            Humboldt
           </div>
         </div>
       </div>
@@ -266,7 +284,11 @@ import Menu from "../components/Menu.astro";
       <div>
         <ul class="flex justify-center md:justify-end mt-5 md:mt-0">
           <li class="px-2">
-            <a href="https://www.instagram.com/instituto_humboldt/?hl=en" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/instituto_humboldt/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711e3cc843b07646baad6_icono-instagram-blanco.svg"
                 alt=""
@@ -275,7 +297,11 @@ import Menu from "../components/Menu.astro";
             </a>
           </li>
           <li class="px-2">
-            <a href="https://twitter.com/inst_humboldt?lang=en" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://twitter.com/inst_humboldt?lang=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711199a64d7f0ef48c28c_icono-x-blanco.svg"
                 alt=""
@@ -284,7 +310,11 @@ import Menu from "../components/Menu.astro";
             </a>
           </li>
           <li class="px-2">
-            <a href="https://www.facebook.com/instituto.humboldt/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.facebook.com/instituto.humboldt/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119a5763ee944f396c3_icono-facebook-blanco.svg"
                 alt=""
@@ -294,7 +324,11 @@ import Menu from "../components/Menu.astro";
           </li>
 
           <li class="px-2">
-            <a href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/company/institutohumboldt/?originalSubdomain=co"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/657711190b1a571b7045f5c7_icono-linkedin-blanco.svg"
                 alt=""
@@ -303,7 +337,11 @@ import Menu from "../components/Menu.astro";
             </a>
           </li>
           <li class="px-2">
-            <a href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/channel/UC-E-nTOTySNX90RbpH62ezA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771119d66b0bd5f6a7af5f_icono-youtube-blanco.svg"
                 alt=""
@@ -312,7 +350,11 @@ import Menu from "../components/Menu.astro";
             </a>
           </li>
           <li class="px-2">
-            <a href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://open.spotify.com/artist/6b3YLUNZoyMLWdadl3NDZm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://assets-global.website-files.com/64bea006689ebc2d5d9499ad/65771246c23bb08e9b3f3800_icono-spotify-blanco.svg"
                 alt=""
@@ -326,27 +368,42 @@ import Menu from "../components/Menu.astro";
 
     <hr class="mt-10 mb-5" />
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 justify-center">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 justify-center"
+    >
       <div>
-        <div class="text-[12px] font-bold text-white mb-2">INFORMACIÓN DE CONTACTO</div>
-        <p class="text-white mb-2">Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia</p>
+        <div class="text-[12px] font-bold text-white mb-2">
+          INFORMACIÓN DE CONTACTO
+        </div>
+        <p class="text-white mb-2">
+          Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia
+        </p>
         <p class="text-white mb-2">PBX: (+57) 601 320 2767</p>
       </div>
       <div>
-        <div class="text-[12px] font-bold text-white mb-2">HORARIO DE ATENCIÓN</div>
+        <div class="text-[12px] font-bold text-white mb-2">
+          HORARIO DE ATENCIÓN
+        </div>
         <p class="text-white mb-2">Lunes a viernes 8:00 a.m. - 5:00 p.m.</p>
       </div>
       <div>
-        <div class="text-[12px] font-bold text-white mb-2">LÍNEAS ESPECIALES</div>
+        <div class="text-[12px] font-bold text-white mb-2">
+          LÍNEAS ESPECIALES
+        </div>
         <p class="text-white mb-4">
           Línea anticorrupción: <span class="underline">01 800 518 9191</span>
         </p>
       </div>
       <div>
-        <div class="text-[12px] font-bold text-white mb-2">ATENCIÓN AL CIUDADANO</div>
+        <div class="text-[12px] font-bold text-white mb-2">
+          ATENCIÓN AL CIUDADANO
+        </div>
         <p class="text-white">
           Correo PQRSF: <br />
-          <a href="mailto:atencionalciudadano@humboldt.org.co" class="underline">
+          <a
+            href="mailto:atencionalciudadano@humboldt.org.co"
+            class="underline"
+          >
             atencionalciudadano@humboldt.org.co
           </a>
         </p>
@@ -356,7 +413,8 @@ import Menu from "../components/Menu.astro";
     <hr class="my-5" />
 
     <p class="text-center text-[12px] text-white">
-      © 2024 INSTITUTO DE INVESTIGACIÓN DE RECURSOS BIOLÓGICOS ALEXANDER VON HUMBOLDT
+      © 2024 INSTITUTO DE INVESTIGACIÓN DE RECURSOS BIOLÓGICOS ALEXANDER VON
+      HUMBOLDT
     </p>
   </div>
 </footer>
@@ -366,23 +424,36 @@ import Menu from "../components/Menu.astro";
 <!-- SCRIPT BUSCADOR FAQ -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const input = document.getElementById("faqSearch") as HTMLInputElement | null;
-    const noResults = document.getElementById("noResults") as HTMLElement | null;
+    const input = document.getElementById(
+      "faqSearch",
+    ) as HTMLInputElement | null;
+    const noResults = document.getElementById(
+      "noResults",
+    ) as HTMLElement | null;
 
-    const faqItems = document.querySelectorAll(".faq-item") as NodeListOf<HTMLElement>;
+    const faqItems = document.querySelectorAll(
+      ".faq-item",
+    ) as NodeListOf<HTMLElement>;
 
     if (!input) return;
 
     const normalize = (text: string) =>
-      text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
 
     const filterFaq = () => {
       const searchValue = normalize(input.value.trim());
       let visibleCount = 0;
 
       faqItems.forEach((item) => {
-        const questionEl = item.querySelector(".faq-question") as HTMLElement | null;
-        const answerEl = item.querySelector(".faq-answer") as HTMLElement | null;
+        const questionEl = item.querySelector(
+          ".faq-question",
+        ) as HTMLElement | null;
+        const answerEl = item.querySelector(
+          ".faq-answer",
+        ) as HTMLElement | null;
 
         const questionText = normalize(questionEl?.innerText || "");
         const answerText = normalize(answerEl?.innerText || "");
