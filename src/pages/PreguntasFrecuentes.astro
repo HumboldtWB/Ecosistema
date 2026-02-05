@@ -451,7 +451,7 @@ import Layout from "../layouts/Layout.astro";
           questionText.includes(searchValue) ||
           answerText.includes(searchValue);
 
-        typedItem.style.display = match ? "block" : "none";
+        item.style.display = match ? "block" : "none";
       });
     };
     if (input)
