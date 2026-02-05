@@ -256,6 +256,36 @@ import Menu from "../components/Menu.astro";
             Mesa de ayuda
           </a>
         </div>
+
+        <div class="relative">
+          <div class="group">
+            <img
+              src="img/mas.png"
+              alt="boton más"
+              class="absolute -top-10 right-3 border-2 rounded-full"
+              width="30"
+            />
+            <p
+              class="hidden group-hover:block absolute -top-40 -right-5 mr-10 bg-white bg-opacity-70 p-4 rounded-lg max-w-[240px] font-light"
+            >
+              Realiza solicitudes de soporte relacionadas con Gestión Humana.
+            </p>
+          </div>
+
+          <a
+            href="/missolicitudes" 
+            target="_self"
+            class="lg:mx-auto group min-w-[150px] min-h-[70px] text-center border-2 border-white px-5 py-3 rounded-full text-2xl bg-azul-raro text-white hover:text-black hover:border-2 hover:border-black hover:bg-white justify-center items-center flex"
+          >
+            <img
+              src="img/soporte.svg"
+              alt="ícono gastos de viaje"
+              width="30"
+              class="inline mr-2 group-hover:invert"
+            />
+            Mis solicitudes Gestión Humana
+          </a>
+        </div>
       </div>
     </section>
   </main>

@@ -2,14 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Preguntas frecuentes | Talento Humano | Ecosistema Humboldt">
+<Layout title="Mis solicitudes de Talento Humano | Ecosistema Humboldt">
   <main>
     <!-- ✅ ESTE DIV es el que tiene el fondo (NO el footer) -->
     <div class="th-page">
       <!-- Volver -->
       <div class="max-w-[90%] mx-auto w-full flex justify-start">
   <a
-    href="/missolicitudes"
+    href="/admin/plataformas/gestion-solicitudes"
     class="text-azul-humboldt text-base mt-10 mb-3 flex items-center cursor-pointer"
   >
     <img src="/img/volver.svg" alt="volver" width="20" class="mr-3" />
@@ -26,102 +26,94 @@ import Layout from "../layouts/Layout.astro";
             <!-- Columna derecha -->
             <div class="th-card">
               <h1 class="text-black text-5xl font-bold leading-tight">
-                Preguntas frecuentes de <span class="font-bold">Talento Humano</span>
+                Mis solicitudes de <span class="font-bold">Talento Humano</span>
               </h1>
 
               <div class="mt-10 space-y-6 text-gray-700 text-base leading-relaxed max-w-xl">
                 <p>
-                  En esta sección podrás consultar respuestas rápidas a las preguntas más comunes
-                  sobre procesos, solicitudes y herramientas de Talento Humano.
+                  Con las dos siguientes plataformas (Portal de Autogestión y Xtickets) podrás
+                  gestionar de manera ágil y autónoma los principales procesos de Talento Humano,
+                  consultar información clave y realizar solicitudes relacionadas con tu vinculación
+                  al Instituto.
                 </p>
-                <p>
-                  Usa el buscador para encontrar una pregunta por palabra clave.
-                </p>
               </div>
 
-              <hr class="faq-divider mt-8" />
+              <hr class="th-divider mt-8" />
 
-              <!-- BUSCADOR -->
-              <div class="mt-6">
-                <label class="block text-sm font-semibold text-gray-800 mb-2">
-                  Buscar pregunta
-                </label>
+              <h2 class="text-black text-3xl font-bold leading-tight mt-8">
+                Portal de Autogestión Novasoft
+              </h2>
 
-                <input
-                  id="faqSearch"
-                  type="text"
-                  placeholder="Ej: vacaciones, certificados, permisos..."
-                  class="faq-search"
-                />
+              <p class="mt-3 text-gray-700 text-sm">
+                En este portal tú podrás realizar las siguientes solicitudes:
+              </p>
+
+              <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="list-disc pl-5 text-gray-800 text-sm leading-relaxed">
+                  <li>Certificados laborales</li>
+                  <li>Vacaciones solicitud</li>
+                  <li>Licencia de maternidad</li>
+                  <li>Licencia de paternidad</li>
+                  <li>Permisos</li>
+                  <li>Licencia de luto</li>
+                </ul>
+
+                <ul class="list-disc pl-5 text-gray-800 text-sm leading-relaxed">
+                  <li>Procesos disciplinarios</li>
+                  <li>Cambio de domicilio</li>
+                  <li>Solicitud de cargos</li>
+                  <li>
+                    Actualizar Información en el perfil del trabajador (Estudios, Dirección,
+                    Teléfonos)
+                  </li>
+                  <li>Cambio de caja de compensación</li>
+                  <li>Carta de Renuncia</li>
+                </ul>
               </div>
 
-              <!-- LISTA FAQ -->
-              <div class="mt-8 space-y-4" id="faqList">
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde solicito mis vacaciones?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Puedes solicitar tus vacaciones desde el <b>Portal de Autogestión Novasoft</b>.
-                    Allí podrás gestionar la solicitud y hacer seguimiento al estado.
+              <hr class="th-divider mt-8" />
 
-                    <div class="faq-links">
-                      <a href="#" class="faq-pill">
-                        Mira el instructivo aquí <span>›</span>
-                      </a>
+              <h2 class="text-black text-3xl font-bold leading-tight mt-8">
+                Xtickets
+              </h2>
 
-                      <a href="#" class="faq-pill">
-                        Mira el tutorial aquí <span>›</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+              <p class="mt-3 text-gray-700 text-sm">
+                En este portal tú podrás realizar las siguientes solicitudes:
+              </p>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Cómo descargo mi desprendible de nómina?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Puedes descargar tu desprendible de nómina desde <b>Xtickets</b>. Si no tienes acceso,
-                    valida con Talento Humano el usuario habilitado.
-                  </div>
-                </div>
+              <ul class="mt-6 list-disc pl-5 text-gray-800 text-sm leading-relaxed">
+                <li>Certificación de ingresos y retenciones.</li>
+                <li>Desprendible de nómina.</li>
+                <li>Autorización de Retiro de cesantías.</li>
+                <li>Verificar si una persona ha tenido contratos con el IAvH</li>
+                <li>Certificar contrapartidas de nómina</li>
+                <li>Reporte conflictos de interés</li>
+              </ul>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde puedo descargar certificados laborales?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Los certificados laborales los puedes generar directamente en el
-                    <b>Portal de Autogestión Novasoft</b>.
-                  </div>
-                </div>
+              <div class="mt-10 th-btn">
+                <a
+                  href="https://novasoft.humboldt.org.co/HUMBOLDTPortalWeb/Acceso/Login.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Ingresa al Portal de Autogestión aquí</span>
+                  <span class="th-arrow">›</span>
+                </a>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Qué hago si tengo problemas de acceso a una plataforma?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Si presentas inconvenientes, intenta primero con tu usuario institucional.
-                    Si el problema continúa, realiza una solicitud por <b>Xtickets</b> o contacta al área responsable.
-                  </div>
-                </div>
+                <a
+                  href="https://www.appsheet.com/start/ad97dfbe-e5fd-436f-a622-87e1dcb8d790#appName=Xticket20-dev-779464427&page=gallery&sort=%5B%5D&table=MenuSLC&view=Lobby+Principal&_mainprotocol=https:"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Ingresa a Xtickets aquí</span>
+                  <span class="th-arrow">›</span>
+                </a>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde reporto una solicitud o caso de Talento Humano?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Puedes reportar casos y solicitudes a través de <b>Xtickets</b>, según la categoría asignada.
-                  </div>
-                </div>
+                <a href="/PreguntasFrecuentes" rel="noopener noreferrer">
+                  <span>Preguntas frecuentes sobre los procesos de Talento Humano</span>
+                  <span class="th-arrow">›</span>
+                </a>
               </div>
-
             </div>
           </div>
         </div>
@@ -129,6 +121,7 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </main>
 </Layout>
+
 <footer class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full">
   <div class="max-w-[90%] mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
@@ -245,73 +238,6 @@ import Layout from "../layouts/Layout.astro";
     </p>
   </div>
 </footer>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    // Acordeón
-    const questions = document.querySelectorAll(".faq-question");
-
-    questions.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const parent = btn.closest(".faq-item");
-        if (!parent) return;
-
-        const answer = parent.querySelector(".faq-answer");
-        const icon = parent.querySelector(".faq-icon");
-
-        if (!answer) return;
-
-        const isOpen = answer.classList.contains("open");
-
-        // Cierra todos
-        document.querySelectorAll(".faq-answer").forEach((a) => a.classList.remove("open"));
-        document.querySelectorAll(".faq-icon").forEach((i) => (i.textContent = "+"));
-
-        // Abre el actual
-        if (!isOpen) {
-          answer.classList.add("open");
-          if (icon) icon.textContent = "−";
-        }
-      });
-    });
-
-    // Buscador (TIPADO)
-    const input = document.querySelector("#faqSearch");
-    const faqItems = document.querySelectorAll(".faq-item");
-
-    const normalize = (text: string) =>
-      String(text || "")
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
-
-    const filterFaq = () => {
-      if (!input) return;
-
-      const typedInput = input as HTMLInputElement;
-      const searchValue = normalize(typedInput.value.trim());
-
-      faqItems.forEach((item) => {
-        const typedItem = item as HTMLElement;
-
-        const questionEl = typedItem.querySelector(".faq-question");
-        const answerEl = typedItem.querySelector(".faq-answer");
-
-        const questionText = normalize(questionEl ? questionEl.textContent || "" : "");
-        const answerText = normalize(answerEl ? answerEl.textContent || "" : "");
-
-        const match =
-          searchValue === "" ||
-          questionText.includes(searchValue) ||
-          answerText.includes(searchValue);
-
-        typedItem.style.display = match ? "block" : "none";
-      });
-    };
-    if (input)
-
-    input.addEventListener("input", filterFaq);
-  });
-</script>
 
 <style>
   /* ==============================
@@ -369,14 +295,15 @@ import Layout from "../layouts/Layout.astro";
     }
   }
 
-  /* FAQ */
-  .faq-content {
-    background: transparent !important;
-    border-radius: 24px;
+  /* Card / cuadro transparente */
+  .th-card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
     padding: 0;
   }
 
-  .faq-divider {
+  .th-divider {
     border: none;
     height: 2px;
     background: #1f2a44;
@@ -384,86 +311,33 @@ import Layout from "../layouts/Layout.astro";
     margin: 24px 0;
   }
 
-  .faq-search {
-    width: 100%;
-    max-width: 520px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-    padding: 14px 14px;
-    font-size: 14px;
-    outline: none;
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(6px);
-  }
-
-  .faq-search:focus {
-    border-color: rgba(15, 47, 63, 0.8);
-    box-shadow: 0 0 0 3px rgba(15, 47, 63, 0.15);
-  }
-
-  .faq-item {
-    border-radius: 14px;
-    overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(6px);
-  }
-
-  .faq-question {
-    width: 100%;
-    text-align: left;
-    padding: 16px 18px;
-    font-weight: 800;
-    font-size: 14px;
-    color: #0f2f3f;
+  .th-btn {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 12px;
-    cursor: pointer;
-    border: none;
-    background: transparent;
+    max-width: 520px;
   }
 
-  .faq-icon {
-    font-size: 22px;
-    font-weight: 900;
-    line-height: 1;
-  }
-
-  .faq-answer {
-    display: none;
-    padding: 0 18px 16px 18px;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.6;
-  }
-
-  .faq-answer.open {
-    display: block;
-  }
-
-  .faq-links {
+  .th-btn a {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-top: 14px;
-  }
-
-  .faq-pill {
-    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
-    background: #111;
-    color: #fff;
-    border-radius: 999px;
-    padding: 6px 12px;
-    font-size: 11px;
-    font-weight: 700;
     text-decoration: none;
+    font-weight: 600;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: #1f2a44;
+    color: white;
+    transition: transform 0.15s ease, opacity 0.15s ease;
   }
 
-  .faq-pill:hover {
-    opacity: 0.9;
+  .th-btn a:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+  }
+
+  .th-arrow {
+    font-size: 22px;
+    line-height: 1;
   }
 </style>
