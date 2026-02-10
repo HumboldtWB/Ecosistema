@@ -832,18 +832,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  {
-    id: "73",
-    name: "Jenilee Montes",
-    position: "Inv. Asistente 1",
-    email: "jmontes@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/insectos/Jenilee Maarit Montes Fontalvo.png",
-    ciudad: "Villa de Leyva - Boyacá",
-    profesion: "Biología",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
+  
   {
     id: "74",
     name: "Miguel Torres",
@@ -1734,18 +1723,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Apropiación Social",
   },
-  {
-    id: "147",
-    name: "Julian A. Saenz",
-    position: "Inv. Asistente 3",
-    email: "jsaenz@humboldt.org.co",
-    image:
-      "img/directorio/DICO/apropiacionsocial/educacionambiental/Julian Andres Saenz Rodriguez.jpg",
-    ciudad: "Bogotá",
-    profesion: "Periodismo",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Apropiación Social",
-  },
+
   {
     id: "148",
     name: "Omar Ruíz",
@@ -2056,18 +2034,6 @@ export const directoryData = [
       "img/directorio/DICO/informacioncientifica/Manuel Fernando Galvez Bohorquez.jpg",
     ciudad: "Bogotá",
     profesion: "Ingeniería Electrónica",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Gerencia de Información Científica",
-  },
-  {
-    id: "178",
-    name: "Denis Andrea Armenta",
-    position: "Inv. Asistente 1",
-    email: "darmenta@humboldt.org.co",
-    image:
-      "img/directorio/DICO/informacioncientifica/Denis Andrea Armenta Chang.png",
-    ciudad: "Bogotá",
-    profesion: "Ingeniería De Sistemas",
     direccion: "Dirección Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
@@ -4706,18 +4672,7 @@ export const directoryData = [
     gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   /* Nuevos ingresos  */
-  {
-    id: "419",
-    name: "Roltman A. Cubaque",
-    position: "Responsable Analítica de Datos",
-    email: "rcubaque@humboldt.org.co",
-    image:
-      "img/directorio/DDO/gestionhumana/Roltman Anderson Cubaque Antonio.jpg",
-    ciudad: "Bogotá",
-    profesion: "Ingeniería Industrial",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Humana",
-  },
+
   {
     id: "420",
     name: "Jose Lobo Camargo",
@@ -4980,17 +4935,7 @@ export const directoryData = [
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Humana",
   },
-  {
-    id: "441",
-    name: "Paula A. García",
-    position: "Asistente Junior",
-    email: "pgarcia@humboldt.org.co",
-    image: "img/directorio/DDO/gestionhumana/talentohumano/Paula Garcia.jpg",
-    ciudad: "Bogotá",
-    profesion: "Tecnología GSST",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Humana",
-  },
+
   {
     id: "442",
     name: "Andrés Osorio",
@@ -5137,19 +5082,6 @@ export const directoryData = [
     profesion: "Gobierno de Relaciones Internacionales",
     direccion: "Dirección de Relacionamiento",
     gerencia: "Gerencia de Política Pública y Cooperación",
-  },
-
-  {
-    id: "455",
-    name: "Oscar A. Peña",
-    position: "Inv. Asistente 3",
-    email: "opena@humboldt.org.co",
-    image:
-      "public/img/directorio/DICO/apropiacionsocial/educacionambiental/Oscar A. Peña.png",
-    ciudad: "Bogotá",
-    profesion: "Licenciatura en Psicología y Pedagogía",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Apropiación Social",
   },
 
   {
@@ -5364,18 +5296,6 @@ export const directoryData = [
     profesion: "",
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
-
-  {
-    id: "474",
-    name: "Ingrid T. Casas",
-    position: "Asistente",
-    email: "icasas@humboldt.org.co",
-    image: "img/directorio/DICO/apropiacionsocial/Tatiana Casas.jpg",
-    ciudad: "Bogotá",
-    profesion: "Tecnología en Gestión Hotelera",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Apropiación Social",
   },
 
   {
@@ -5693,6 +5613,28 @@ export const directoryData = [
     profesion: "Seguridad y Salud en el Trabajo",
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Humana",
+  },
+  {
+    id: "504",
+    name: "Felix L. Muñoz",
+    position: "Conductor Logístico",
+    email: "fmunoz@humboldt.org.co",
+    image: "img/directorio/DIFA/gerenciaadministrativa/compras/Felix Leonardo Muñoz Soler.jpg",
+    ciudad: "bogota",
+    profesion: "",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
+  },
+  {
+    id: "505",
+    name: "Diana P. Herrera",
+    position: "Centro Estudios",
+    email: "dherrera@humboldt.org.co",
+    image: "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Diana Patricia Herrera Lemus.jpg",
+    ciudad: "bogota",
+    profesion: "Analista Senior",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro Estudios Socioecológicos y Cambio Globa",
   },
 ];
 
