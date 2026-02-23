@@ -739,7 +739,7 @@ export const directoryData = [
   },
   {
     id: "65",
-    name: "Carlos Montaña",
+    name: "Carlos Montaña ",
     position: "Analista de Inv. 4",
     email: "crmontana@humboldt.org.co",
     image:
@@ -832,7 +832,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  
+
   {
     id: "74",
     name: "Miguel Torres",
@@ -5619,7 +5619,8 @@ export const directoryData = [
     name: "Felix L. Muñoz",
     position: "Conductor Logístico",
     email: "fmunoz@humboldt.org.co",
-    image: "img/directorio/DIFA/gerenciaadministrativa/compras/Felix Leonardo Muñoz Soler.jpg",
+    image:
+      "img/directorio/DIFA/gerenciaadministrativa/compras/Felix Leonardo Muñoz Soler.jpg",
     ciudad: "bogota",
     profesion: "",
     direccion: "Dirección Financiera y Administrativa",
@@ -5630,7 +5631,8 @@ export const directoryData = [
     name: "Diana P. Herrera",
     position: "Centro Estudios",
     email: "dherrera@humboldt.org.co",
-    image: "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Diana Patricia Herrera Lemus.jpg",
+    image:
+      "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Diana Patricia Herrera Lemus.jpg",
     ciudad: "bogota",
     profesion: "Analista Senior",
     direccion: "Dirección de Conocimiento",

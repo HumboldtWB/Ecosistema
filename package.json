@@ -15,6 +15,7 @@
     "@fullcalendar/core": "^6.1.11",
     "@fullcalendar/daygrid": "^6.1.11",
     "@fullcalendar/web-component": "^6.1.11",
+    "afraid-axis": "file:",
     "astro": "^5.14.1",
     "flowbite": "^2.3.0",
     "fullcalendar": "^6.1.11",
