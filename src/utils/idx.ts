@@ -14,17 +14,7 @@ export const directoryData = [
     direccion: "Dirección General",
     gerencia: "",
   },
-  {
-    id: "2",
-    name: "Germán Andrade",
-    position: "Asesor Senior",
-    email: "gandrade@humboldt.org.co",
-    image: "img/directorio/direccion/German Ignacio Andrade Perez.jpg",
-    ciudad: "Bogotá",
-    profesion: "Biologo",
-    direccion: "Dirección General",
-    gerencia: "",
-  },
+
   {
     id: "3",
     name: "Ximena Franco",
@@ -643,18 +633,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  {
-    id: "57",
-    name: "Andres F. Sierra",
-    position: "Inv. Asistente 1",
-    email: "asierra@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/avesyhuevos/Andres Felipe Sierra Ricaurte.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
+  
   {
     id: "58",
     name: "Socorro Sierra",
@@ -797,17 +776,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  {
-    id: "70",
-    name: "Yuliana Chala",
-    position: "Inv. Asistente 1",
-    email: "ychala@humboldt.org.co",
-    image: "img/directorio/DICO/colecciones/peces/Yuliana Chala Velasquez.png",
-    ciudad: "Villa de Leyva - Boyacá",
-    profesion: "Biología",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
+  
   {
     id: "71",
     name: "Jhon Neita",
@@ -4191,18 +4160,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
-  {
-    id: "380",
-    name: "Martha I. Verbel",
-    position: "Inv. Asistente 1",
-    email: "mverbel@humboldt.org.co",
-    image:
-      "img/directorio/DICO/economiayfinanzas/laboratoriovalores/Martha Verbel.jpeg",
-    ciudad: "Valledupar",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
-  },
+  
   {
     id: "381",
     name: "Oscar H. Ibañez",
