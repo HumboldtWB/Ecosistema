@@ -1325,18 +1325,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
-  {
-    id: "114",
-    name: "Manuela Montoya",
-    position: "Inv. Asistente 1",
-    email: "mmontoya@humboldt.org.co",
-    image:
-      "img/directorio/DICO/economiayfinanzas/laboratorioinnovacion/Manuela Montoya Castrillon.png",
-    ciudad: "Rionegro - Antioquia",
-    profesion: "Ingeniería Bioquímica",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
-  },
+
   {
     id: "115",
     name: "Carla Mosquera",
