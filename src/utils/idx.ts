@@ -3705,15 +3705,14 @@ export const directoryData = [
   },
   {
     id: "337",
-    name: "Hernando Cortés",
-    position: "Asistente Junior",
-    email: "hcortes@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Jose Hernando Cortes Martin.png",
+    name: "Gloria C. Abadia",
+    position: "Gerente",
+    email: "cabadia@humboldt.org.co",
+    image: "img/directorio/DDO/gestionhumana/Gloria Carolina Abadia Oliva.jpg",
     ciudad: "Bogotá",
-    profesion: "Técnico Línea Aviones",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
+    profesion: "",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "339",
