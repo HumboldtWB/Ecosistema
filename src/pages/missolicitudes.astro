@@ -122,7 +122,7 @@ import Layout from "../layouts/Layout.astro";
   </main>
 </Layout>
 
-<footer class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 absolute w-full">
+<footer class="bg-azul-humboldt py-10 border-t-4 border-yellow-500 mt-5 relative w-full">
   <div class="max-w-[90%] mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 justify-items-stretch">
       <div>
@@ -240,25 +240,27 @@ import Layout from "../layouts/Layout.astro";
 </footer>
 
 <style>
-  /* ==============================
-     Fondo SOLO del contenido (igual a missolicitudes)
-     ============================== */
-.th-page {
+ .th-page {
     position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* Eliminamos overflow: hidden para permitir el scroll natural */
   }
 
   .th-page::after {
     content: "";
-    position: absolute;
-    inset: 0;
+    position: fixed; /* 👈 FIJO: No se mueve con el scroll ni con el contenido */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background-image: url("/img/Fondo-ecosistema.png");
     background-repeat: no-repeat;
     z-index: 0;
     pointer-events: none;
+    /* Asegura que el fondo no se desplace */
+    background-attachment: fixed;
   }
 
   .th-page > * {
@@ -266,31 +268,28 @@ import Layout from "../layouts/Layout.astro";
     z-index: 1;
   }
 
-  /* 📱 RESPONSIVE: Móvil (Pájaro abajo y completo) */
+  /* 📱 RESPONSIVE: Móvil */
   @media (max-width: 768px) {
     .th-page {
-      /* Añadimos un padding inferior grande para que el contenido 
-         no tape al pájaro que estará al fondo */
-      padding-bottom: 300px; 
+      /* Espacio para no tapar la ilustración del fondo abajo */
+      padding-bottom: 200px; 
     }
 
     .th-page::after {
-      /* 'contain' asegura que la imagen no se corte */
       background-size: contain; 
-      /* 'bottom' lo pega abajo, 'center' lo centra horizontalmente */
       background-position: bottom center; 
     }
   }
 
-  /* 🖥️ DESKTOP: (Pájaro a la izquierda) */
+  /* 🖥️ DESKTOP: */
   @media (min-width: 1025px) {
     .th-page {
       padding-bottom: 80px;
     }
 
     .th-page::after {
-      background-size: cover;
-      /* En escritorio, alineamos arriba a la izquierda */
+      /* auto 100% mantiene la proporción sin agrandar la imagen si el div crece */
+      background-size: auto 100%;
       background-position: left top; 
     }
   }
