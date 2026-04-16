@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Preguntas frecuentes | Gestión Humana | Ecosistema Humboldt">
+<Layout title="Preguntas frecuentes | Gestión de Talento Humano | Ecosistema Humboldt">
   <main>
     <!-- ✅ ESTE DIV es el que tiene el fondo (NO el footer) -->
     <div class="th-page">
@@ -28,8 +28,8 @@ import Layout from "../layouts/Layout.astro";
             <!-- Columna derecha -->
             <div class="th-card">
               <h1 class="text-black text-5xl font-bold leading-tight">
-                Preguntas frecuentes de <span class="font-bold"
-                  >Gestión Humano</span
+                Preguntas frecuentes: <span class="font-bold"
+                  >Gestión del talento humano</span
                 >
               </h1>
 
@@ -39,7 +39,7 @@ import Layout from "../layouts/Layout.astro";
                 <p>
                   En esta sección podrás consultar respuestas rápidas a las
                   preguntas más comunes sobre procesos, solicitudes y
-                  herramientas de Gestión Humana.
+                  herramientas de la gestión del talento humano.
                 </p>
                 <p>
                   Usa el buscador para encontrar una pregunta por palabra clave.
@@ -64,13 +64,19 @@ import Layout from "../layouts/Layout.astro";
 
               <!-- LISTA FAQ -->
               <div class="mt-8 space-y-8" id="faqList">
-  
-              <!-- <div class="faq-section">
-                  <h2 class="text-2xl font-bold text-azul-humboldt mb-5 flex items-center">
-                      <span class="w-8 h-1 bg-yellow-500 mr-3"></span>
-                        Políticas Institucionales
+<!-- -------------------------Sección Politicas Institucionales-------------------------------------------- -->  
+               <!-- <div class="faq-section mb-10">
+                  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+                    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+                      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+                      Políticas Institucionales
                   </h2>
-                    <div class="space-y-4">
+                  <span class="section-icon text-xl transition-transform duration-300">▼</span>
+  </button>
+
+  <div class="section-content mt-5 transition-all duration-300 ease-in-out">  
+                  
+                  <div class="space-y-4">
                       <div class="faq-item">
                         <button type="button" class="faq-question">
                           ¿Qué es la Política de Integridad y para qué sirve?
@@ -140,48 +146,49 @@ import Layout from "../layouts/Layout.astro";
                         </div>
                       </div>
                     </div>
-                  </div>-->
-
-                  <div class="faq-section">
-                  <h2 class="text-2xl font-bold text-azul-humboldt mb-5 flex items-center">
-                      <span class="w-8 h-1 bg-yellow-500 mr-3"></span>
-                        Certificaciones Laborales
-                  </h2>
-                    <div class="space-y-4">
-                      <div class="faq-item">
-                          <button type="button" class="faq-question">
-                          ¿Cómo solicito una certificación laboral? 
-                        <span class="faq-icon">+</span>
-                          </button>
-                        <div class="faq-answer">
-                            <p>
-                              Debes ingresar al <b>portal de autogestión</b> 
-                            <a href="https://novasoft.humboldt.org.co/HUMBOLDTPortalWeb_Admin/Acceso/Login.aspx" 
-                            target="_blank" class="faq-pill">
-                            Ingresa aquí <span>›</span>
-                            </a> 
-                            y realizar la solicitud mediante la opción de reportes – certificación laboral y escoger la que necesita se tienen 4 opciones.
-                            </p>
-    
-                              <div class="faq-links">
-                                <!--<a href="#" class="faq-pill">
-                                  Descarga aquí el documento <span>›</span>
-                                </a>-->
-                                <a href="https://www.youtube.com/watch?v=aCLiYrsFgxA" class="faq-pill" target="_blank" rel="noopener noreferrer">
-                                  Mira aquí tutorial <span>›</span>
-                              </a>
-                              </div>
-                        </div>
                     </div>
-                    </div>
-                  </div>
+                  </div> -->
+<!-- ------------------------- Fin Sección Politicas institucionales-------------------------------------------- -->
+<!-- -------------------------Sección Certificaciones Laborales-------------------------------------------- -->
+                 <!-- <div class="faq-section mb-10">
+  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+      Certificaciones Laborales
+    </h2>
+    <span class="section-icon text-xl transition-transform duration-300">▼</span>
+  </button>
 
-                  <div class="faq-section">
-                    <h2 class="text-2xl font-bold text-azul-humboldt mb-5 flex items-center">
-                        <span class="w-8 h-1 bg-yellow-500 mr-3"></span>
-                          Incorporación del Talento Humano
+  <div class="section-content mt-5 transition-all duration-300 ease-in-out">
+    <div class="space-y-4">
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito una certificación laboral? 
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>
+            Debes ingresar al <b>portal de autogestión</b>...
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- -------------------------Fin Sección Certificaciones Laborales-------------------------------------------- -->
+<!-- -------------------------Sección Incorporación del Talento humano-------------------------------------------- -->
+            <div class="faq-section mb-10">
+                  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+                    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+                      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+                      Incorporación del Talento Humano
                     </h2>
+                    <span class="section-icon text-xl transition-transform duration-300">▼</span>
+                  </button>
+                <div class="section-content mt-5 transition-all duration-300 ease-in-out">
+                    
                     <div class="space-y-4">
+                      
                       <div class="faq-item">
                         <button type="button" class="faq-question">
                           ¿Qué debo tener en cuenta antes de iniciar una solicitud de contratación laboral? 
@@ -205,11 +212,11 @@ import Layout from "../layouts/Layout.astro";
                           <span class="faq-icon">+</span>
                         </button>
                         <div class="faq-answer">
-                          Se debe diligenciar el formato Requerimiento de Personal que se encuentra en Ecosistema 
-                          y enviarlo a seleccion@humboldt.org.co y a grupoincorporacion@humboldt.org.co Este documento integra 
+                          Se debe diligenciar el formato <b>Requerimiento de Personal</b> que se encuentra en Ecosistema 
+                          y enviarlo a los correos seleccion@humboldt.org.co y grupoincorporacion@humboldt.org.co Este documento integra 
                           las características generales del cargo y los requisitos necesarios para participar en un proceso de 
                           selección. 
-                          El profesional encargado del proceso de selección hará revisión de la solicitud y cuando el Requerimiento 
+                          El profesional encargado del proceso de selección hará revisión de la solicitud y cuando el requerimiento 
                           esté completo se procederá con firmas en el documento para dar inicio al proceso de selección.
                           <b>¿Quién hace la solicitud?</b>  Directores y Gerentes.
                           <div class="faq-links">
@@ -226,7 +233,7 @@ import Layout from "../layouts/Layout.astro";
                           <span class="faq-icon">+</span>
                         </button>
                         <div class="faq-answer">
-                          El proceso comprende, publicación de vacantes en diferentes fuentes de reclutamiento, 
+                          El proceso comprende: publicación de vacantes en diferentes fuentes de reclutamiento, 
                           preselección de hojas de vida, validación de requisitos mínimos del perfil, entrevistas, 
                           pruebas técnicas y evaluación y selección de candidato.
                           <div class="faq-links">
@@ -277,7 +284,7 @@ import Layout from "../layouts/Layout.astro";
                           <span class="faq-icon">+</span>
                         </button>
                         <div class="faq-answer">
-                          El proceso comprende estas etapas: exámen médico, solicitud y verificación de documentos, 
+                          El proceso comprende estas etapas: examen médico, solicitud y verificación de documentos, 
                           solicitud de creación de terceros, gestión y solicitud de CAR, solicitud de correo institucional, 
                           propuesta laboral, elaboración de contrato, afiliaciones a seguridad social, entre otros. 
                           Cabe mencionar que la firma del contrato está sujeta a la aprobación de las etapas anteriormente 
@@ -295,7 +302,7 @@ import Layout from "../layouts/Layout.astro";
                             <ul>
                                 <li>Contrato a término fijo</li>
                                 <li>Contrato por obra o labor</li>
-                                <li>Contrato Laboral Especial de Aprendizaje a término Fijo</li>
+                                <li>Contrato laboral Especial de aprendizaje a término Fijo</li>
                             </ul>
                         </div>
                       </div>
@@ -373,10 +380,11 @@ import Layout from "../layouts/Layout.astro";
                           </div>  
                         </div>
                       </div>
+                    </div> 
+                  </div> 
+                 
+<!-- -------------------------Fin Sección Incorporación del Talento humano-------------------------------------------- -->
 
-
-                    </div>
-                  </div>
             </div>
           </div>
         </div>
@@ -623,9 +631,54 @@ import Layout from "../layouts/Layout.astro";
     };
     if (input) input.addEventListener("input", filterFaq);
   });
+
+// 1. Lógica para la sección completa
+  const sectionToggles = document.querySelectorAll('.section-toggle');
+  sectionToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const content = toggle.nextElementSibling;
+      // Verificamos que 'content' exista
+      if (content) {
+        content.classList.toggle('is-collapsed');
+        toggle.classList.toggle('active');
+      }
+    });
+  });
+
+  // 2. Lógica para las preguntas individuales (FAQ)
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const answer = question.nextElementSibling;
+      // Verificamos que 'answer' exista
+      if (answer) {
+        answer.classList.toggle('hidden');
+      }
+    });
+  }); 
 </script>
 
 <style>
+
+/* Oculto por defecto (si lo prefieres así) */
+  .section-content.is-collapsed {
+    display: none;
+  }
+
+  /* Rotación del icono al cerrar */
+  .section-toggle.active .section-icon {
+    transform: rotate(-90deg);
+  }
+
+  /* Estilos para que el botón no parezca botón de sistema */
+  .section-toggle {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
 .th-page {
     position: relative;
     min-height: 100vh;
